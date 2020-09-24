@@ -920,6 +920,7 @@ void appropriation_()
     cout << " (" << time_standart[24] << " operations in 1 second)" << endl;
 }
 
+// call main function
 int main()
 {
     // print information about project
