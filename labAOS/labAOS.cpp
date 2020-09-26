@@ -1,5 +1,6 @@
 #include <iostream>
 #include <ctime>
+#include <intrin.h>
 
 #pragma optimize("agi", off)
 using namespace std;
@@ -16,7 +17,7 @@ char name_type[N + 1] = { "idlfcidlfcidlfcidlfcidlfc" };
 char name_operator[N + 1] = { "+++++-----*****/////=====" };
 double time_standart[N];
 double empty_time;
-double ad_time[N];
+uint64_t ad_time[N];
 
 // initialization of main variables
 int a1 = 23, a2 = 26, a3 = 27, a4 = 82, a5 = 29, a6 = 89, a7 = 12, a8 = 90, a9 = 32, a10 = 56;
@@ -25,10 +26,46 @@ long c1 = 25, c2 = 78, c3 = 23, c4 = 12, c5 = 78, c6 = 45, c7 = 58, c8 = 34, c9 
 float d1 = 22.6f, d2 = 25.7f, d3 = 28.3f, d4 = 85.34f, d5 = 27.56f, d6 = 85.45f, d7 = 16.37f, d8 = 94.79f, d9 = 38.23f, d10 = 55.46f;
 char e1 = 22, e2 = 76, e3 = 27, e4 = 13, e5 = 70, e6 = 47, e7 = 54, e8 = 39, e9 = 73, e10 = 54;
 
-// plus
-int plus_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
+
+#define get_freq() tick_per_second;
+unsigned long tick_per_second; 
+
+static inline uint64_t
+get_clock(void)
 {
-    int start_time = clock();
+    return __rdtsc();
+}
+
+clock_t wait_clock_update(void)
+{
+    clock_t start = clock();
+    clock_t tmp;
+    do
+    {
+        tmp = clock();
+    } while (tmp == start);
+    return tmp;
+}
+
+static void 
+init_clock(void)
+{
+    clock_t start;
+    unsigned __int64 tsc;
+
+    start = wait_clock_update();
+    tsc = __rdtsc();
+    start = wait_clock_update() - start;
+    tsc = __rdtsc() - tsc;
+    tick_per_second = tsc / start * CLOCKS_PER_SEC;
+    cout << "CPU TSC ticks per second: " << tick_per_second << endl;
+}
+
+
+// plus
+uint64_t plus_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
+{
+    uint64_t start = get_clock();
     for (int i = 0; i < N_plus; i++)
     {
         x1 = x2 + x3;
@@ -42,14 +79,12 @@ int plus_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8,
         x9 = x10 + x1;
         x10 = x1 + x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int plus_for_double(double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8, double x9, double x10)
+uint64_t plus_for_double(double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8, double x9, double x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 + x3;
@@ -63,14 +98,12 @@ int plus_for_double(double x1, double x2, double x3, double x4, double x5, doubl
         x9 = x10 + x1;
         x10 = x1 + x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int plus_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
+uint64_t plus_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 + x3;
@@ -84,14 +117,12 @@ int plus_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7,
         x9 = x10 + x1;
         x10 = x1 + x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int plus_for_float(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
+uint64_t plus_for_float(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 + x3;
@@ -105,14 +136,12 @@ int plus_for_float(float x1, float x2, float x3, float x4, float x5, float x6, f
         x9 = x10 + x1;
         x10 = x1 + x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int plus_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7, char x8, char x9, char x10)
+uint64_t plus_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7, char x8, char x9, char x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 + x3;
@@ -126,15 +155,13 @@ int plus_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7,
         x9 = x10 + x1;
         x10 = x1 + x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
 // minus
-int minus_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
+uint64_t minus_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_minus; i++)
     {
         x1 = x2 - x3;
@@ -148,14 +175,12 @@ int minus_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8
         x9 = x10 - x1;
         x10 = x1 - x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int minus_for_double(double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8, double x9, double x10)
+uint64_t minus_for_double(double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8, double x9, double x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 - x3;
@@ -169,14 +194,12 @@ int minus_for_double(double x1, double x2, double x3, double x4, double x5, doub
         x9 = x10 - x1;
         x10 = x1 - x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int minus_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
+uint64_t minus_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_minus; i++)
     {
         x1 = x2 - x3;
@@ -190,14 +213,12 @@ int minus_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7
         x9 = x10 - x1;
         x10 = x1 - x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int minus_for_float(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
+uint64_t minus_for_float(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 - x3;
@@ -211,14 +232,12 @@ int minus_for_float(float x1, float x2, float x3, float x4, float x5, float x6, 
         x9 = x10 - x1;
         x10 = x1 - x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int minus_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7, char x8, char x9, char x10)
+uint64_t minus_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7, char x8, char x9, char x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 - x3;
@@ -232,15 +251,13 @@ int minus_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7
         x9 = x10 - x1;
         x10 = x1 - x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
 // multiplication
-int multiplication_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
+uint64_t multiplication_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_multiplication; i++)
     {
         x1 = x2 * x3;
@@ -254,14 +271,12 @@ int multiplication_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x
         x9 = x10 * x1;
         x10 = x1 * x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int multiplication_for_double(double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8, double x9, double x10)
+uint64_t multiplication_for_double(double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8, double x9, double x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 * x3;
@@ -270,19 +285,17 @@ int multiplication_for_double(double x1, double x2, double x3, double x4, double
         x4 = x5 * x6;
         x5 = x6 * x7;
         x6 = x7 * x8;
-x7 = x8 * x9;
-x8 = x9 * x10;
-x9 = x10 * x1;
-x10 = x1 * x2;
+        x7 = x8 * x9;
+        x8 = x9 * x10;
+        x9 = x10 * x1;
+        x10 = x1 * x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int multiplication_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
+uint64_t multiplication_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_multiplication; i++)
     {
         x1 = x2 * x3;
@@ -296,14 +309,12 @@ int multiplication_for_long(long x1, long x2, long x3, long x4, long x5, long x6
         x9 = x10 * x1;
         x10 = x1 * x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int multiplication_for_float(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
+uint64_t multiplication_for_float(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 * x3;
@@ -317,14 +328,12 @@ int multiplication_for_float(float x1, float x2, float x3, float x4, float x5, f
         x9 = x10 * x1;
         x10 = x1 * x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int multiplication_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7, char x8, char x9, char x10)
+uint64_t multiplication_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7, char x8, char x9, char x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 * x3;
@@ -338,9 +347,7 @@ int multiplication_for_char(char x1, char x2, char x3, char x4, char x5, char x6
         x9 = x10 * x1;
         x10 = x1 * x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
 // division
@@ -388,19 +395,20 @@ int division_for_double(double x1, double x2, double x3, double x4, double x5, d
 
 int division_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
 {
+    long t_x1 = x1, t_x2 = x2, t_x3 = x3, t_x4 = x4, t_x5 = x5, t_x6 = x6, t_x7 = x7, t_x8 = x8, t_x9 = x9, t_x10 = x10;
     int start_time = clock();
-    for (int i = 0; i < N_standart; i++)
-    {
-        if (x3 != 0) x1 = x2 / x3;
-        if (x4 != 0) x2 = x3 / x4;
-        if (x5 != 0) x3 = x4 / x5;
-        if (x6 != 0) x4 = x5 / x6;
-        if (x7 != 0) x5 = x6 / x7;
-        if (x8 != 0) x6 = x7 / x8;
-        if (x9 != 0) x7 = x8 / x9;
-        if (x10 != 0) x8 = x9 / x10;
-        if (x1 != 0) x9 = x10 / x1;
-        if (x2 != 0) x10 = x1 / x2;
+
+    for (int i = 0; i < N_standart; i++) {
+        t_x1 = x2 / x3;
+        t_x2 = x3 / x4;
+        t_x3 = x4 / x5;
+        t_x4 = x5 / x6;
+        t_x5 = x6 / x7;
+        t_x6 = x7 / x8;
+        t_x7 = x8 / x9;
+        t_x8 = x9 / x10;
+        t_x9 = x10 / x1;
+        t_x10 = x1 / x2;
     }
     int end_time = clock();
     int time = end_time - start_time;
@@ -433,6 +441,7 @@ int division_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char
     int start_time = clock();
     for (int i = 0; i < N_standart; i++)
     {
+
         if (x3 != 0) x1 = x2 / x3;
         if (x4 != 0) x2 = x3 / x4;
         if (x5 != 0) x3 = x4 / x5;
@@ -694,7 +703,7 @@ void cpu_overclocking()
     double end_time_ = clock();
     double time_ = end_time_ - start_time_;
     time__ = time__ - time_;
-    empty_time = time__;
+    empty_time = 0;
 }
 
 void print_info()
@@ -709,8 +718,9 @@ void plus_()
 {
     // cycle: plus for int
     ad_time[0] = plus_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
-    ad_time[0] = double(ad_time[0]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[0] = ad_time[0] / N_plus;
+
+    ad_time[0] = double(ad_time[0]) / CLOCKS_PER_SEC;
+    time_standart[0] = ad_time[0] / N_plus - empty_time;
     time_standart[0] = 1 / time_standart[0];
     cout << "Plus for int: " << ad_time[0] << " sec." << " in " << N_plus << " iterations.";
     cout << " (" << time_standart[0] << " operations in 1 second)" << endl;
@@ -920,12 +930,14 @@ void appropriation_()
     cout << " (" << time_standart[24] << " operations in 1 second)" << endl;
 }
 
-// call main function
+// call main functio
 int main()
 {
+    init_clock();
+
     // print information about project
     print_info();
-
+    
     // CPU overclocking
     cpu_overclocking();
 
