@@ -11,13 +11,15 @@ const int N_plus = 1000000;
 const int N_minus = 1000000;
 const int N_multiplication = 1000000;
 const int N_appropriation = 1000000;
-const int N_standart = 100000;
+const int N_standart = 1000000;
 
 char name_type[N + 1] = { "idlfcidlfcidlfcidlfcidlfc" };
 char name_operator[N + 1] = { "+++++-----*****/////=====" };
 double time_standart[N];
 double empty_time;
-uint64_t ad_time[N];
+double ad_time[N];
+uint64_t tick_per_second;
+#define get_freq() tick_per_second;
 
 // initialization of main variables
 int a1 = 23, a2 = 26, a3 = 27, a4 = 82, a5 = 29, a6 = 89, a7 = 12, a8 = 90, a9 = 32, a10 = 56;
@@ -26,16 +28,11 @@ long c1 = 25, c2 = 78, c3 = 23, c4 = 12, c5 = 78, c6 = 45, c7 = 58, c8 = 34, c9 
 float d1 = 22.6f, d2 = 25.7f, d3 = 28.3f, d4 = 85.34f, d5 = 27.56f, d6 = 85.45f, d7 = 16.37f, d8 = 94.79f, d9 = 38.23f, d10 = 55.46f;
 char e1 = 22, e2 = 76, e3 = 27, e4 = 13, e5 = 70, e6 = 47, e7 = 54, e8 = 39, e9 = 73, e10 = 54;
 
-
-#define get_freq() tick_per_second;
-unsigned long tick_per_second; 
-
 static inline uint64_t
 get_clock(void)
 {
     return __rdtsc();
 }
-
 clock_t wait_clock_update(void)
 {
     clock_t start = clock();
@@ -46,7 +43,6 @@ clock_t wait_clock_update(void)
     } while (tmp == start);
     return tmp;
 }
-
 static void 
 init_clock(void)
 {
@@ -60,7 +56,6 @@ init_clock(void)
     tick_per_second = tsc / start * CLOCKS_PER_SEC;
     cout << "CPU TSC ticks per second: " << tick_per_second << endl;
 }
-
 
 // plus
 uint64_t plus_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
@@ -351,30 +346,30 @@ uint64_t multiplication_for_char(char x1, char x2, char x3, char x4, char x5, ch
 }
 
 // division
-int division_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
+uint64_t division_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
 {
-    int start_time = clock();
+    long t_x1 = x1, t_x2 = x2, t_x3 = x3, t_x4 = x4, t_x5 = x5, t_x6 = x6, t_x7 = x7, t_x8 = x8, t_x9 = x9, t_x10 = x10;
+    uint64_t start = get_clock();
+
     for (int i = 0; i < N_standart; i++)
     {
-        if (x3 != 0) x1 = x2 / x3;
-        if (x4 != 0) x2 = x3 / x4;
-        if (x5 != 0) x3 = x4 / x5;
-        if (x6 != 0) x4 = x5 / x6;
-        if (x7 != 0) x5 = x6 / x7;
-        if (x8 != 0) x6 = x7 / x8;
-        if (x9 != 0) x7 = x8 / x9;
-        if (x10 != 0) x8 = x9 / x10;
-        if (x1 != 0) x9 = x10 / x1;
-        if (x2 != 0) x10 = x1 / x2;
+        t_x1 = x2 / x3;
+        t_x2 = x3 / x4;
+        t_x3 = x4 / x5;
+        t_x4 = x5 / x6;
+        t_x5 = x6 / x7;
+        t_x6 = x7 / x8;
+        t_x7 = x8 / x9;
+        t_x8 = x9 / x10;
+        t_x9 = x10 / x1;
+        t_x10 = x1 / x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int division_for_double(double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8, double x9, double x10)
+uint64_t division_for_double(double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8, double x9, double x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 / x3;
@@ -388,15 +383,13 @@ int division_for_double(double x1, double x2, double x3, double x4, double x5, d
         x9 = x10 / x1;
         x10 = x1 / x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int division_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
+uint64_t division_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
 {
     long t_x1 = x1, t_x2 = x2, t_x3 = x3, t_x4 = x4, t_x5 = x5, t_x6 = x6, t_x7 = x7, t_x8 = x8, t_x9 = x9, t_x10 = x10;
-    int start_time = clock();
+    uint64_t start = get_clock();
 
     for (int i = 0; i < N_standart; i++) {
         t_x1 = x2 / x3;
@@ -410,14 +403,12 @@ int division_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long
         t_x9 = x10 / x1;
         t_x10 = x1 / x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int division_for_float(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
+uint64_t division_for_float(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = x2 / x3;
@@ -431,37 +422,34 @@ int division_for_float(float x1, float x2, float x3, float x4, float x5, float x
         x9 = x10 / x1;
         x10 = x1 / x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int division_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7, char x8, char x9, char x10)
+uint64_t division_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7, char x8, char x9, char x10)
 {
-    int start_time = clock();
+    long t_x1 = x1, t_x2 = x2, t_x3 = x3, t_x4 = x4, t_x5 = x5, t_x6 = x6, t_x7 = x7, t_x8 = x8, t_x9 = x9, t_x10 = x10;
+    uint64_t start = get_clock();
+
     for (int i = 0; i < N_standart; i++)
     {
-
-        if (x3 != 0) x1 = x2 / x3;
-        if (x4 != 0) x2 = x3 / x4;
-        if (x5 != 0) x3 = x4 / x5;
-        if (x6 != 0) x4 = x5 / x6;
-        if (x7 != 0) x5 = x6 / x7;
-        if (x8 != 0) x6 = x7 / x8;
-        if (x9 != 0) x7 = x8 / x9;
-        if (x10 != 0) x8 = x9 / x10;
-        if (x1 != 0) x9 = x10 / x1;
-        if (x2 != 0) x10 = x1 / x2;
+        t_x1 = x2 / x3;
+        t_x2 = x3 / x4;
+        t_x3 = x4 / x5;
+        t_x4 = x5 / x6;
+        t_x5 = x6 / x7;
+        t_x6 = x7 / x8;
+        t_x7 = x8 / x9;
+        t_x8 = x9 / x10;
+        t_x9 = x10 / x1;
+        t_x10 = x1 / x2;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
 // appropriation
-int appropriation_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
+uint64_t appropriation_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8, int x9, int x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_appropriation; i++)
     {
         x1 = i;
@@ -475,15 +463,13 @@ int appropriation_for_int(int x1, int x2, int x3, int x4, int x5, int x6, int x7
         x9 = i;
         x10 = i;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int appropriation_for_double(double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8, double x9, double x10)
+uint64_t appropriation_for_double(double x1, double x2, double x3, double x4, double x5, double x6, double x7, double x8, double x9, double x10)
 {
     double c = 0.3;
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = i + c;
@@ -497,14 +483,12 @@ int appropriation_for_double(double x1, double x2, double x3, double x4, double 
         x9 = i + c;
         x10 = i + c;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int appropriation_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
+uint64_t appropriation_for_long(long x1, long x2, long x3, long x4, long x5, long x6, long x7, long x8, long x9, long x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_appropriation; i++)
     {
         x1 = i;
@@ -518,15 +502,13 @@ int appropriation_for_long(long x1, long x2, long x3, long x4, long x5, long x6,
         x9 = i;
         x10 = i;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int appropriation_for_float(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
+uint64_t appropriation_for_float(float x1, float x2, float x3, float x4, float x5, float x6, float x7, float x8, float x9, float x10)
 {
-    int start_time = clock();
     float c = 0.3f;
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = i + c;
@@ -540,14 +522,12 @@ int appropriation_for_float(float x1, float x2, float x3, float x4, float x5, fl
         x9 = i + c;
         x10 = i + c;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
-int appropriation_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7, char x8, char x9, char x10)
+uint64_t appropriation_for_char(char x1, char x2, char x3, char x4, char x5, char x6, char x7, char x8, char x9, char x10)
 {
-    int start_time = clock();
+    uint64_t start = get_clock();
     for (int i = 0; i < N_standart; i++)
     {
         x1 = i;
@@ -561,9 +541,7 @@ int appropriation_for_char(char x1, char x2, char x3, char x4, char x5, char x6,
         x9 = i;
         x10 = i;
     }
-    int end_time = clock();
-    int time = end_time - start_time;
-    return time;
+    return get_clock() - start;
 }
 
 // dop functions
@@ -638,7 +616,6 @@ void cpu_overclocking()
     float res_float = 0;
     char res_char = 0;
 
-    double start_time__ = clock();
     res_int = cpu_int_check1 + cpu_int_check2;
     res_int = cpu_int_check1 - cpu_int_check2;
     res_int = cpu_int_check1 * cpu_int_check2;
@@ -663,47 +640,12 @@ void cpu_overclocking()
     res_char = cpu_char_check1 - cpu_char_check2;
     res_char = cpu_char_check1 * cpu_char_check2;
     res_char = cpu_char_check1 / cpu_char_check2;
-    double end_time__ = clock();
-    double time__ = end_time__ - start_time__;
 
-    res_int = 0;
-    res_double = 0;
-    res_long = 0;
-    res_float = 0;
-    res_char = 0;
-
-    double start_time_ = clock();
-    for (int i = 0; i < N_standart; i++)
-    {
-        res_int = cpu_int_check1 + cpu_int_check2 + i;
-        res_int = cpu_int_check1 - cpu_int_check2 + i;
-        res_int = cpu_int_check1 * cpu_int_check2 + i;
-        res_int = cpu_int_check1 / cpu_int_check2 + i;
-
-        res_double = cpu_double_check1 + cpu_double_check2 + i;
-        res_double = cpu_double_check1 - cpu_double_check2 + i;
-        res_double = cpu_double_check1 * cpu_double_check2 + i;
-        res_double = cpu_double_check1 / cpu_double_check2 + i;
-
-        res_long = cpu_long_check1 + cpu_long_check2 + i;
-        res_long = cpu_long_check1 - cpu_long_check2 + i;
-        res_long = cpu_long_check1 * cpu_long_check2 + i;
-        res_long = cpu_long_check1 / cpu_long_check2 + i;
-
-        res_float = cpu_float_check1 + cpu_float_check2 + i;
-        res_float = cpu_float_check1 - cpu_float_check2 + i;
-        res_float = cpu_float_check1 * cpu_float_check2 + i;
-        res_float = cpu_float_check1 / cpu_float_check2 + i;
-
-        res_char = cpu_char_check1 + cpu_char_check2 + i;
-        res_char = cpu_char_check1 - cpu_char_check2 + i;
-        res_char = cpu_char_check1 * cpu_char_check2 + i;
-        res_char = cpu_char_check1 / cpu_char_check2 + i;
-    }
-    double end_time_ = clock();
-    double time_ = end_time_ - start_time_;
-    time__ = time__ - time_;
-    empty_time = 0;
+    uint64_t start_ = get_clock();
+    for (int i = 0; i < N_standart; i++){}
+    uint64_t end_ = get_clock() - start_;
+    empty_time = double(end_);
+    cout << empty_time << endl;
 }
 
 void print_info()
@@ -717,217 +659,141 @@ void print_info()
 void plus_()
 {
     // cycle: plus for int
-    ad_time[0] = plus_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
-
-    ad_time[0] = double(ad_time[0]) / CLOCKS_PER_SEC;
-    time_standart[0] = ad_time[0] / N_plus - empty_time;
-    time_standart[0] = 1 / time_standart[0];
-    cout << "Plus for int: " << ad_time[0] << " sec." << " in " << N_plus << " iterations.";
-    cout << " (" << time_standart[0] << " operations in 1 second)" << endl;
+    ad_time[0] = (plus_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) - empty_time) / N_plus / 10;
+    time_standart[0] = tick_per_second / ad_time[0];
+    cout << "Plus for int: " << time_standart[0] << " operations in 1 second" << endl;
 
     // cycle: plus for double
-    ad_time[1] = plus_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10);
-    ad_time[1] = double(ad_time[1]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[1] = ad_time[1] / N_standart;
-    time_standart[1] = 1 / time_standart[1];
-    cout << "Plus for double: " << ad_time[1] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[1] << " operations in 1 second)" << endl;
+    ad_time[1] = (plus_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10) - empty_time) / N_standart / 10;
+    time_standart[1] = tick_per_second / ad_time[1];
+    cout << "Plus for double: " << time_standart[1] << " operations in 1 second" << endl;
 
     // cycle: plus for long
-    ad_time[2] = plus_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10);
-    ad_time[2] = double(ad_time[2]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[2] = ad_time[2] / N_plus;
-    time_standart[2] = 1 / time_standart[2];
-    cout << "Plus for long: " << ad_time[2] << " sec." << " in " << N_plus << " iterations.";
-    cout << " (" << time_standart[2] << " operations in 1 second)" << endl;
+    ad_time[2] = (plus_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10) - empty_time) / N_plus / 10;
+    time_standart[2] = tick_per_second / ad_time[2];
+    cout << "Plus for long: " << time_standart[2] << " operations in 1 second" << endl;
 
     // cycle: plus for float
-    ad_time[3] = plus_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10);
-    ad_time[3] = double(ad_time[3]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[3] = ad_time[3] / N_standart;
-    time_standart[3] = 1 / time_standart[3];
-    cout << "Plus for float: " << ad_time[3] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[3] << " operations in 1 second)" << endl;
+    ad_time[3] = (plus_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) - empty_time) / N_standart / 10;
+    time_standart[3] = tick_per_second / ad_time[3];
+    cout << "Plus for float: " << time_standart[3] << " operations in 1 second" << endl;
 
     // cycle: plus for char
-    ad_time[4] = plus_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10);
-    ad_time[4] = double(ad_time[4]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[4] = ad_time[4] / N_standart;
-    time_standart[4] = 1 / time_standart[4];
-    cout << "Plus for char: " << ad_time[4] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[4] << " operations in 1 second)" << endl;
+    ad_time[4] = (plus_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10) - empty_time) / N_standart / 10;
+    time_standart[4] = tick_per_second / ad_time[4];
+    cout << "Plus for char: " << time_standart[4] << " operations in 1 second" << endl;
 }
 
 void minus_()
 {
     // cycle: minus for int
-    ad_time[5] = minus_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
-    ad_time[5] = double(ad_time[5]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[5] = ad_time[5] / N_minus;
-    time_standart[5] = 1 / time_standart[5];
-    cout << "Minus for int: " << ad_time[5] << " sec." << " in " << N_minus << " iterations.";
-    cout << " (" << time_standart[5] << " operations in 1 second)" << endl;
+    ad_time[5] = (minus_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) - empty_time) / N_minus / 10;
+    time_standart[5] = tick_per_second / ad_time[5];
+    cout << "Minus for int: " << time_standart[5] << " operations in 1 second" << endl;
 
     // cycle: minus for double
-    ad_time[6] = minus_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10);
-    ad_time[6] = double(ad_time[6]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[6] = ad_time[6] / N_standart;
-    time_standart[6] = 1 / time_standart[6];
-    cout << "Minus for double: " << ad_time[6] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[6] << " operations in 1 second)" << endl;
+    ad_time[6] = (minus_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10) - empty_time) / N_standart / 10;
+    time_standart[6] = tick_per_second / ad_time[6];
+    cout << "Minus for double: " << time_standart[6] << " operations in 1 second" << endl;
 
     // cycle: minus for long
-    ad_time[7] = minus_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10);
-    ad_time[7] = double(ad_time[7]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[7] = ad_time[7] / N_minus;
-    time_standart[7] = 1 / time_standart[7];
-    cout << "Minus for long: " << ad_time[7] << " sec." << " in " << N_minus << " iterations.";
-    cout << " (" << time_standart[7] << " operations in 1 second)" << endl;
+    ad_time[7] = (minus_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10) - empty_time) / N_minus / 10;
+    time_standart[7] = tick_per_second / ad_time[7];
+    cout << "Minus for long: " << time_standart[7] << " operations in 1 second" << endl;
 
     // cycle: minus for float
-    ad_time[8] = minus_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10);
-    ad_time[8] = double(ad_time[8]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[8] = ad_time[8] / N_standart;
-    time_standart[8] = 1 / time_standart[8];
-    cout << "Minus for float: " << ad_time[8] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[8] << " operations in 1 second)" << endl;
+    ad_time[8] = (minus_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) - empty_time) / N_standart / 10;
+    time_standart[8] = tick_per_second / ad_time[8];
+    cout << "Minus for float: " << time_standart[8] << " operations in 1 second" << endl;
 
     // cycle: minus for char
-    ad_time[9] = minus_for_double(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10);
-    ad_time[9] = double(ad_time[9]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[9] = ad_time[9] / N_standart;
-    time_standart[9] = 1 / time_standart[9];
-    cout << "Minus for char: " << ad_time[9] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[9] << " operations in 1 second)" << endl;
+    ad_time[9] = (minus_for_double(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10) - empty_time) / N_standart / 10;
+    time_standart[9] = tick_per_second / ad_time[9];
+    cout << "Minus for char: " << time_standart[9] << " operations in 1 second" << endl;
 }
 
 void multiplication_()
 {
     // cycle: multiplication for int
-    ad_time[10] = multiplication_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
-    ad_time[10] = double(ad_time[10]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[10] = ad_time[10] / N_multiplication;
-    time_standart[10] = 1 / time_standart[10];
-    cout << "Multiplication for int: " << ad_time[10] << " sec." << " in " << N_multiplication << " iterations.";
-    cout << " (" << time_standart[10] << " operations in 1 second)" << endl;
+    ad_time[10] = (multiplication_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) - empty_time) / N_multiplication / 10;
+    time_standart[10] = tick_per_second / ad_time[10];
+    cout << "Multiplication for int: " << time_standart[10] << " operations in 1 second" << endl;
 
     // cycle: multiplication for double
-    ad_time[11] = multiplication_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10);
-    ad_time[11] = double(ad_time[11]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[11] = ad_time[11] / N_standart;
-    time_standart[11] = 1 / time_standart[11];
-    cout << "Multiplication for double: " << ad_time[11] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[11] << " operations in 1 second)" << endl;
+    ad_time[11] = (multiplication_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10) - empty_time) / N_standart / 10;
+    time_standart[11] = tick_per_second / ad_time[11];
+    cout << "Multiplication for double: " << time_standart[11] << " operations in 1 second" << endl;
 
     // cycle: multiplication for long
-    ad_time[12] = multiplication_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10);
-    ad_time[12] = double(ad_time[12]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[12] = ad_time[12] / N_multiplication;
-    time_standart[12] = 1 / time_standart[12];
-    cout << "Multiplication for long: " << ad_time[12] << " sec." << " in " << N_multiplication << " iterations.";
-    cout << " (" << time_standart[12] << " operations in 1 second)" << endl;
+    ad_time[12] = (multiplication_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10) - empty_time) / N_multiplication / 10;
+    time_standart[12] = tick_per_second / ad_time[12];
+    cout << "Multiplication for long: " << time_standart[12] << " operations in 1 second" << endl;
 
     // cycle: multiplication for float
-    ad_time[13] = multiplication_for_double(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10);
-    ad_time[13] = double(ad_time[13]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[13] = ad_time[13] / N_standart;
-    time_standart[13] = 1 / time_standart[13];
-    cout << "Multiplication for double: " << ad_time[13] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[13] << " operations in 1 second)" << endl;
+    ad_time[13] = (multiplication_for_double(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) - empty_time) / N_standart / 10;
+    time_standart[13] = tick_per_second / ad_time[13];
+    cout << "Multiplication for double: " << time_standart[13] << " operations in 1 second" << endl;
 
     // cycle: multiplication for char
-    ad_time[14] = multiplication_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10);
-    ad_time[14] = double(ad_time[14]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[14] = ad_time[14] / N_standart;
-    time_standart[14] = 1 / time_standart[14];
-    cout << "Multiplication for char: " << ad_time[14] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[14] << " operations in 1 second)" << endl;
+    ad_time[14] = (multiplication_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10) - empty_time) / N_standart / 10;
+    time_standart[14] = tick_per_second / ad_time[14];
+    cout << "Multiplication for char: " << time_standart[14] << " operations in 1 second" << endl;
 }
 
 void division_()
 {
     // cycle: division for int
-    ad_time[15] = division_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
-    ad_time[15] = double(ad_time[15]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[15] = ad_time[15] / N_standart;
-    time_standart[15] = 1 / time_standart[15];
-    cout << "Division for int: " << ad_time[15] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[15] << " operations in 1 second)" << endl;
+    ad_time[15] = (division_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) - empty_time) / N_standart / 10;
+    time_standart[15] = tick_per_second / ad_time[15];
+    cout << "Division for int: " << time_standart[15] << " operations in 1 second" << endl;
 
     // cycle: division for double
-    ad_time[16] = division_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10);
-    ad_time[16] = double(ad_time[16]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[16] = ad_time[16] / N_standart;
-    time_standart[16] = 1 / time_standart[16];
-    cout << "Division for double: " << ad_time[16] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[16] << " operations in 1 second)" << endl;
+    ad_time[16] = (division_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10) - empty_time) / N_standart / 10;
+    time_standart[16] = tick_per_second / ad_time[16];
+    cout << "Division for double: " << time_standart[16] << " operations in 1 second" << endl;
 
     // cycle: division for long
-    ad_time[17] = division_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10);
-    ad_time[17] = double(ad_time[17]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[17] = ad_time[17] / N_standart;
-    time_standart[17] = 1 / time_standart[17];
-    cout << "Division for long: " << ad_time[17] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[17] << " operations in 1 second)" << endl;
+    ad_time[17] = (division_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10) - empty_time) / N_standart / 10;
+    time_standart[17] = tick_per_second / ad_time[17];
+    cout << "Division for long: " << time_standart[17] << " operations in 1 second" << endl;
 
     // cycle: division for float
-    ad_time[18] = division_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10);
-    ad_time[18] = double(ad_time[18]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[18] = ad_time[18] / N_standart;
-    time_standart[18] = 1 / time_standart[18];
-    cout << "Division for float: " << ad_time[18] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[18] << " operations in 1 second)" << endl;
+    ad_time[18] = (division_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) - empty_time) / N_standart / 10;
+    time_standart[18] = tick_per_second / ad_time[18];
+    cout << "Division for float: " << time_standart[18] << " operations in 1 second" << endl;
 
     // cycle: division for char
-    ad_time[19] = division_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10);
-    ad_time[19] = double(ad_time[19]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[19] = ad_time[19] / N_standart;
-    time_standart[19] = 1 / time_standart[19];
-    cout << "Division for char: " << ad_time[19] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[19] << " operations in 1 second)" << endl;
+    ad_time[19] = (division_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10) - empty_time) / N_standart / 10;
+    time_standart[19] = tick_per_second / ad_time[19];
+    cout << "Division for char: " << time_standart[19] << " operations in 1 second" << endl;
 }
 
 void appropriation_()
 {
     // cycle: Appropriation for int
-    ad_time[20] = appropriation_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
-    ad_time[20] = double(ad_time[20]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[20] = ad_time[20] / N_appropriation;
-    time_standart[20] = 1 / time_standart[20];
-    cout << "Appropriation for int: " << ad_time[20] << " sec." << " in " << N_appropriation << " iterations.";
-    cout << " (" << time_standart[20] << " operations in 1 second)" << endl;
+    ad_time[20] = (appropriation_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) - empty_time) / N_appropriation / 10;
+    time_standart[20] = tick_per_second / ad_time[20];
+    cout << "Appropriation for int: " << time_standart[20] << " operations in 1 second" << endl;
 
     // cycle: Appropriation for double
-    ad_time[21] = appropriation_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10);
-    ad_time[21] = double(ad_time[21]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[21] = ad_time[21] / N_standart;
-    time_standart[21] = 1 / time_standart[21];
-    cout << "Appropriation for double: " << ad_time[21] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[21] << " operations in 1 second)" << endl;
+    ad_time[21] = (appropriation_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10) - empty_time) / N_standart / 10;
+    time_standart[21] = tick_per_second / ad_time[21];
+    cout << "Appropriation for double: " << time_standart[21] << " operations in 1 second" << endl;
 
     // cycle: Appropriation for long
-    ad_time[22] = appropriation_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10);
-    ad_time[22] = double(ad_time[22]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[22] = ad_time[22] / N_appropriation;
-    time_standart[22] = 1 / time_standart[22];
-    cout << "Appropriation for long: " << ad_time[22] << " sec." << " in " << N_appropriation << " iterations.";
-    cout << " (" << time_standart[22] << " operations in 1 second)" << endl;
+    ad_time[22] = (appropriation_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10) - empty_time) / N_appropriation / 10;
+    time_standart[22] = tick_per_second / ad_time[22];
+    cout << "Appropriation for long: " << time_standart[22] << " operations in 1 second" << endl;
 
     // cycle: Appropriation for float
-    ad_time[23] = appropriation_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10);
-    ad_time[23] = double(ad_time[23]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[23] = ad_time[23] / N_standart;
-    time_standart[23] = 1 / time_standart[23];
-    cout << "Appropriation for float: " << ad_time[23] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[23] << " operations in 1 second)" << endl;
+    ad_time[23] = (appropriation_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) - empty_time) / N_standart / 10;
+    time_standart[23] = tick_per_second / ad_time[23];
+    cout << "Appropriation for float: " << time_standart[23] << " operations in 1 second" << endl;
 
     // cycle: Appropriation for char
-    ad_time[24] = appropriation_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10);
-    ad_time[24] = double(ad_time[24]) / CLOCKS_PER_SEC - empty_time;
-    time_standart[24] = ad_time[24] / N_standart;
-    time_standart[24] = 1 / time_standart[24];
-    cout << "Appropriation for char: " << ad_time[24] << " sec." << " in " << N_standart << " iterations.";
-    cout << " (" << time_standart[24] << " operations in 1 second)" << endl;
+    ad_time[24] = (appropriation_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10) - empty_time) / N_standart / 10;
+    time_standart[24] = tick_per_second / ad_time[24];
+    cout << "Appropriation for char: " << time_standart[24] << " operations in 1 second" << endl;
 }
 
 // call main functio
@@ -940,7 +806,7 @@ int main()
     
     // CPU overclocking
     cpu_overclocking();
-
+    
     // cycle plus
     plus_();
 
