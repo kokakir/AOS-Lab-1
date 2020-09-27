@@ -186,34 +186,34 @@ PUBLIC	?wait_clock_update@@YAJXZ			; wait_clock_update
 PUBLIC	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@D@Z ; std::operator<<<std::char_traits<char> >
 PUBLIC	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 PUBLIC	??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-PUBLIC	?plus_for_int@@YA_KHHHHHHHHHH@Z			; plus_for_int
-PUBLIC	?plus_for_double@@YA_KNNNNNNNNNN@Z		; plus_for_double
-PUBLIC	?plus_for_long@@YA_KJJJJJJJJJJ@Z		; plus_for_long
-PUBLIC	?plus_for_float@@YA_KMMMMMMMMMM@Z		; plus_for_float
-PUBLIC	?plus_for_char@@YA_KDDDDDDDDDD@Z		; plus_for_char
-PUBLIC	?minus_for_int@@YA_KHHHHHHHHHH@Z		; minus_for_int
-PUBLIC	?minus_for_double@@YA_KNNNNNNNNNN@Z		; minus_for_double
-PUBLIC	?minus_for_long@@YA_KJJJJJJJJJJ@Z		; minus_for_long
-PUBLIC	?minus_for_float@@YA_KMMMMMMMMMM@Z		; minus_for_float
-PUBLIC	?minus_for_char@@YA_KDDDDDDDDDD@Z		; minus_for_char
-PUBLIC	?multiplication_for_int@@YA_KHHHHHHHHHH@Z	; multiplication_for_int
-PUBLIC	?multiplication_for_double@@YA_KNNNNNNNNNN@Z	; multiplication_for_double
-PUBLIC	?multiplication_for_long@@YA_KJJJJJJJJJJ@Z	; multiplication_for_long
-PUBLIC	?multiplication_for_float@@YA_KMMMMMMMMMM@Z	; multiplication_for_float
-PUBLIC	?multiplication_for_char@@YA_KDDDDDDDDDD@Z	; multiplication_for_char
-PUBLIC	?division_for_int@@YA_KHHHHHHHHHH@Z		; division_for_int
-PUBLIC	?division_for_double@@YA_KNNNNNNNNNN@Z		; division_for_double
-PUBLIC	?division_for_long@@YA_KJJJJJJJJJJ@Z		; division_for_long
-PUBLIC	?division_for_float@@YA_KMMMMMMMMMM@Z		; division_for_float
-PUBLIC	?division_for_char@@YA_KDDDDDDDDDD@Z		; division_for_char
-PUBLIC	?appropriation_for_int@@YA_KHHHHHHHHHH@Z	; appropriation_for_int
-PUBLIC	?appropriation_for_double@@YA_KNNNNNNNNNN@Z	; appropriation_for_double
-PUBLIC	?appropriation_for_long@@YA_KJJJJJJJJJJ@Z	; appropriation_for_long
-PUBLIC	?appropriation_for_float@@YA_KMMMMMMMMMM@Z	; appropriation_for_float
-PUBLIC	?appropriation_for_char@@YA_KDDDDDDDDDD@Z	; appropriation_for_char
-PUBLIC	?search_maximum@@YAXXZ				; search_maximum
-PUBLIC	?cpu_overclocking@@YAXXZ			; cpu_overclocking
+PUBLIC	?plus_for_int@@YA_KXZ				; plus_for_int
+PUBLIC	?plus_for_double@@YA_KXZ			; plus_for_double
+PUBLIC	?plus_for_long@@YA_KXZ				; plus_for_long
+PUBLIC	?plus_for_float@@YA_KXZ				; plus_for_float
+PUBLIC	?plus_for_char@@YA_KXZ				; plus_for_char
+PUBLIC	?minus_for_int@@YA_KXZ				; minus_for_int
+PUBLIC	?minus_for_double@@YA_KXZ			; minus_for_double
+PUBLIC	?minus_for_long@@YA_KXZ				; minus_for_long
+PUBLIC	?minus_for_float@@YA_KXZ			; minus_for_float
+PUBLIC	?minus_for_char@@YA_KXZ				; minus_for_char
+PUBLIC	?multiplication_for_int@@YA_KXZ			; multiplication_for_int
+PUBLIC	?multiplication_for_double@@YA_KXZ		; multiplication_for_double
+PUBLIC	?multiplication_for_long@@YA_KXZ		; multiplication_for_long
+PUBLIC	?multiplication_for_float@@YA_KXZ		; multiplication_for_float
+PUBLIC	?multiplication_for_char@@YA_KXZ		; multiplication_for_char
+PUBLIC	?division_for_int@@YA_KXZ			; division_for_int
+PUBLIC	?division_for_double@@YA_KXZ			; division_for_double
+PUBLIC	?division_for_long@@YA_KXZ			; division_for_long
+PUBLIC	?division_for_float@@YA_KXZ			; division_for_float
+PUBLIC	?division_for_char@@YA_KXZ			; division_for_char
+PUBLIC	?appropriation_for_int@@YA_KXZ			; appropriation_for_int
+PUBLIC	?appropriation_for_double@@YA_KXZ		; appropriation_for_double
+PUBLIC	?appropriation_for_long@@YA_KXZ			; appropriation_for_long
+PUBLIC	?appropriation_for_float@@YA_KXZ		; appropriation_for_float
+PUBLIC	?appropriation_for_char@@YA_KXZ			; appropriation_for_char
 PUBLIC	?print_info@@YAXXZ				; print_info
+PUBLIC	?cpu_overclocking@@YAXXZ			; cpu_overclocking
+PUBLIC	?search_maximum@@YAXXZ				; search_maximum
 PUBLIC	?plus_@@YAXXZ					; plus_
 PUBLIC	?minus_@@YAXXZ					; minus_
 PUBLIC	?multiplication_@@YAXXZ				; multiplication_
@@ -228,17 +228,18 @@ PUBLIC	??Bsentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QBE_NXZ ; std::bas
 PUBLIC	__JustMyCode_Default
 PUBLIC	??_C@_02LMMGGCAJ@?3?5@				; `string'
 PUBLIC	??_C@_0BL@NKPJCMOH@CPU?5TSC?5ticks?5per?5second?3?5@ ; `string'
+PUBLIC	??_C@_0BF@CKMOEMFM@Laboratory?5work?5No?41@	; `string'
+PUBLIC	??_C@_0DL@PMJGFDPG@Made?5by?5a?5student?5of?5group?5k?921@ ; `string'
+PUBLIC	??_C@_0BD@JBPHDBED@Empty?5cycle?5time?3?5@	; `string'
 PUBLIC	??_C@_03NDEAONJP@?5?5?5@			; `string'
 PUBLIC	??_C@_09IJBHKDLN@int?5?5?5?5?5?5@		; `string'
 PUBLIC	??_C@_09JMCFEFKO@double?5?5?5@			; `string'
-PUBLIC	??_C@_07HEHAKBGF@long?5?5?5@			; `string'
-PUBLIC	??_C@_08ODEMNAL@float?5?5?5@			; `string'
-PUBLIC	??_C@_07DBKBCHGA@char?5?5?5@			; `string'
+PUBLIC	??_C@_09BEJCBKKO@long?5?5?5?5?5@		; `string'
+PUBLIC	??_C@_09CFIMJOH@float?5?5?5?5@			; `string'
+PUBLIC	??_C@_09GNDOINCP@char?5?5?5?5?5@		; `string'
 PUBLIC	??_C@_01IPJKGB@?$CD@				; `string'
 PUBLIC	??_C@_01CLKCMJKC@?5@				; `string'
 PUBLIC	??_C@_02NAAALAOK@?5?$CF@			; `string'
-PUBLIC	??_C@_0BF@CKMOEMFM@Laboratory?5work?5No?41@	; `string'
-PUBLIC	??_C@_0DL@PMJGFDPG@Made?5by?5a?5student?5of?5group?5k?921@ ; `string'
 PUBLIC	??_C@_0BI@MBACHEGP@?5operations?5in?51?5second@	; `string'
 PUBLIC	??_C@_0P@FNDJGEMI@Plus?5for?5int?3?5@		; `string'
 PUBLIC	??_C@_0BC@JHOEHBHE@Plus?5for?5double?3?5@	; `string'
@@ -268,7 +269,7 @@ PUBLIC	__real@3e99999a
 PUBLIC	__real@3fd3333333333333
 PUBLIC	__real@4024000000000000
 PUBLIC	__real@404139999999999a
-PUBLIC	__real@4049000000000000
+PUBLIC	__real@4051800000000000
 PUBLIC	__real@4055e00000000000
 PUBLIC	__real@4059000000000000
 PUBLIC	__real@412e848000000000
@@ -327,9 +328,9 @@ CONST	ENDS
 CONST	SEGMENT
 __real@4055e00000000000 DQ 04055e00000000000r	; 87.5
 CONST	ENDS
-;	COMDAT __real@4049000000000000
+;	COMDAT __real@4051800000000000
 CONST	SEGMENT
-__real@4049000000000000 DQ 04049000000000000r	; 50
+__real@4051800000000000 DQ 04051800000000000r	; 70
 CONST	ENDS
 ;	COMDAT __real@404139999999999a
 CONST	SEGMENT
@@ -465,15 +466,6 @@ CONST	SEGMENT
 ??_C@_0BI@MBACHEGP@?5operations?5in?51?5second@ DB ' operations in 1 seco'
 	DB	'nd', 00H					; `string'
 CONST	ENDS
-;	COMDAT ??_C@_0DL@PMJGFDPG@Made?5by?5a?5student?5of?5group?5k?921@
-CONST	SEGMENT
-??_C@_0DL@PMJGFDPG@Made?5by?5a?5student?5of?5group?5k?921@ DB 'Made by a '
-	DB	'student of group k-21 Kyrychek Nikolay Pavlovich', 00H ; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BF@CKMOEMFM@Laboratory?5work?5No?41@
-CONST	SEGMENT
-??_C@_0BF@CKMOEMFM@Laboratory?5work?5No?41@ DB 'Laboratory work No.1', 00H ; `string'
-CONST	ENDS
 ;	COMDAT ??_C@_02NAAALAOK@?5?$CF@
 CONST	SEGMENT
 ??_C@_02NAAALAOK@?5?$CF@ DB ' %', 00H			; `string'
@@ -486,17 +478,17 @@ CONST	ENDS
 CONST	SEGMENT
 ??_C@_01IPJKGB@?$CD@ DB '#', 00H			; `string'
 CONST	ENDS
-;	COMDAT ??_C@_07DBKBCHGA@char?5?5?5@
+;	COMDAT ??_C@_09GNDOINCP@char?5?5?5?5?5@
 CONST	SEGMENT
-??_C@_07DBKBCHGA@char?5?5?5@ DB 'char   ', 00H		; `string'
+??_C@_09GNDOINCP@char?5?5?5?5?5@ DB 'char     ', 00H	; `string'
 CONST	ENDS
-;	COMDAT ??_C@_08ODEMNAL@float?5?5?5@
+;	COMDAT ??_C@_09CFIMJOH@float?5?5?5?5@
 CONST	SEGMENT
-??_C@_08ODEMNAL@float?5?5?5@ DB 'float   ', 00H		; `string'
+??_C@_09CFIMJOH@float?5?5?5?5@ DB 'float    ', 00H	; `string'
 CONST	ENDS
-;	COMDAT ??_C@_07HEHAKBGF@long?5?5?5@
+;	COMDAT ??_C@_09BEJCBKKO@long?5?5?5?5?5@
 CONST	SEGMENT
-??_C@_07HEHAKBGF@long?5?5?5@ DB 'long   ', 00H		; `string'
+??_C@_09BEJCBKKO@long?5?5?5?5?5@ DB 'long     ', 00H	; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_09JMCFEFKO@double?5?5?5@
 CONST	SEGMENT
@@ -509,6 +501,19 @@ CONST	ENDS
 ;	COMDAT ??_C@_03NDEAONJP@?5?5?5@
 CONST	SEGMENT
 ??_C@_03NDEAONJP@?5?5?5@ DB '   ', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0BD@JBPHDBED@Empty?5cycle?5time?3?5@
+CONST	SEGMENT
+??_C@_0BD@JBPHDBED@Empty?5cycle?5time?3?5@ DB 'Empty cycle time: ', 00H ; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0DL@PMJGFDPG@Made?5by?5a?5student?5of?5group?5k?921@
+CONST	SEGMENT
+??_C@_0DL@PMJGFDPG@Made?5by?5a?5student?5of?5group?5k?921@ DB 'Made by a '
+	DB	'student of group k-21 Kyrychek Nikolay Pavlovich', 00H ; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0BF@CKMOEMFM@Laboratory?5work?5No?41@
+CONST	SEGMENT
+??_C@_0BF@CKMOEMFM@Laboratory?5work?5No?41@ DB 'Laboratory work No.1', 00H ; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_0BL@NKPJCMOH@CPU?5TSC?5ticks?5per?5second?3?5@
 CONST	SEGMENT
@@ -1156,7 +1161,7 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 _main	PROC						; COMDAT
 
-; 801  : {
+; 828  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -1171,64 +1176,65 @@ _main	PROC						; COMDAT
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 802  :     init_clock();
+; 829  :     // counting the number of ticks in 1 sec
+; 830  :     init_clock();
 
 	call	?init_clock@@YAXXZ			; init_clock
 
-; 803  : 
-; 804  :     // print information about project
-; 805  :     print_info();
+; 831  : 
+; 832  :     // print information about project
+; 833  :     print_info();
 
 	call	?print_info@@YAXXZ			; print_info
 
-; 806  :     
-; 807  :     // CPU overclocking
-; 808  :     cpu_overclocking();
+; 834  :     
+; 835  :     // CPU overclocking
+; 836  :     cpu_overclocking();
 
 	call	?cpu_overclocking@@YAXXZ		; cpu_overclocking
 
-; 809  :     
-; 810  :     // cycle plus
-; 811  :     plus_();
+; 837  :     
+; 838  :     // cycle plus
+; 839  :     plus_();
 
 	call	?plus_@@YAXXZ				; plus_
 
-; 812  : 
-; 813  :     // cycle minus
-; 814  :     minus_();
+; 840  : 
+; 841  :     // cycle minus
+; 842  :     minus_();
 
 	call	?minus_@@YAXXZ				; minus_
 
-; 815  : 
-; 816  :     // cycle multiplication
-; 817  :     multiplication_();
+; 843  : 
+; 844  :     // cycle multiplication
+; 845  :     multiplication_();
 
 	call	?multiplication_@@YAXXZ			; multiplication_
 
-; 818  : 
-; 819  :     // cycle division
-; 820  :     division_();
+; 846  : 
+; 847  :     // cycle division
+; 848  :     division_();
 
 	call	?division_@@YAXXZ			; division_
 
-; 821  : 
-; 822  :     // cycle: Appropriation
-; 823  :     appropriation_();
+; 849  : 
+; 850  :     // cycle: Appropriation
+; 851  :     appropriation_();
 
 	call	?appropriation_@@YAXXZ			; appropriation_
 
-; 824  : 
-; 825  :     // building a diagram
-; 826  :     search_maximum();
+; 852  : 
+; 853  :     // building a diagram
+; 854  :     search_maximum();
 
 	call	?search_maximum@@YAXXZ			; search_maximum
 
-; 827  : 
-; 828  :     return 0;
+; 855  : 
+; 856  :     return 0;
 
 	xor	eax, eax
 
-; 829  : }
+; 857  : }
 
 	pop	edi
 	pop	esi
@@ -1247,7 +1253,7 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 ?appropriation_@@YAXXZ PROC				; appropriation_, COMDAT
 
-; 772  : {
+; 800  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -1262,41 +1268,20 @@ _TEXT	SEGMENT
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 773  :     // cycle: Appropriation for int
-; 774  :     ad_time[20] = (appropriation_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) - empty_time) / N_appropriation / 10;
+; 801  :     // cycle: Appropriation for int
+; 802  :     ad_time[20] = (appropriation_for_int() - empty_time) / N_appropriation / 10;
 
-	mov	eax, DWORD PTR ?a10@@3HA		; a10
-	push	eax
-	mov	ecx, DWORD PTR ?a9@@3HA			; a9
-	push	ecx
-	mov	edx, DWORD PTR ?a8@@3HA			; a8
-	push	edx
-	mov	eax, DWORD PTR ?a7@@3HA			; a7
-	push	eax
-	mov	ecx, DWORD PTR ?a6@@3HA			; a6
-	push	ecx
-	mov	edx, DWORD PTR ?a5@@3HA			; a5
-	push	edx
-	mov	eax, DWORD PTR ?a4@@3HA			; a4
-	push	eax
-	mov	ecx, DWORD PTR ?a3@@3HA			; a3
-	push	ecx
-	mov	edx, DWORD PTR ?a2@@3HA			; a2
-	push	edx
-	mov	eax, DWORD PTR ?a1@@3HA			; a1
-	push	eax
-	call	?appropriation_for_int@@YA_KHHHHHHHHHH@Z ; appropriation_for_int
-	add	esp, 40					; 00000028H
+	call	?appropriation_for_int@@YA_KXZ		; appropriation_for_int
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 20
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 20
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 775  :     time_standart[20] = tick_per_second / ad_time[20];
+; 803  :     time_standart[20] = tick_per_second / ad_time[20];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -1308,7 +1293,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 20
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 776  :     cout << "Appropriation for int: " << time_standart[20] << " operations in 1 second" << endl;
+; 804  :     cout << "Appropriation for int: " << time_standart[20] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -1336,42 +1321,11 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 777  : 
-; 778  :     // cycle: Appropriation for double
-; 779  :     ad_time[21] = (appropriation_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10) - empty_time) / N_standart / 10;
+; 805  : 
+; 806  :     // cycle: Appropriation for double
+; 807  :     ad_time[21] = (appropriation_for_double() - empty_time) / N_standart / 10;
 
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b10@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b9@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b8@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b7@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b6@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b5@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b4@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b3@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b2@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b1@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	call	?appropriation_for_double@@YA_KNNNNNNNNNN@Z ; appropriation_for_double
-	add	esp, 80					; 00000050H
+	call	?appropriation_for_double@@YA_KXZ	; appropriation_for_double
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
@@ -1381,7 +1335,7 @@ _TEXT	SEGMENT
 	imul	ecx, eax, 21
 	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 780  :     time_standart[21] = tick_per_second / ad_time[21];
+; 808  :     time_standart[21] = tick_per_second / ad_time[21];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -1393,7 +1347,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 21
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 781  :     cout << "Appropriation for double: " << time_standart[21] << " operations in 1 second" << endl;
+; 809  :     cout << "Appropriation for double: " << time_standart[21] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -1421,42 +1375,21 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 782  : 
-; 783  :     // cycle: Appropriation for long
-; 784  :     ad_time[22] = (appropriation_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10) - empty_time) / N_appropriation / 10;
+; 810  : 
+; 811  :     // cycle: Appropriation for long
+; 812  :     ad_time[22] = (appropriation_for_long() - empty_time) / N_appropriation / 10;
 
-	mov	eax, DWORD PTR ?c10@@3JA		; c10
-	push	eax
-	mov	ecx, DWORD PTR ?c9@@3JA			; c9
-	push	ecx
-	mov	edx, DWORD PTR ?c8@@3JA			; c8
-	push	edx
-	mov	eax, DWORD PTR ?c7@@3JA			; c7
-	push	eax
-	mov	ecx, DWORD PTR ?c6@@3JA			; c6
-	push	ecx
-	mov	edx, DWORD PTR ?c5@@3JA			; c5
-	push	edx
-	mov	eax, DWORD PTR ?c4@@3JA			; c4
-	push	eax
-	mov	ecx, DWORD PTR ?c3@@3JA			; c3
-	push	ecx
-	mov	edx, DWORD PTR ?c2@@3JA			; c2
-	push	edx
-	mov	eax, DWORD PTR ?c1@@3JA			; c1
-	push	eax
-	call	?appropriation_for_long@@YA_KJJJJJJJJJJ@Z ; appropriation_for_long
-	add	esp, 40					; 00000028H
+	call	?appropriation_for_long@@YA_KXZ		; appropriation_for_long
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 22
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 22
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 785  :     time_standart[22] = tick_per_second / ad_time[22];
+; 813  :     time_standart[22] = tick_per_second / ad_time[22];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -1468,7 +1401,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 22
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 786  :     cout << "Appropriation for long: " << time_standart[22] << " operations in 1 second" << endl;
+; 814  :     cout << "Appropriation for long: " << time_standart[22] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -1496,42 +1429,11 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 787  : 
-; 788  :     // cycle: Appropriation for float
-; 789  :     ad_time[23] = (appropriation_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) - empty_time) / N_standart / 10;
+; 815  : 
+; 816  :     // cycle: Appropriation for float
+; 817  :     ad_time[23] = (appropriation_for_float() - empty_time) / N_standart / 10;
 
-	push	ecx
-	movss	xmm0, DWORD PTR ?d10@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d9@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d8@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d7@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d6@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d5@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d4@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d3@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d2@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d1@@3MA
-	movss	DWORD PTR [esp], xmm0
-	call	?appropriation_for_float@@YA_KMMMMMMMMMM@Z ; appropriation_for_float
-	add	esp, 40					; 00000028H
+	call	?appropriation_for_float@@YA_KXZ	; appropriation_for_float
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
@@ -1541,7 +1443,7 @@ _TEXT	SEGMENT
 	imul	ecx, eax, 23
 	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 790  :     time_standart[23] = tick_per_second / ad_time[23];
+; 818  :     time_standart[23] = tick_per_second / ad_time[23];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -1553,7 +1455,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 23
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 791  :     cout << "Appropriation for float: " << time_standart[23] << " operations in 1 second" << endl;
+; 819  :     cout << "Appropriation for float: " << time_standart[23] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -1581,42 +1483,21 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 792  : 
-; 793  :     // cycle: Appropriation for char
-; 794  :     ad_time[24] = (appropriation_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10) - empty_time) / N_standart / 10;
+; 820  : 
+; 821  :     // cycle: Appropriation for char
+; 822  :     ad_time[24] = (appropriation_for_char() - empty_time) / N_standart / 10;
 
-	movzx	eax, BYTE PTR ?e10@@3DA			; e10
-	push	eax
-	movzx	ecx, BYTE PTR ?e9@@3DA			; e9
-	push	ecx
-	movzx	edx, BYTE PTR ?e8@@3DA			; e8
-	push	edx
-	movzx	eax, BYTE PTR ?e7@@3DA			; e7
-	push	eax
-	movzx	ecx, BYTE PTR ?e6@@3DA			; e6
-	push	ecx
-	movzx	edx, BYTE PTR ?e5@@3DA			; e5
-	push	edx
-	movzx	eax, BYTE PTR ?e4@@3DA			; e4
-	push	eax
-	movzx	ecx, BYTE PTR ?e3@@3DA			; e3
-	push	ecx
-	movzx	edx, BYTE PTR ?e2@@3DA			; e2
-	push	edx
-	movzx	eax, BYTE PTR ?e1@@3DA			; e1
-	push	eax
-	call	?appropriation_for_char@@YA_KDDDDDDDDDD@Z ; appropriation_for_char
-	add	esp, 40					; 00000028H
+	call	?appropriation_for_char@@YA_KXZ		; appropriation_for_char
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 24
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 24
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 795  :     time_standart[24] = tick_per_second / ad_time[24];
+; 823  :     time_standart[24] = tick_per_second / ad_time[24];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -1628,7 +1509,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 24
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 796  :     cout << "Appropriation for char: " << time_standart[24] << " operations in 1 second" << endl;
+; 824  :     cout << "Appropriation for char: " << time_standart[24] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -1656,7 +1537,7 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 797  : }
+; 825  : }
 
 	pop	edi
 	pop	esi
@@ -1675,7 +1556,7 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 ?division_@@YAXXZ PROC					; division_, COMDAT
 
-; 744  : {
+; 772  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -1690,41 +1571,20 @@ _TEXT	SEGMENT
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 745  :     // cycle: division for int
-; 746  :     ad_time[15] = (division_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) - empty_time) / N_standart / 10;
+; 773  :     // cycle: division for int
+; 774  :     ad_time[15] = (division_for_int() - empty_time) / N_standart / 10;
 
-	mov	eax, DWORD PTR ?a10@@3HA		; a10
-	push	eax
-	mov	ecx, DWORD PTR ?a9@@3HA			; a9
-	push	ecx
-	mov	edx, DWORD PTR ?a8@@3HA			; a8
-	push	edx
-	mov	eax, DWORD PTR ?a7@@3HA			; a7
-	push	eax
-	mov	ecx, DWORD PTR ?a6@@3HA			; a6
-	push	ecx
-	mov	edx, DWORD PTR ?a5@@3HA			; a5
-	push	edx
-	mov	eax, DWORD PTR ?a4@@3HA			; a4
-	push	eax
-	mov	ecx, DWORD PTR ?a3@@3HA			; a3
-	push	ecx
-	mov	edx, DWORD PTR ?a2@@3HA			; a2
-	push	edx
-	mov	eax, DWORD PTR ?a1@@3HA			; a1
-	push	eax
-	call	?division_for_int@@YA_KHHHHHHHHHH@Z	; division_for_int
-	add	esp, 40					; 00000028H
+	call	?division_for_int@@YA_KXZ		; division_for_int
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 15
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 15
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 747  :     time_standart[15] = tick_per_second / ad_time[15];
+; 775  :     time_standart[15] = tick_per_second / ad_time[15];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -1736,7 +1596,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 15
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 748  :     cout << "Division for int: " << time_standart[15] << " operations in 1 second" << endl;
+; 776  :     cout << "Division for int: " << time_standart[15] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -1764,42 +1624,11 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 749  : 
-; 750  :     // cycle: division for double
-; 751  :     ad_time[16] = (division_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10) - empty_time) / N_standart / 10;
+; 777  : 
+; 778  :     // cycle: division for double
+; 779  :     ad_time[16] = (division_for_double() - empty_time) / N_standart / 10;
 
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b10@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b9@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b8@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b7@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b6@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b5@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b4@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b3@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b2@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b1@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	call	?division_for_double@@YA_KNNNNNNNNNN@Z	; division_for_double
-	add	esp, 80					; 00000050H
+	call	?division_for_double@@YA_KXZ		; division_for_double
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
@@ -1809,7 +1638,7 @@ _TEXT	SEGMENT
 	shl	eax, 4
 	movsd	QWORD PTR ?ad_time@@3PANA[eax], xmm0
 
-; 752  :     time_standart[16] = tick_per_second / ad_time[16];
+; 780  :     time_standart[16] = tick_per_second / ad_time[16];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -1821,7 +1650,7 @@ _TEXT	SEGMENT
 	shl	ecx, 4
 	movsd	QWORD PTR ?time_standart@@3PANA[ecx], xmm0
 
-; 753  :     cout << "Division for double: " << time_standart[16] << " operations in 1 second" << endl;
+; 781  :     cout << "Division for double: " << time_standart[16] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -1849,42 +1678,21 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 754  : 
-; 755  :     // cycle: division for long
-; 756  :     ad_time[17] = (division_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10) - empty_time) / N_standart / 10;
+; 782  : 
+; 783  :     // cycle: division for long
+; 784  :     ad_time[17] = (division_for_long() - empty_time) / N_standart / 10;
 
-	mov	eax, DWORD PTR ?c10@@3JA		; c10
-	push	eax
-	mov	ecx, DWORD PTR ?c9@@3JA			; c9
-	push	ecx
-	mov	edx, DWORD PTR ?c8@@3JA			; c8
-	push	edx
-	mov	eax, DWORD PTR ?c7@@3JA			; c7
-	push	eax
-	mov	ecx, DWORD PTR ?c6@@3JA			; c6
-	push	ecx
-	mov	edx, DWORD PTR ?c5@@3JA			; c5
-	push	edx
-	mov	eax, DWORD PTR ?c4@@3JA			; c4
-	push	eax
-	mov	ecx, DWORD PTR ?c3@@3JA			; c3
-	push	ecx
-	mov	edx, DWORD PTR ?c2@@3JA			; c2
-	push	edx
-	mov	eax, DWORD PTR ?c1@@3JA			; c1
-	push	eax
-	call	?division_for_long@@YA_KJJJJJJJJJJ@Z	; division_for_long
-	add	esp, 40					; 00000028H
+	call	?division_for_long@@YA_KXZ		; division_for_long
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 17
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 17
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 757  :     time_standart[17] = tick_per_second / ad_time[17];
+; 785  :     time_standart[17] = tick_per_second / ad_time[17];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -1896,7 +1704,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 17
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 758  :     cout << "Division for long: " << time_standart[17] << " operations in 1 second" << endl;
+; 786  :     cout << "Division for long: " << time_standart[17] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -1924,42 +1732,11 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 759  : 
-; 760  :     // cycle: division for float
-; 761  :     ad_time[18] = (division_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) - empty_time) / N_standart / 10;
+; 787  : 
+; 788  :     // cycle: division for float
+; 789  :     ad_time[18] = (division_for_float() - empty_time) / N_standart / 10;
 
-	push	ecx
-	movss	xmm0, DWORD PTR ?d10@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d9@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d8@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d7@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d6@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d5@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d4@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d3@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d2@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d1@@3MA
-	movss	DWORD PTR [esp], xmm0
-	call	?division_for_float@@YA_KMMMMMMMMMM@Z	; division_for_float
-	add	esp, 40					; 00000028H
+	call	?division_for_float@@YA_KXZ		; division_for_float
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
@@ -1969,7 +1746,7 @@ _TEXT	SEGMENT
 	imul	ecx, eax, 18
 	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 762  :     time_standart[18] = tick_per_second / ad_time[18];
+; 790  :     time_standart[18] = tick_per_second / ad_time[18];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -1981,7 +1758,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 18
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 763  :     cout << "Division for float: " << time_standart[18] << " operations in 1 second" << endl;
+; 791  :     cout << "Division for float: " << time_standart[18] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2009,42 +1786,21 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 764  : 
-; 765  :     // cycle: division for char
-; 766  :     ad_time[19] = (division_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10) - empty_time) / N_standart / 10;
+; 792  : 
+; 793  :     // cycle: division for char
+; 794  :     ad_time[19] = (division_for_char() - empty_time) / N_standart / 10;
 
-	movzx	eax, BYTE PTR ?e10@@3DA			; e10
-	push	eax
-	movzx	ecx, BYTE PTR ?e9@@3DA			; e9
-	push	ecx
-	movzx	edx, BYTE PTR ?e8@@3DA			; e8
-	push	edx
-	movzx	eax, BYTE PTR ?e7@@3DA			; e7
-	push	eax
-	movzx	ecx, BYTE PTR ?e6@@3DA			; e6
-	push	ecx
-	movzx	edx, BYTE PTR ?e5@@3DA			; e5
-	push	edx
-	movzx	eax, BYTE PTR ?e4@@3DA			; e4
-	push	eax
-	movzx	ecx, BYTE PTR ?e3@@3DA			; e3
-	push	ecx
-	movzx	edx, BYTE PTR ?e2@@3DA			; e2
-	push	edx
-	movzx	eax, BYTE PTR ?e1@@3DA			; e1
-	push	eax
-	call	?division_for_char@@YA_KDDDDDDDDDD@Z	; division_for_char
-	add	esp, 40					; 00000028H
+	call	?division_for_char@@YA_KXZ		; division_for_char
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 19
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 19
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 767  :     time_standart[19] = tick_per_second / ad_time[19];
+; 795  :     time_standart[19] = tick_per_second / ad_time[19];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2056,7 +1812,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 19
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 768  :     cout << "Division for char: " << time_standart[19] << " operations in 1 second" << endl;
+; 796  :     cout << "Division for char: " << time_standart[19] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2084,7 +1840,7 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 769  : }
+; 797  : }
 
 	pop	edi
 	pop	esi
@@ -2103,7 +1859,7 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 ?multiplication_@@YAXXZ PROC				; multiplication_, COMDAT
 
-; 716  : {
+; 744  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -2118,41 +1874,20 @@ _TEXT	SEGMENT
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 717  :     // cycle: multiplication for int
-; 718  :     ad_time[10] = (multiplication_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) - empty_time) / N_multiplication / 10;
+; 745  :     // cycle: multiplication for int
+; 746  :     ad_time[10] = (multiplication_for_int() - empty_time) / N_multiplication / 10;
 
-	mov	eax, DWORD PTR ?a10@@3HA		; a10
-	push	eax
-	mov	ecx, DWORD PTR ?a9@@3HA			; a9
-	push	ecx
-	mov	edx, DWORD PTR ?a8@@3HA			; a8
-	push	edx
-	mov	eax, DWORD PTR ?a7@@3HA			; a7
-	push	eax
-	mov	ecx, DWORD PTR ?a6@@3HA			; a6
-	push	ecx
-	mov	edx, DWORD PTR ?a5@@3HA			; a5
-	push	edx
-	mov	eax, DWORD PTR ?a4@@3HA			; a4
-	push	eax
-	mov	ecx, DWORD PTR ?a3@@3HA			; a3
-	push	ecx
-	mov	edx, DWORD PTR ?a2@@3HA			; a2
-	push	edx
-	mov	eax, DWORD PTR ?a1@@3HA			; a1
-	push	eax
-	call	?multiplication_for_int@@YA_KHHHHHHHHHH@Z ; multiplication_for_int
-	add	esp, 40					; 00000028H
+	call	?multiplication_for_int@@YA_KXZ		; multiplication_for_int
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 10
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 10
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 719  :     time_standart[10] = tick_per_second / ad_time[10];
+; 747  :     time_standart[10] = tick_per_second / ad_time[10];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2164,7 +1899,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 10
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 720  :     cout << "Multiplication for int: " << time_standart[10] << " operations in 1 second" << endl;
+; 748  :     cout << "Multiplication for int: " << time_standart[10] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2192,42 +1927,11 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 721  : 
-; 722  :     // cycle: multiplication for double
-; 723  :     ad_time[11] = (multiplication_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10) - empty_time) / N_standart / 10;
+; 749  : 
+; 750  :     // cycle: multiplication for double
+; 751  :     ad_time[11] = (multiplication_for_double() - empty_time) / N_standart / 10;
 
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b10@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b9@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b8@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b7@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b6@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b5@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b4@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b3@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b2@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b1@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	call	?multiplication_for_double@@YA_KNNNNNNNNNN@Z ; multiplication_for_double
-	add	esp, 80					; 00000050H
+	call	?multiplication_for_double@@YA_KXZ	; multiplication_for_double
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
@@ -2237,7 +1941,7 @@ _TEXT	SEGMENT
 	imul	ecx, eax, 11
 	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 724  :     time_standart[11] = tick_per_second / ad_time[11];
+; 752  :     time_standart[11] = tick_per_second / ad_time[11];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2249,7 +1953,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 11
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 725  :     cout << "Multiplication for double: " << time_standart[11] << " operations in 1 second" << endl;
+; 753  :     cout << "Multiplication for double: " << time_standart[11] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2277,42 +1981,21 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 726  : 
-; 727  :     // cycle: multiplication for long
-; 728  :     ad_time[12] = (multiplication_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10) - empty_time) / N_multiplication / 10;
+; 754  : 
+; 755  :     // cycle: multiplication for long
+; 756  :     ad_time[12] = (multiplication_for_long() - empty_time) / N_multiplication / 10;
 
-	mov	eax, DWORD PTR ?c10@@3JA		; c10
-	push	eax
-	mov	ecx, DWORD PTR ?c9@@3JA			; c9
-	push	ecx
-	mov	edx, DWORD PTR ?c8@@3JA			; c8
-	push	edx
-	mov	eax, DWORD PTR ?c7@@3JA			; c7
-	push	eax
-	mov	ecx, DWORD PTR ?c6@@3JA			; c6
-	push	ecx
-	mov	edx, DWORD PTR ?c5@@3JA			; c5
-	push	edx
-	mov	eax, DWORD PTR ?c4@@3JA			; c4
-	push	eax
-	mov	ecx, DWORD PTR ?c3@@3JA			; c3
-	push	ecx
-	mov	edx, DWORD PTR ?c2@@3JA			; c2
-	push	edx
-	mov	eax, DWORD PTR ?c1@@3JA			; c1
-	push	eax
-	call	?multiplication_for_long@@YA_KJJJJJJJJJJ@Z ; multiplication_for_long
-	add	esp, 40					; 00000028H
+	call	?multiplication_for_long@@YA_KXZ	; multiplication_for_long
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 12
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 12
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 729  :     time_standart[12] = tick_per_second / ad_time[12];
+; 757  :     time_standart[12] = tick_per_second / ad_time[12];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2324,7 +2007,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 12
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 730  :     cout << "Multiplication for long: " << time_standart[12] << " operations in 1 second" << endl;
+; 758  :     cout << "Multiplication for long: " << time_standart[12] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2352,42 +2035,11 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 731  : 
-; 732  :     // cycle: multiplication for float
-; 733  :     ad_time[13] = (multiplication_for_double(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) - empty_time) / N_standart / 10;
+; 759  : 
+; 760  :     // cycle: multiplication for float
+; 761  :     ad_time[13] = (multiplication_for_double() - empty_time) / N_standart / 10;
 
-	cvtss2sd xmm0, DWORD PTR ?d10@@3MA
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	cvtss2sd xmm0, DWORD PTR ?d9@@3MA
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	cvtss2sd xmm0, DWORD PTR ?d8@@3MA
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	cvtss2sd xmm0, DWORD PTR ?d7@@3MA
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	cvtss2sd xmm0, DWORD PTR ?d6@@3MA
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	cvtss2sd xmm0, DWORD PTR ?d5@@3MA
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	cvtss2sd xmm0, DWORD PTR ?d4@@3MA
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	cvtss2sd xmm0, DWORD PTR ?d3@@3MA
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	cvtss2sd xmm0, DWORD PTR ?d2@@3MA
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	cvtss2sd xmm0, DWORD PTR ?d1@@3MA
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	call	?multiplication_for_double@@YA_KNNNNNNNNNN@Z ; multiplication_for_double
-	add	esp, 80					; 00000050H
+	call	?multiplication_for_double@@YA_KXZ	; multiplication_for_double
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
@@ -2397,7 +2049,7 @@ _TEXT	SEGMENT
 	imul	ecx, eax, 13
 	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 734  :     time_standart[13] = tick_per_second / ad_time[13];
+; 762  :     time_standart[13] = tick_per_second / ad_time[13];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2409,7 +2061,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 13
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 735  :     cout << "Multiplication for double: " << time_standart[13] << " operations in 1 second" << endl;
+; 763  :     cout << "Multiplication for double: " << time_standart[13] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2437,42 +2089,21 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 736  : 
-; 737  :     // cycle: multiplication for char
-; 738  :     ad_time[14] = (multiplication_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10) - empty_time) / N_standart / 10;
+; 764  : 
+; 765  :     // cycle: multiplication for char
+; 766  :     ad_time[14] = (multiplication_for_char() - empty_time) / N_standart / 10;
 
-	movzx	eax, BYTE PTR ?e10@@3DA			; e10
-	push	eax
-	movzx	ecx, BYTE PTR ?e9@@3DA			; e9
-	push	ecx
-	movzx	edx, BYTE PTR ?e8@@3DA			; e8
-	push	edx
-	movzx	eax, BYTE PTR ?e7@@3DA			; e7
-	push	eax
-	movzx	ecx, BYTE PTR ?e6@@3DA			; e6
-	push	ecx
-	movzx	edx, BYTE PTR ?e5@@3DA			; e5
-	push	edx
-	movzx	eax, BYTE PTR ?e4@@3DA			; e4
-	push	eax
-	movzx	ecx, BYTE PTR ?e3@@3DA			; e3
-	push	ecx
-	movzx	edx, BYTE PTR ?e2@@3DA			; e2
-	push	edx
-	movzx	eax, BYTE PTR ?e1@@3DA			; e1
-	push	eax
-	call	?multiplication_for_char@@YA_KDDDDDDDDDD@Z ; multiplication_for_char
-	add	esp, 40					; 00000028H
+	call	?multiplication_for_char@@YA_KXZ	; multiplication_for_char
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 14
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 14
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 739  :     time_standart[14] = tick_per_second / ad_time[14];
+; 767  :     time_standart[14] = tick_per_second / ad_time[14];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2484,7 +2115,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 14
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 740  :     cout << "Multiplication for char: " << time_standart[14] << " operations in 1 second" << endl;
+; 768  :     cout << "Multiplication for char: " << time_standart[14] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2512,7 +2143,7 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 741  : }
+; 769  : }
 
 	pop	edi
 	pop	esi
@@ -2531,7 +2162,7 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 ?minus_@@YAXXZ PROC					; minus_, COMDAT
 
-; 688  : {
+; 716  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -2546,41 +2177,20 @@ _TEXT	SEGMENT
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 689  :     // cycle: minus for int
-; 690  :     ad_time[5] = (minus_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) - empty_time) / N_minus / 10;
+; 717  :     // cycle: minus for int
+; 718  :     ad_time[5] = (minus_for_int() - empty_time) / N_minus / 10;
 
-	mov	eax, DWORD PTR ?a10@@3HA		; a10
-	push	eax
-	mov	ecx, DWORD PTR ?a9@@3HA			; a9
-	push	ecx
-	mov	edx, DWORD PTR ?a8@@3HA			; a8
-	push	edx
-	mov	eax, DWORD PTR ?a7@@3HA			; a7
-	push	eax
-	mov	ecx, DWORD PTR ?a6@@3HA			; a6
-	push	ecx
-	mov	edx, DWORD PTR ?a5@@3HA			; a5
-	push	edx
-	mov	eax, DWORD PTR ?a4@@3HA			; a4
-	push	eax
-	mov	ecx, DWORD PTR ?a3@@3HA			; a3
-	push	ecx
-	mov	edx, DWORD PTR ?a2@@3HA			; a2
-	push	edx
-	mov	eax, DWORD PTR ?a1@@3HA			; a1
-	push	eax
-	call	?minus_for_int@@YA_KHHHHHHHHHH@Z	; minus_for_int
-	add	esp, 40					; 00000028H
+	call	?minus_for_int@@YA_KXZ			; minus_for_int
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 5
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 5
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 691  :     time_standart[5] = tick_per_second / ad_time[5];
+; 719  :     time_standart[5] = tick_per_second / ad_time[5];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2592,7 +2202,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 5
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 692  :     cout << "Minus for int: " << time_standart[5] << " operations in 1 second" << endl;
+; 720  :     cout << "Minus for int: " << time_standart[5] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2620,42 +2230,11 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 693  : 
-; 694  :     // cycle: minus for double
-; 695  :     ad_time[6] = (minus_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10) - empty_time) / N_standart / 10;
+; 721  : 
+; 722  :     // cycle: minus for double
+; 723  :     ad_time[6] = (minus_for_double() - empty_time) / N_standart / 10;
 
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b10@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b9@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b8@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b7@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b6@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b5@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b4@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b3@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b2@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b1@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	call	?minus_for_double@@YA_KNNNNNNNNNN@Z	; minus_for_double
-	add	esp, 80					; 00000050H
+	call	?minus_for_double@@YA_KXZ		; minus_for_double
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
@@ -2665,7 +2244,7 @@ _TEXT	SEGMENT
 	imul	ecx, eax, 6
 	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 696  :     time_standart[6] = tick_per_second / ad_time[6];
+; 724  :     time_standart[6] = tick_per_second / ad_time[6];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2677,7 +2256,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 6
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 697  :     cout << "Minus for double: " << time_standart[6] << " operations in 1 second" << endl;
+; 725  :     cout << "Minus for double: " << time_standart[6] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2705,42 +2284,21 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 698  : 
-; 699  :     // cycle: minus for long
-; 700  :     ad_time[7] = (minus_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10) - empty_time) / N_minus / 10;
+; 726  : 
+; 727  :     // cycle: minus for long
+; 728  :     ad_time[7] = (minus_for_long() - empty_time) / N_minus / 10;
 
-	mov	eax, DWORD PTR ?c10@@3JA		; c10
-	push	eax
-	mov	ecx, DWORD PTR ?c9@@3JA			; c9
-	push	ecx
-	mov	edx, DWORD PTR ?c8@@3JA			; c8
-	push	edx
-	mov	eax, DWORD PTR ?c7@@3JA			; c7
-	push	eax
-	mov	ecx, DWORD PTR ?c6@@3JA			; c6
-	push	ecx
-	mov	edx, DWORD PTR ?c5@@3JA			; c5
-	push	edx
-	mov	eax, DWORD PTR ?c4@@3JA			; c4
-	push	eax
-	mov	ecx, DWORD PTR ?c3@@3JA			; c3
-	push	ecx
-	mov	edx, DWORD PTR ?c2@@3JA			; c2
-	push	edx
-	mov	eax, DWORD PTR ?c1@@3JA			; c1
-	push	eax
-	call	?minus_for_long@@YA_KJJJJJJJJJJ@Z	; minus_for_long
-	add	esp, 40					; 00000028H
+	call	?minus_for_long@@YA_KXZ			; minus_for_long
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 7
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 7
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 701  :     time_standart[7] = tick_per_second / ad_time[7];
+; 729  :     time_standart[7] = tick_per_second / ad_time[7];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2752,7 +2310,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 7
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 702  :     cout << "Minus for long: " << time_standart[7] << " operations in 1 second" << endl;
+; 730  :     cout << "Minus for long: " << time_standart[7] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2780,42 +2338,11 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 703  : 
-; 704  :     // cycle: minus for float
-; 705  :     ad_time[8] = (minus_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) - empty_time) / N_standart / 10;
+; 731  : 
+; 732  :     // cycle: minus for float
+; 733  :     ad_time[8] = (minus_for_float() - empty_time) / N_standart / 10;
 
-	push	ecx
-	movss	xmm0, DWORD PTR ?d10@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d9@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d8@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d7@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d6@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d5@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d4@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d3@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d2@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d1@@3MA
-	movss	DWORD PTR [esp], xmm0
-	call	?minus_for_float@@YA_KMMMMMMMMMM@Z	; minus_for_float
-	add	esp, 40					; 00000028H
+	call	?minus_for_float@@YA_KXZ		; minus_for_float
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
@@ -2825,7 +2352,7 @@ _TEXT	SEGMENT
 	shl	eax, 3
 	movsd	QWORD PTR ?ad_time@@3PANA[eax], xmm0
 
-; 706  :     time_standart[8] = tick_per_second / ad_time[8];
+; 734  :     time_standart[8] = tick_per_second / ad_time[8];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2837,7 +2364,7 @@ _TEXT	SEGMENT
 	shl	ecx, 3
 	movsd	QWORD PTR ?time_standart@@3PANA[ecx], xmm0
 
-; 707  :     cout << "Minus for float: " << time_standart[8] << " operations in 1 second" << endl;
+; 735  :     cout << "Minus for float: " << time_standart[8] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2865,62 +2392,21 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 708  : 
-; 709  :     // cycle: minus for char
-; 710  :     ad_time[9] = (minus_for_double(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10) - empty_time) / N_standart / 10;
+; 736  : 
+; 737  :     // cycle: minus for char
+; 738  :     ad_time[9] = (minus_for_double() - empty_time) / N_standart / 10;
 
-	movsx	eax, BYTE PTR ?e10@@3DA			; e10
-	cvtsi2sd xmm0, eax
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	movsx	ecx, BYTE PTR ?e9@@3DA			; e9
-	cvtsi2sd xmm0, ecx
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	movsx	edx, BYTE PTR ?e8@@3DA			; e8
-	cvtsi2sd xmm0, edx
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	movsx	eax, BYTE PTR ?e7@@3DA			; e7
-	cvtsi2sd xmm0, eax
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	movsx	ecx, BYTE PTR ?e6@@3DA			; e6
-	cvtsi2sd xmm0, ecx
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	movsx	edx, BYTE PTR ?e5@@3DA			; e5
-	cvtsi2sd xmm0, edx
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	movsx	eax, BYTE PTR ?e4@@3DA			; e4
-	cvtsi2sd xmm0, eax
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	movsx	ecx, BYTE PTR ?e3@@3DA			; e3
-	cvtsi2sd xmm0, ecx
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	movsx	edx, BYTE PTR ?e2@@3DA			; e2
-	cvtsi2sd xmm0, edx
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	movsx	eax, BYTE PTR ?e1@@3DA			; e1
-	cvtsi2sd xmm0, eax
-	sub	esp, 8
-	movsd	QWORD PTR [esp], xmm0
-	call	?minus_for_double@@YA_KNNNNNNNNNN@Z	; minus_for_double
-	add	esp, 80					; 00000050H
+	call	?minus_for_double@@YA_KXZ		; minus_for_double
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 9
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 9
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 711  :     time_standart[9] = tick_per_second / ad_time[9];
+; 739  :     time_standart[9] = tick_per_second / ad_time[9];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -2932,7 +2418,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 9
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 712  :     cout << "Minus for char: " << time_standart[9] << " operations in 1 second" << endl;
+; 740  :     cout << "Minus for char: " << time_standart[9] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -2960,7 +2446,7 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 713  : }
+; 741  : }
 
 	pop	edi
 	pop	esi
@@ -2979,7 +2465,7 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 ?plus_@@YAXXZ PROC					; plus_, COMDAT
 
-; 660  : {
+; 688  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -2994,41 +2480,20 @@ _TEXT	SEGMENT
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 661  :     // cycle: plus for int
-; 662  :     ad_time[0] = (plus_for_int(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) - empty_time) / N_plus / 10;
+; 689  :     // cycle: plus for int
+; 690  :     ad_time[0] = (plus_for_int() - empty_time) / N_plus / 10;
 
-	mov	eax, DWORD PTR ?a10@@3HA		; a10
-	push	eax
-	mov	ecx, DWORD PTR ?a9@@3HA			; a9
-	push	ecx
-	mov	edx, DWORD PTR ?a8@@3HA			; a8
-	push	edx
-	mov	eax, DWORD PTR ?a7@@3HA			; a7
-	push	eax
-	mov	ecx, DWORD PTR ?a6@@3HA			; a6
-	push	ecx
-	mov	edx, DWORD PTR ?a5@@3HA			; a5
-	push	edx
-	mov	eax, DWORD PTR ?a4@@3HA			; a4
-	push	eax
-	mov	ecx, DWORD PTR ?a3@@3HA			; a3
-	push	ecx
-	mov	edx, DWORD PTR ?a2@@3HA			; a2
-	push	edx
-	mov	eax, DWORD PTR ?a1@@3HA			; a1
-	push	eax
-	call	?plus_for_int@@YA_KHHHHHHHHHH@Z		; plus_for_int
-	add	esp, 40					; 00000028H
+	call	?plus_for_int@@YA_KXZ			; plus_for_int
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	imul	edx, ecx, 0
-	movsd	QWORD PTR ?ad_time@@3PANA[edx], xmm0
+	mov	eax, 8
+	imul	ecx, eax, 0
+	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 663  :     time_standart[0] = tick_per_second / ad_time[0];
+; 691  :     time_standart[0] = tick_per_second / ad_time[0];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -3040,7 +2505,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 0
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 664  :     cout << "Plus for int: " << time_standart[0] << " operations in 1 second" << endl;
+; 692  :     cout << "Plus for int: " << time_standart[0] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -3068,42 +2533,11 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 665  : 
-; 666  :     // cycle: plus for double
-; 667  :     ad_time[1] = (plus_for_double(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10) - empty_time) / N_standart / 10;
+; 693  : 
+; 694  :     // cycle: plus for double
+; 695  :     ad_time[1] = (plus_for_double() - empty_time) / N_standart / 10;
 
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b10@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b9@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b8@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b7@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b6@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b5@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b4@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b3@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b2@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?b1@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	call	?plus_for_double@@YA_KNNNNNNNNNN@Z	; plus_for_double
-	add	esp, 80					; 00000050H
+	call	?plus_for_double@@YA_KXZ		; plus_for_double
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
@@ -3113,7 +2547,7 @@ _TEXT	SEGMENT
 	shl	eax, 0
 	movsd	QWORD PTR ?ad_time@@3PANA[eax], xmm0
 
-; 668  :     time_standart[1] = tick_per_second / ad_time[1];
+; 696  :     time_standart[1] = tick_per_second / ad_time[1];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -3125,7 +2559,7 @@ _TEXT	SEGMENT
 	shl	ecx, 0
 	movsd	QWORD PTR ?time_standart@@3PANA[ecx], xmm0
 
-; 669  :     cout << "Plus for double: " << time_standart[1] << " operations in 1 second" << endl;
+; 697  :     cout << "Plus for double: " << time_standart[1] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -3153,42 +2587,21 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 670  : 
-; 671  :     // cycle: plus for long
-; 672  :     ad_time[2] = (plus_for_long(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10) - empty_time) / N_plus / 10;
+; 698  : 
+; 699  :     // cycle: plus for long
+; 700  :     ad_time[2] = (plus_for_long() - empty_time) / N_plus / 10;
 
-	mov	eax, DWORD PTR ?c10@@3JA		; c10
-	push	eax
-	mov	ecx, DWORD PTR ?c9@@3JA			; c9
-	push	ecx
-	mov	edx, DWORD PTR ?c8@@3JA			; c8
-	push	edx
-	mov	eax, DWORD PTR ?c7@@3JA			; c7
-	push	eax
-	mov	ecx, DWORD PTR ?c6@@3JA			; c6
-	push	ecx
-	mov	edx, DWORD PTR ?c5@@3JA			; c5
-	push	edx
-	mov	eax, DWORD PTR ?c4@@3JA			; c4
-	push	eax
-	mov	ecx, DWORD PTR ?c3@@3JA			; c3
-	push	ecx
-	mov	edx, DWORD PTR ?c2@@3JA			; c2
-	push	edx
-	mov	eax, DWORD PTR ?c1@@3JA			; c1
-	push	eax
-	call	?plus_for_long@@YA_KJJJJJJJJJJ@Z	; plus_for_long
-	add	esp, 40					; 00000028H
+	call	?plus_for_long@@YA_KXZ			; plus_for_long
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	shl	ecx, 1
-	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
+	mov	eax, 8
+	shl	eax, 1
+	movsd	QWORD PTR ?ad_time@@3PANA[eax], xmm0
 
-; 673  :     time_standart[2] = tick_per_second / ad_time[2];
+; 701  :     time_standart[2] = tick_per_second / ad_time[2];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -3200,7 +2613,7 @@ _TEXT	SEGMENT
 	shl	ecx, 1
 	movsd	QWORD PTR ?time_standart@@3PANA[ecx], xmm0
 
-; 674  :     cout << "Plus for long: " << time_standart[2] << " operations in 1 second" << endl;
+; 702  :     cout << "Plus for long: " << time_standart[2] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -3228,42 +2641,11 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 675  : 
-; 676  :     // cycle: plus for float
-; 677  :     ad_time[3] = (plus_for_float(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) - empty_time) / N_standart / 10;
+; 703  : 
+; 704  :     // cycle: plus for float
+; 705  :     ad_time[3] = (plus_for_float() - empty_time) / N_standart / 10;
 
-	push	ecx
-	movss	xmm0, DWORD PTR ?d10@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d9@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d8@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d7@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d6@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d5@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d4@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d3@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d2@@3MA
-	movss	DWORD PTR [esp], xmm0
-	push	ecx
-	movss	xmm0, DWORD PTR ?d1@@3MA
-	movss	DWORD PTR [esp], xmm0
-	call	?plus_for_float@@YA_KMMMMMMMMMM@Z	; plus_for_float
-	add	esp, 40					; 00000028H
+	call	?plus_for_float@@YA_KXZ			; plus_for_float
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
@@ -3273,7 +2655,7 @@ _TEXT	SEGMENT
 	imul	ecx, eax, 3
 	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
 
-; 678  :     time_standart[3] = tick_per_second / ad_time[3];
+; 706  :     time_standart[3] = tick_per_second / ad_time[3];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -3285,7 +2667,7 @@ _TEXT	SEGMENT
 	imul	eax, edx, 3
 	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
 
-; 679  :     cout << "Plus for float: " << time_standart[3] << " operations in 1 second" << endl;
+; 707  :     cout << "Plus for float: " << time_standart[3] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -3313,42 +2695,21 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 680  : 
-; 681  :     // cycle: plus for char
-; 682  :     ad_time[4] = (plus_for_char(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10) - empty_time) / N_standart / 10;
+; 708  : 
+; 709  :     // cycle: plus for char
+; 710  :     ad_time[4] = (plus_for_char() - empty_time) / N_standart / 10;
 
-	movzx	eax, BYTE PTR ?e10@@3DA			; e10
-	push	eax
-	movzx	ecx, BYTE PTR ?e9@@3DA			; e9
-	push	ecx
-	movzx	edx, BYTE PTR ?e8@@3DA			; e8
-	push	edx
-	movzx	eax, BYTE PTR ?e7@@3DA			; e7
-	push	eax
-	movzx	ecx, BYTE PTR ?e6@@3DA			; e6
-	push	ecx
-	movzx	edx, BYTE PTR ?e5@@3DA			; e5
-	push	edx
-	movzx	eax, BYTE PTR ?e4@@3DA			; e4
-	push	eax
-	movzx	ecx, BYTE PTR ?e3@@3DA			; e3
-	push	ecx
-	movzx	edx, BYTE PTR ?e2@@3DA			; e2
-	push	edx
-	movzx	eax, BYTE PTR ?e1@@3DA			; e1
-	push	eax
-	call	?plus_for_char@@YA_KDDDDDDDDDD@Z	; plus_for_char
-	add	esp, 40					; 00000028H
+	call	?plus_for_char@@YA_KXZ			; plus_for_char
 	mov	ecx, eax
 	call	__ultod3
 	subsd	xmm0, QWORD PTR ?empty_time@@3NA
 	divsd	xmm0, QWORD PTR __real@412e848000000000
 	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	ecx, 8
-	shl	ecx, 2
-	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
+	mov	eax, 8
+	shl	eax, 2
+	movsd	QWORD PTR ?ad_time@@3PANA[eax], xmm0
 
-; 683  :     time_standart[4] = tick_per_second / ad_time[4];
+; 711  :     time_standart[4] = tick_per_second / ad_time[4];
 
 	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
 	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
@@ -3360,7 +2721,7 @@ _TEXT	SEGMENT
 	shl	ecx, 2
 	movsd	QWORD PTR ?time_standart@@3PANA[ecx], xmm0
 
-; 684  :     cout << "Plus for char: " << time_standart[4] << " operations in 1 second" << endl;
+; 712  :     cout << "Plus for char: " << time_standart[4] << " operations in 1 second" << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -3388,7 +2749,7 @@ _TEXT	SEGMENT
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 685  : }
+; 713  : }
 
 	pop	edi
 	pop	esi
@@ -3400,366 +2761,6 @@ _TEXT	SEGMENT
 	pop	ebp
 	ret	0
 ?plus_@@YAXXZ ENDP					; plus_
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?print_info@@YAXXZ
-_TEXT	SEGMENT
-?print_info@@YAXXZ PROC					; print_info, COMDAT
-
-; 652  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 192				; 000000c0H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-192]
-	mov	ecx, 48					; 00000030H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	mov	ecx, OFFSET __A639F09B_labAOS@cpp
-	call	@__CheckForDebuggerJustMyCode@4
-
-; 653  :     cout << "Laboratory work No.1" << endl;
-
-	mov	esi, esp
-	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-	push	OFFSET ??_C@_0BF@CKMOEMFM@Laboratory?5work?5No?41@
-	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-	push	eax
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 654  :     cout << "Made by a student of group k-21 Kyrychek Nikolay Pavlovich" << endl;
-
-	mov	esi, esp
-	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-	push	OFFSET ??_C@_0DL@PMJGFDPG@Made?5by?5a?5student?5of?5group?5k?921@
-	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-	push	eax
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 655  :     cout << endl;
-
-	mov	esi, esp
-	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-	mov	ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 656  : }
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 192				; 000000c0H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?print_info@@YAXXZ ENDP					; print_info
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?cpu_overclocking@@YAXXZ
-_TEXT	SEGMENT
-_end_$ = -232						; size = 8
-_i$1 = -216						; size = 4
-_start_$ = -204						; size = 8
-_res_char$ = -185					; size = 1
-_res_float$ = -176					; size = 4
-_res_long$ = -164					; size = 4
-_res_double$ = -152					; size = 8
-_res_int$ = -136					; size = 4
-_cpu_char_check2$ = -121				; size = 1
-_cpu_char_check1$ = -109				; size = 1
-_cpu_float_check2$ = -100				; size = 4
-_cpu_float_check1$ = -88				; size = 4
-_cpu_long_check2$ = -76					; size = 4
-_cpu_long_check1$ = -64					; size = 4
-_cpu_double_check2$ = -52				; size = 8
-_cpu_double_check1$ = -36				; size = 8
-_cpu_int_check2$ = -20					; size = 4
-_cpu_int_check1$ = -8					; size = 4
-?cpu_overclocking@@YAXXZ PROC				; cpu_overclocking, COMDAT
-
-; 606  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 428				; 000001acH
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-428]
-	mov	ecx, 107				; 0000006bH
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	mov	ecx, OFFSET __A639F09B_labAOS@cpp
-	call	@__CheckForDebuggerJustMyCode@4
-
-; 607  :     int cpu_int_check1 = 34, cpu_int_check2 = 87;
-
-	mov	DWORD PTR _cpu_int_check1$[ebp], 34	; 00000022H
-	mov	DWORD PTR _cpu_int_check2$[ebp], 87	; 00000057H
-
-; 608  :     double cpu_double_check1 = 34.45, cpu_double_check2 = 87.5;
-
-	movsd	xmm0, QWORD PTR __real@404139999999999a
-	movsd	QWORD PTR _cpu_double_check1$[ebp], xmm0
-	movsd	xmm0, QWORD PTR __real@4055e00000000000
-	movsd	QWORD PTR _cpu_double_check2$[ebp], xmm0
-
-; 609  :     long cpu_long_check1 = 25, cpu_long_check2 = 56;
-
-	mov	DWORD PTR _cpu_long_check1$[ebp], 25	; 00000019H
-	mov	DWORD PTR _cpu_long_check2$[ebp], 56	; 00000038H
-
-; 610  :     float cpu_float_check1 = 46.78f, cpu_float_check2 = 83.9f;
-
-	movss	xmm0, DWORD PTR __real@423b1eb8
-	movss	DWORD PTR _cpu_float_check1$[ebp], xmm0
-	movss	xmm0, DWORD PTR __real@42a7cccd
-	movss	DWORD PTR _cpu_float_check2$[ebp], xmm0
-
-; 611  :     char cpu_char_check1 = 89, cpu_char_check2 = 47;
-
-	mov	BYTE PTR _cpu_char_check1$[ebp], 89	; 00000059H
-	mov	BYTE PTR _cpu_char_check2$[ebp], 47	; 0000002fH
-
-; 612  : 
-; 613  :     int res_int = 0;
-
-	mov	DWORD PTR _res_int$[ebp], 0
-
-; 614  :     double res_double = 0;
-
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR _res_double$[ebp], xmm0
-
-; 615  :     long res_long = 0;
-
-	mov	DWORD PTR _res_long$[ebp], 0
-
-; 616  :     float res_float = 0;
-
-	xorps	xmm0, xmm0
-	movss	DWORD PTR _res_float$[ebp], xmm0
-
-; 617  :     char res_char = 0;
-
-	mov	BYTE PTR _res_char$[ebp], 0
-
-; 618  : 
-; 619  :     res_int = cpu_int_check1 + cpu_int_check2;
-
-	mov	eax, DWORD PTR _cpu_int_check1$[ebp]
-	add	eax, DWORD PTR _cpu_int_check2$[ebp]
-	mov	DWORD PTR _res_int$[ebp], eax
-
-; 620  :     res_int = cpu_int_check1 - cpu_int_check2;
-
-	mov	eax, DWORD PTR _cpu_int_check1$[ebp]
-	sub	eax, DWORD PTR _cpu_int_check2$[ebp]
-	mov	DWORD PTR _res_int$[ebp], eax
-
-; 621  :     res_int = cpu_int_check1 * cpu_int_check2;
-
-	mov	eax, DWORD PTR _cpu_int_check1$[ebp]
-	imul	eax, DWORD PTR _cpu_int_check2$[ebp]
-	mov	DWORD PTR _res_int$[ebp], eax
-
-; 622  :     res_int = cpu_int_check1 / cpu_int_check2;
-
-	mov	eax, DWORD PTR _cpu_int_check1$[ebp]
-	cdq
-	idiv	DWORD PTR _cpu_int_check2$[ebp]
-	mov	DWORD PTR _res_int$[ebp], eax
-
-; 623  : 
-; 624  :     res_double = cpu_double_check1 + cpu_double_check2;
-
-	movsd	xmm0, QWORD PTR _cpu_double_check1$[ebp]
-	addsd	xmm0, QWORD PTR _cpu_double_check2$[ebp]
-	movsd	QWORD PTR _res_double$[ebp], xmm0
-
-; 625  :     res_double = cpu_double_check1 - cpu_double_check2;
-
-	movsd	xmm0, QWORD PTR _cpu_double_check1$[ebp]
-	subsd	xmm0, QWORD PTR _cpu_double_check2$[ebp]
-	movsd	QWORD PTR _res_double$[ebp], xmm0
-
-; 626  :     res_double = cpu_double_check1 * cpu_double_check2;
-
-	movsd	xmm0, QWORD PTR _cpu_double_check1$[ebp]
-	mulsd	xmm0, QWORD PTR _cpu_double_check2$[ebp]
-	movsd	QWORD PTR _res_double$[ebp], xmm0
-
-; 627  :     res_double = cpu_double_check1 / cpu_double_check2;
-
-	movsd	xmm0, QWORD PTR _cpu_double_check1$[ebp]
-	divsd	xmm0, QWORD PTR _cpu_double_check2$[ebp]
-	movsd	QWORD PTR _res_double$[ebp], xmm0
-
-; 628  : 
-; 629  :     res_long = cpu_long_check1 + cpu_long_check2;
-
-	mov	eax, DWORD PTR _cpu_long_check1$[ebp]
-	add	eax, DWORD PTR _cpu_long_check2$[ebp]
-	mov	DWORD PTR _res_long$[ebp], eax
-
-; 630  :     res_long = cpu_long_check1 - cpu_long_check2;
-
-	mov	eax, DWORD PTR _cpu_long_check1$[ebp]
-	sub	eax, DWORD PTR _cpu_long_check2$[ebp]
-	mov	DWORD PTR _res_long$[ebp], eax
-
-; 631  :     res_long = cpu_long_check1 * cpu_long_check2;
-
-	mov	eax, DWORD PTR _cpu_long_check1$[ebp]
-	imul	eax, DWORD PTR _cpu_long_check2$[ebp]
-	mov	DWORD PTR _res_long$[ebp], eax
-
-; 632  :     res_long = cpu_long_check1 / cpu_long_check2;
-
-	mov	eax, DWORD PTR _cpu_long_check1$[ebp]
-	cdq
-	idiv	DWORD PTR _cpu_long_check2$[ebp]
-	mov	DWORD PTR _res_long$[ebp], eax
-
-; 633  : 
-; 634  :     res_float = cpu_float_check1 + cpu_float_check2;
-
-	movss	xmm0, DWORD PTR _cpu_float_check1$[ebp]
-	addss	xmm0, DWORD PTR _cpu_float_check2$[ebp]
-	movss	DWORD PTR _res_float$[ebp], xmm0
-
-; 635  :     res_float = cpu_float_check1 - cpu_float_check2;
-
-	movss	xmm0, DWORD PTR _cpu_float_check1$[ebp]
-	subss	xmm0, DWORD PTR _cpu_float_check2$[ebp]
-	movss	DWORD PTR _res_float$[ebp], xmm0
-
-; 636  :     res_float = cpu_float_check1 * cpu_float_check2;
-
-	movss	xmm0, DWORD PTR _cpu_float_check1$[ebp]
-	mulss	xmm0, DWORD PTR _cpu_float_check2$[ebp]
-	movss	DWORD PTR _res_float$[ebp], xmm0
-
-; 637  :     res_float = cpu_float_check1 / cpu_float_check2;
-
-	movss	xmm0, DWORD PTR _cpu_float_check1$[ebp]
-	divss	xmm0, DWORD PTR _cpu_float_check2$[ebp]
-	movss	DWORD PTR _res_float$[ebp], xmm0
-
-; 638  : 
-; 639  :     res_char = cpu_char_check1 + cpu_char_check2;
-
-	movsx	eax, BYTE PTR _cpu_char_check1$[ebp]
-	movsx	ecx, BYTE PTR _cpu_char_check2$[ebp]
-	add	eax, ecx
-	mov	BYTE PTR _res_char$[ebp], al
-
-; 640  :     res_char = cpu_char_check1 - cpu_char_check2;
-
-	movsx	eax, BYTE PTR _cpu_char_check1$[ebp]
-	movsx	ecx, BYTE PTR _cpu_char_check2$[ebp]
-	sub	eax, ecx
-	mov	BYTE PTR _res_char$[ebp], al
-
-; 641  :     res_char = cpu_char_check1 * cpu_char_check2;
-
-	movsx	eax, BYTE PTR _cpu_char_check1$[ebp]
-	movsx	ecx, BYTE PTR _cpu_char_check2$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _res_char$[ebp], al
-
-; 642  :     res_char = cpu_char_check1 / cpu_char_check2;
-
-	movsx	eax, BYTE PTR _cpu_char_check1$[ebp]
-	movsx	ecx, BYTE PTR _cpu_char_check2$[ebp]
-	cdq
-	idiv	ecx
-	mov	BYTE PTR _res_char$[ebp], al
-
-; 643  : 
-; 644  :     uint64_t start_ = get_clock();
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	mov	DWORD PTR _start_$[ebp], eax
-	mov	DWORD PTR _start_$[ebp+4], edx
-
-; 645  :     for (int i = 0; i < N_standart; i++){}
-
-	mov	DWORD PTR _i$1[ebp], 0
-	jmp	SHORT $LN4@cpu_overcl
-$LN2@cpu_overcl:
-	mov	eax, DWORD PTR _i$1[ebp]
-	add	eax, 1
-	mov	DWORD PTR _i$1[ebp], eax
-$LN4@cpu_overcl:
-	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	SHORT $LN3@cpu_overcl
-	jmp	SHORT $LN2@cpu_overcl
-$LN3@cpu_overcl:
-
-; 646  :     uint64_t end_ = get_clock() - start_;
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	sub	eax, DWORD PTR _start_$[ebp]
-	sbb	edx, DWORD PTR _start_$[ebp+4]
-	mov	DWORD PTR _end_$[ebp], eax
-	mov	DWORD PTR _end_$[ebp+4], edx
-
-; 647  :     empty_time = double(end_);
-
-	mov	edx, DWORD PTR _end_$[ebp+4]
-	mov	ecx, DWORD PTR _end_$[ebp]
-	call	__ultod3
-	movsd	QWORD PTR ?empty_time@@3NA, xmm0
-
-; 648  :     cout << empty_time << endl;
-
-	mov	esi, esp
-	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-	mov	edi, esp
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?empty_time@@3NA
-	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z
-	cmp	edi, esp
-	call	__RTC_CheckEsp
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 649  : }
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 428				; 000001acH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?cpu_overclocking@@YAXXZ ENDP				; cpu_overclocking
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
@@ -3776,7 +2777,7 @@ _max_num$ = -24						; size = 8
 _index_max$ = -8					; size = 4
 ?search_maximum@@YAXXZ PROC				; search_maximum, COMDAT
 
-; 549  : {
+; 631  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -3791,20 +2792,20 @@ _index_max$ = -8					; size = 4
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 550  :     int index_max = 0;
+; 632  :     int index_max = 0;
 
 	mov	DWORD PTR _index_max$[ebp], 0
 
-; 551  :     double max_num = time_standart[0];
+; 633  :     double max_num = time_standart[0];
 
 	mov	eax, 8
 	imul	ecx, eax, 0
 	movsd	xmm0, QWORD PTR ?time_standart@@3PANA[ecx]
 	movsd	QWORD PTR _max_num$[ebp], xmm0
 
-; 552  :     double max_time[N];
-; 553  :     double percent;
-; 554  :     for (int j = 0; j < N; j++)
+; 634  :     double max_time[N];
+; 635  :     double percent;
+; 636  :     for (int j = 0; j < N; j++)
 
 	mov	DWORD PTR _j$5[ebp], 0
 	jmp	SHORT $LN4@search_max
@@ -3816,8 +2817,8 @@ $LN4@search_max:
 	cmp	DWORD PTR _j$5[ebp], 25			; 00000019H
 	jge	$LN3@search_max
 
-; 555  :     {
-; 556  :         for (int i = 0; i < N; i++)
+; 637  :     {
+; 638  :         for (int i = 0; i < N; i++)
 
 	mov	DWORD PTR _i$4[ebp], 0
 	jmp	SHORT $LN7@search_max
@@ -3829,51 +2830,51 @@ $LN7@search_max:
 	cmp	DWORD PTR _i$4[ebp], 25			; 00000019H
 	jge	SHORT $LN6@search_max
 
-; 557  :         {
-; 558  :             if (time_standart[i] >= max_num)
+; 639  :         {
+; 640  :             if (time_standart[i] >= max_num)
 
 	mov	eax, DWORD PTR _i$4[ebp]
 	movsd	xmm0, QWORD PTR ?time_standart@@3PANA[eax*8]
 	comisd	xmm0, QWORD PTR _max_num$[ebp]
 	jb	SHORT $LN14@search_max
 
-; 559  :             {
-; 560  :                 max_num = time_standart[i];
+; 641  :             {
+; 642  :                 max_num = time_standart[i];
 
 	mov	eax, DWORD PTR _i$4[ebp]
 	movsd	xmm0, QWORD PTR ?time_standart@@3PANA[eax*8]
 	movsd	QWORD PTR _max_num$[ebp], xmm0
 
-; 561  :                 index_max = i;
+; 643  :                 index_max = i;
 
 	mov	eax, DWORD PTR _i$4[ebp]
 	mov	DWORD PTR _index_max$[ebp], eax
 $LN14@search_max:
 
-; 562  :             }
-; 563  :         }
+; 644  :             }
+; 645  :         }
 
 	jmp	SHORT $LN5@search_max
 $LN6@search_max:
 
-; 564  :         max_time[j] = max_num;
+; 646  :         max_time[j] = max_num;
 
 	mov	eax, DWORD PTR _j$5[ebp]
 	movsd	xmm0, QWORD PTR _max_num$[ebp]
 	movsd	QWORD PTR _max_time$[ebp+eax*8], xmm0
 
-; 565  :         time_standart[index_max] = 0;
+; 647  :         time_standart[index_max] = 0;
 
 	mov	eax, DWORD PTR _index_max$[ebp]
 	xorps	xmm0, xmm0
 	movsd	QWORD PTR ?time_standart@@3PANA[eax*8], xmm0
 
-; 566  :         max_num = 0;
+; 648  :         max_num = 0;
 
 	xorps	xmm0, xmm0
 	movsd	QWORD PTR _max_num$[ebp], xmm0
 
-; 567  :         cout << name_operator[index_max] << "   ";
+; 649  :         cout << name_operator[index_max] << "   ";
 
 	push	OFFSET ??_C@_03NDEAONJP@?5?5?5@
 	mov	eax, DWORD PTR _index_max$[ebp]
@@ -3887,15 +2888,15 @@ $LN6@search_max:
 	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 	add	esp, 8
 
-; 568  :         if (name_type[index_max] == 'i')
+; 650  :         if (name_type[index_max] == 'i')
 
 	mov	eax, DWORD PTR _index_max$[ebp]
 	movsx	ecx, BYTE PTR ?name_type@@3PADA[eax]
 	cmp	ecx, 105				; 00000069H
 	jne	SHORT $LN15@search_max
 
-; 569  :         {
-; 570  :             cout << "int      ";
+; 651  :         {
+; 652  :             cout << "int      ";
 
 	push	OFFSET ??_C@_09IJBHKDLN@int?5?5?5?5?5?5@
 	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
@@ -3903,20 +2904,20 @@ $LN6@search_max:
 	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 	add	esp, 8
 
-; 571  :         }
+; 653  :         }
 
 	jmp	$LN23@search_max
 $LN15@search_max:
 
-; 572  :         else if(name_type[index_max] == 'd')
+; 654  :         else if(name_type[index_max] == 'd')
 
 	mov	eax, DWORD PTR _index_max$[ebp]
 	movsx	ecx, BYTE PTR ?name_type@@3PADA[eax]
 	cmp	ecx, 100				; 00000064H
 	jne	SHORT $LN17@search_max
 
-; 573  :         {
-; 574  :             cout << "double   ";
+; 655  :         {
+; 656  :             cout << "double   ";
 
 	push	OFFSET ??_C@_09JMCFEFKO@double?5?5?5@
 	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
@@ -3924,72 +2925,72 @@ $LN15@search_max:
 	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 	add	esp, 8
 
-; 575  :         }
+; 657  :         }
 
 	jmp	SHORT $LN23@search_max
 $LN17@search_max:
 
-; 576  :         else if (name_type[index_max] == 'l')
+; 658  :         else if (name_type[index_max] == 'l')
 
 	mov	eax, DWORD PTR _index_max$[ebp]
 	movsx	ecx, BYTE PTR ?name_type@@3PADA[eax]
 	cmp	ecx, 108				; 0000006cH
 	jne	SHORT $LN19@search_max
 
-; 577  :         {
-; 578  :             cout << "long   ";
+; 659  :         {
+; 660  :             cout << "long     ";
 
-	push	OFFSET ??_C@_07HEHAKBGF@long?5?5?5@
+	push	OFFSET ??_C@_09BEJCBKKO@long?5?5?5?5?5@
 	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 	push	eax
 	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 	add	esp, 8
 
-; 579  :         }
+; 661  :         }
 
 	jmp	SHORT $LN23@search_max
 $LN19@search_max:
 
-; 580  :         else if (name_type[index_max] == 'f')
+; 662  :         else if (name_type[index_max] == 'f')
 
 	mov	eax, DWORD PTR _index_max$[ebp]
 	movsx	ecx, BYTE PTR ?name_type@@3PADA[eax]
 	cmp	ecx, 102				; 00000066H
 	jne	SHORT $LN21@search_max
 
-; 581  :         {
-; 582  :             cout << "float   ";
+; 663  :         {
+; 664  :             cout << "float    ";
 
-	push	OFFSET ??_C@_08ODEMNAL@float?5?5?5@
+	push	OFFSET ??_C@_09CFIMJOH@float?5?5?5?5@
 	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 	push	eax
 	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 	add	esp, 8
 
-; 583  :         }
+; 665  :         }
 
 	jmp	SHORT $LN23@search_max
 $LN21@search_max:
 
-; 584  :         else if (name_type[index_max] == 'c')
+; 666  :         else if (name_type[index_max] == 'c')
 
 	mov	eax, DWORD PTR _index_max$[ebp]
 	movsx	ecx, BYTE PTR ?name_type@@3PADA[eax]
 	cmp	ecx, 99					; 00000063H
 	jne	SHORT $LN23@search_max
 
-; 585  :         {
-; 586  :             cout << "char   ";
+; 667  :         {
+; 668  :             cout << "char     ";
 
-	push	OFFSET ??_C@_07DBKBCHGA@char?5?5?5@
+	push	OFFSET ??_C@_09GNDOINCP@char?5?5?5?5?5@
 	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 	push	eax
 	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 	add	esp, 8
 $LN23@search_max:
 
-; 587  :         }
-; 588  :         cout << max_time[j] << ": ";
+; 669  :         }
+; 670  :         cout << max_time[j] << ": ";
 
 	push	OFFSET ??_C@_02LMMGGCAJ@?3?5@
 	mov	esi, esp
@@ -4005,7 +3006,7 @@ $LN23@search_max:
 	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 	add	esp, 8
 
-; 589  :         percent = max_time[j] * 100 / max_time[0];
+; 671  :         percent = max_time[j] * 100 / max_time[0];
 
 	mov	eax, DWORD PTR _j$5[ebp]
 	movsd	xmm0, QWORD PTR _max_time$[ebp+eax*8]
@@ -4015,14 +3016,14 @@ $LN23@search_max:
 	divsd	xmm0, QWORD PTR _max_time$[ebp+edx]
 	movsd	QWORD PTR _percent$[ebp], xmm0
 
-; 590  :         double prom = 50 * percent / 100;
+; 672  :         double prom = 70 * percent / 100;
 
-	movsd	xmm0, QWORD PTR __real@4049000000000000
+	movsd	xmm0, QWORD PTR __real@4051800000000000
 	mulsd	xmm0, QWORD PTR _percent$[ebp]
 	divsd	xmm0, QWORD PTR __real@4059000000000000
 	movsd	QWORD PTR _prom$3[ebp], xmm0
 
-; 591  :         for (int k = 0; k < prom; k++)
+; 673  :         for (int k = 0; k < prom; k++)
 
 	mov	DWORD PTR _k$2[ebp], 0
 	jmp	SHORT $LN10@search_max
@@ -4036,8 +3037,8 @@ $LN10@search_max:
 	comisd	xmm1, xmm0
 	jbe	SHORT $LN9@search_max
 
-; 592  :         {
-; 593  :             cout << "#";
+; 674  :         {
+; 675  :             cout << "#";
 
 	push	OFFSET ??_C@_01IPJKGB@?$CD@
 	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
@@ -4045,12 +3046,12 @@ $LN10@search_max:
 	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 	add	esp, 8
 
-; 594  :         }
+; 676  :         }
 
 	jmp	SHORT $LN8@search_max
 $LN9@search_max:
 
-; 595  :         for (int l = 0; l < 50 - prom; l++)
+; 677  :         for (int l = 0; l < 70 - prom; l++)
 
 	mov	DWORD PTR _l$1[ebp], 0
 	jmp	SHORT $LN13@search_max
@@ -4060,13 +3061,13 @@ $LN11@search_max:
 	mov	DWORD PTR _l$1[ebp], eax
 $LN13@search_max:
 	cvtsi2sd xmm0, DWORD PTR _l$1[ebp]
-	movsd	xmm1, QWORD PTR __real@4049000000000000
+	movsd	xmm1, QWORD PTR __real@4051800000000000
 	subsd	xmm1, QWORD PTR _prom$3[ebp]
 	comisd	xmm1, xmm0
 	jbe	SHORT $LN12@search_max
 
-; 596  :         {
-; 597  :             cout << " ";
+; 678  :         {
+; 679  :             cout << " ";
 
 	push	OFFSET ??_C@_01CLKCMJKC@?5@
 	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
@@ -4074,12 +3075,12 @@ $LN13@search_max:
 	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 	add	esp, 8
 
-; 598  :         }
+; 680  :         }
 
 	jmp	SHORT $LN11@search_max
 $LN12@search_max:
 
-; 599  :         cout << "   " << percent << " %";
+; 681  :         cout << "   " << percent << " %";
 
 	push	OFFSET ??_C@_02NAAALAOK@?5?$CF@
 	mov	esi, esp
@@ -4099,7 +3100,7 @@ $LN12@search_max:
 	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
 	add	esp, 8
 
-; 600  :         cout << endl;
+; 682  :         cout << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -4108,13 +3109,12 @@ $LN12@search_max:
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 601  :     }
+; 683  :     }
 
 	jmp	$LN2@search_max
 $LN3@search_max:
 
-; 602  : 
-; 603  : }
+; 684  : }
 
 	push	edx
 	mov	ecx, ebp
@@ -4154,695 +3154,388 @@ $LN25@search_max:
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?appropriation_for_char@@YA_KDDDDDDDDDD@Z
+;	COMDAT ?cpu_overclocking@@YAXXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 1
-_x2$ = 12						; size = 1
-_x3$ = 16						; size = 1
-_x4$ = 20						; size = 1
-_x5$ = 24						; size = 1
-_x6$ = 28						; size = 1
-_x7$ = 32						; size = 1
-_x8$ = 36						; size = 1
-_x9$ = 40						; size = 1
-_x10$ = 44						; size = 1
-?appropriation_for_char@@YA_KDDDDDDDDDD@Z PROC		; appropriation_for_char, COMDAT
+_end_$ = -232						; size = 8
+_i$1 = -216						; size = 4
+_start_$ = -204						; size = 8
+_res_char$ = -185					; size = 1
+_res_float$ = -176					; size = 4
+_res_long$ = -164					; size = 4
+_res_double$ = -152					; size = 8
+_res_int$ = -136					; size = 4
+_cpu_char_check2$ = -121				; size = 1
+_cpu_char_check1$ = -109				; size = 1
+_cpu_float_check2$ = -100				; size = 4
+_cpu_float_check1$ = -88				; size = 4
+_cpu_long_check2$ = -76					; size = 4
+_cpu_long_check1$ = -64					; size = 4
+_cpu_double_check2$ = -52				; size = 8
+_cpu_double_check1$ = -36				; size = 8
+_cpu_int_check2$ = -20					; size = 4
+_cpu_int_check1$ = -8					; size = 4
+?cpu_overclocking@@YAXXZ PROC				; cpu_overclocking, COMDAT
 
-; 529  : {
+; 585  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 428				; 000001acH
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-428]
+	mov	ecx, 107				; 0000006bH
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 530  :     uint64_t start = get_clock();
+; 586  :     int cpu_int_check1 = 34, cpu_int_check2 = 87;
+
+	mov	DWORD PTR _cpu_int_check1$[ebp], 34	; 00000022H
+	mov	DWORD PTR _cpu_int_check2$[ebp], 87	; 00000057H
+
+; 587  :     double cpu_double_check1 = 34.45, cpu_double_check2 = 87.5;
+
+	movsd	xmm0, QWORD PTR __real@404139999999999a
+	movsd	QWORD PTR _cpu_double_check1$[ebp], xmm0
+	movsd	xmm0, QWORD PTR __real@4055e00000000000
+	movsd	QWORD PTR _cpu_double_check2$[ebp], xmm0
+
+; 588  :     long cpu_long_check1 = 25, cpu_long_check2 = 56;
+
+	mov	DWORD PTR _cpu_long_check1$[ebp], 25	; 00000019H
+	mov	DWORD PTR _cpu_long_check2$[ebp], 56	; 00000038H
+
+; 589  :     float cpu_float_check1 = 46.78f, cpu_float_check2 = 83.9f;
+
+	movss	xmm0, DWORD PTR __real@423b1eb8
+	movss	DWORD PTR _cpu_float_check1$[ebp], xmm0
+	movss	xmm0, DWORD PTR __real@42a7cccd
+	movss	DWORD PTR _cpu_float_check2$[ebp], xmm0
+
+; 590  :     char cpu_char_check1 = 89, cpu_char_check2 = 47;
+
+	mov	BYTE PTR _cpu_char_check1$[ebp], 89	; 00000059H
+	mov	BYTE PTR _cpu_char_check2$[ebp], 47	; 0000002fH
+
+; 591  : 
+; 592  :     int res_int = 0;
+
+	mov	DWORD PTR _res_int$[ebp], 0
+
+; 593  :     double res_double = 0;
+
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR _res_double$[ebp], xmm0
+
+; 594  :     long res_long = 0;
+
+	mov	DWORD PTR _res_long$[ebp], 0
+
+; 595  :     float res_float = 0;
+
+	xorps	xmm0, xmm0
+	movss	DWORD PTR _res_float$[ebp], xmm0
+
+; 596  :     char res_char = 0;
+
+	mov	BYTE PTR _res_char$[ebp], 0
+
+; 597  : 
+; 598  :     res_int = cpu_int_check1 + cpu_int_check2;
+
+	mov	eax, DWORD PTR _cpu_int_check1$[ebp]
+	add	eax, DWORD PTR _cpu_int_check2$[ebp]
+	mov	DWORD PTR _res_int$[ebp], eax
+
+; 599  :     res_int = cpu_int_check1 - cpu_int_check2;
+
+	mov	eax, DWORD PTR _cpu_int_check1$[ebp]
+	sub	eax, DWORD PTR _cpu_int_check2$[ebp]
+	mov	DWORD PTR _res_int$[ebp], eax
+
+; 600  :     res_int = cpu_int_check1 * cpu_int_check2;
+
+	mov	eax, DWORD PTR _cpu_int_check1$[ebp]
+	imul	eax, DWORD PTR _cpu_int_check2$[ebp]
+	mov	DWORD PTR _res_int$[ebp], eax
+
+; 601  :     res_int = cpu_int_check1 / cpu_int_check2;
+
+	mov	eax, DWORD PTR _cpu_int_check1$[ebp]
+	cdq
+	idiv	DWORD PTR _cpu_int_check2$[ebp]
+	mov	DWORD PTR _res_int$[ebp], eax
+
+; 602  : 
+; 603  :     res_double = cpu_double_check1 + cpu_double_check2;
+
+	movsd	xmm0, QWORD PTR _cpu_double_check1$[ebp]
+	addsd	xmm0, QWORD PTR _cpu_double_check2$[ebp]
+	movsd	QWORD PTR _res_double$[ebp], xmm0
+
+; 604  :     res_double = cpu_double_check1 - cpu_double_check2;
+
+	movsd	xmm0, QWORD PTR _cpu_double_check1$[ebp]
+	subsd	xmm0, QWORD PTR _cpu_double_check2$[ebp]
+	movsd	QWORD PTR _res_double$[ebp], xmm0
+
+; 605  :     res_double = cpu_double_check1 * cpu_double_check2;
+
+	movsd	xmm0, QWORD PTR _cpu_double_check1$[ebp]
+	mulsd	xmm0, QWORD PTR _cpu_double_check2$[ebp]
+	movsd	QWORD PTR _res_double$[ebp], xmm0
+
+; 606  :     res_double = cpu_double_check1 / cpu_double_check2;
+
+	movsd	xmm0, QWORD PTR _cpu_double_check1$[ebp]
+	divsd	xmm0, QWORD PTR _cpu_double_check2$[ebp]
+	movsd	QWORD PTR _res_double$[ebp], xmm0
+
+; 607  : 
+; 608  :     res_long = cpu_long_check1 + cpu_long_check2;
+
+	mov	eax, DWORD PTR _cpu_long_check1$[ebp]
+	add	eax, DWORD PTR _cpu_long_check2$[ebp]
+	mov	DWORD PTR _res_long$[ebp], eax
+
+; 609  :     res_long = cpu_long_check1 - cpu_long_check2;
+
+	mov	eax, DWORD PTR _cpu_long_check1$[ebp]
+	sub	eax, DWORD PTR _cpu_long_check2$[ebp]
+	mov	DWORD PTR _res_long$[ebp], eax
+
+; 610  :     res_long = cpu_long_check1 * cpu_long_check2;
+
+	mov	eax, DWORD PTR _cpu_long_check1$[ebp]
+	imul	eax, DWORD PTR _cpu_long_check2$[ebp]
+	mov	DWORD PTR _res_long$[ebp], eax
+
+; 611  :     res_long = cpu_long_check1 / cpu_long_check2;
+
+	mov	eax, DWORD PTR _cpu_long_check1$[ebp]
+	cdq
+	idiv	DWORD PTR _cpu_long_check2$[ebp]
+	mov	DWORD PTR _res_long$[ebp], eax
+
+; 612  : 
+; 613  :     res_float = cpu_float_check1 + cpu_float_check2;
+
+	movss	xmm0, DWORD PTR _cpu_float_check1$[ebp]
+	addss	xmm0, DWORD PTR _cpu_float_check2$[ebp]
+	movss	DWORD PTR _res_float$[ebp], xmm0
+
+; 614  :     res_float = cpu_float_check1 - cpu_float_check2;
+
+	movss	xmm0, DWORD PTR _cpu_float_check1$[ebp]
+	subss	xmm0, DWORD PTR _cpu_float_check2$[ebp]
+	movss	DWORD PTR _res_float$[ebp], xmm0
+
+; 615  :     res_float = cpu_float_check1 * cpu_float_check2;
+
+	movss	xmm0, DWORD PTR _cpu_float_check1$[ebp]
+	mulss	xmm0, DWORD PTR _cpu_float_check2$[ebp]
+	movss	DWORD PTR _res_float$[ebp], xmm0
+
+; 616  :     res_float = cpu_float_check1 / cpu_float_check2;
+
+	movss	xmm0, DWORD PTR _cpu_float_check1$[ebp]
+	divss	xmm0, DWORD PTR _cpu_float_check2$[ebp]
+	movss	DWORD PTR _res_float$[ebp], xmm0
+
+; 617  : 
+; 618  :     res_char = cpu_char_check1 + cpu_char_check2;
+
+	movsx	eax, BYTE PTR _cpu_char_check1$[ebp]
+	movsx	ecx, BYTE PTR _cpu_char_check2$[ebp]
+	add	eax, ecx
+	mov	BYTE PTR _res_char$[ebp], al
+
+; 619  :     res_char = cpu_char_check1 - cpu_char_check2;
+
+	movsx	eax, BYTE PTR _cpu_char_check1$[ebp]
+	movsx	ecx, BYTE PTR _cpu_char_check2$[ebp]
+	sub	eax, ecx
+	mov	BYTE PTR _res_char$[ebp], al
+
+; 620  :     res_char = cpu_char_check1 * cpu_char_check2;
+
+	movsx	eax, BYTE PTR _cpu_char_check1$[ebp]
+	movsx	ecx, BYTE PTR _cpu_char_check2$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _res_char$[ebp], al
+
+; 621  :     res_char = cpu_char_check1 / cpu_char_check2;
+
+	movsx	eax, BYTE PTR _cpu_char_check1$[ebp]
+	movsx	ecx, BYTE PTR _cpu_char_check2$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _res_char$[ebp], al
+
+; 622  : 
+; 623  :     uint64_t start_ = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
-	mov	DWORD PTR _start$[ebp], eax
-	mov	DWORD PTR _start$[ebp+4], edx
+	mov	DWORD PTR _start_$[ebp], eax
+	mov	DWORD PTR _start_$[ebp+4], edx
 
-; 531  :     for (int i = 0; i < N_standart; i++)
+; 624  :     for (int i = 0; i < N_standart; i++) {}
 
 	mov	DWORD PTR _i$1[ebp], 0
-	jmp	SHORT $LN4@appropriat
-$LN2@appropriat:
+	jmp	SHORT $LN4@cpu_overcl
+$LN2@cpu_overcl:
 	mov	eax, DWORD PTR _i$1[ebp]
 	add	eax, 1
 	mov	DWORD PTR _i$1[ebp], eax
-$LN4@appropriat:
+$LN4@cpu_overcl:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	SHORT $LN3@appropriat
+	jge	SHORT $LN3@cpu_overcl
+	jmp	SHORT $LN2@cpu_overcl
+$LN3@cpu_overcl:
 
-; 532  :     {
-; 533  :         x1 = i;
-
-	mov	al, BYTE PTR _i$1[ebp]
-	mov	BYTE PTR _x1$[ebp], al
-
-; 534  :         x2 = i;
-
-	mov	al, BYTE PTR _i$1[ebp]
-	mov	BYTE PTR _x2$[ebp], al
-
-; 535  :         x3 = i;
-
-	mov	al, BYTE PTR _i$1[ebp]
-	mov	BYTE PTR _x3$[ebp], al
-
-; 536  :         x4 = i;
-
-	mov	al, BYTE PTR _i$1[ebp]
-	mov	BYTE PTR _x4$[ebp], al
-
-; 537  :         x5 = i;
-
-	mov	al, BYTE PTR _i$1[ebp]
-	mov	BYTE PTR _x5$[ebp], al
-
-; 538  :         x6 = i;
-
-	mov	al, BYTE PTR _i$1[ebp]
-	mov	BYTE PTR _x6$[ebp], al
-
-; 539  :         x7 = i;
-
-	mov	al, BYTE PTR _i$1[ebp]
-	mov	BYTE PTR _x7$[ebp], al
-
-; 540  :         x8 = i;
-
-	mov	al, BYTE PTR _i$1[ebp]
-	mov	BYTE PTR _x8$[ebp], al
-
-; 541  :         x9 = i;
-
-	mov	al, BYTE PTR _i$1[ebp]
-	mov	BYTE PTR _x9$[ebp], al
-
-; 542  :         x10 = i;
-
-	mov	al, BYTE PTR _i$1[ebp]
-	mov	BYTE PTR _x10$[ebp], al
-
-; 543  :     }
-
-	jmp	SHORT $LN2@appropriat
-$LN3@appropriat:
-
-; 544  :     return get_clock() - start;
+; 625  :     uint64_t end_ = get_clock() - start_;
 
 	call	?get_clock@@YA_KXZ			; get_clock
-	sub	eax, DWORD PTR _start$[ebp]
-	sbb	edx, DWORD PTR _start$[ebp+4]
+	sub	eax, DWORD PTR _start_$[ebp]
+	sbb	edx, DWORD PTR _start_$[ebp+4]
+	mov	DWORD PTR _end_$[ebp], eax
+	mov	DWORD PTR _end_$[ebp+4], edx
 
-; 545  : }
+; 626  :     empty_time = double(end_);
+
+	mov	edx, DWORD PTR _end_$[ebp+4]
+	mov	ecx, DWORD PTR _end_$[ebp]
+	call	__ultod3
+	movsd	QWORD PTR ?empty_time@@3NA, xmm0
+
+; 627  :     cout << "Empty cycle time: " << empty_time << endl;
+
+	mov	esi, esp
+	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+	mov	edi, esp
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR ?empty_time@@3NA
+	movsd	QWORD PTR [esp], xmm0
+	push	OFFSET ??_C@_0BD@JBPHDBED@Empty?5cycle?5time?3?5@
+	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+	push	eax
+	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+	add	esp, 8
+	mov	ecx, eax
+	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z
+	cmp	edi, esp
+	call	__RTC_CheckEsp
+	mov	ecx, eax
+	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+
+; 628  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 428				; 000001acH
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?appropriation_for_char@@YA_KDDDDDDDDDD@Z ENDP		; appropriation_for_char
+?cpu_overclocking@@YAXXZ ENDP				; cpu_overclocking
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?appropriation_for_float@@YA_KMMMMMMMMMM@Z
+;	COMDAT ?print_info@@YAXXZ
 _TEXT	SEGMENT
-_i$1 = -36						; size = 4
-_start$ = -24						; size = 8
-_c$ = -8						; size = 4
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?appropriation_for_float@@YA_KMMMMMMMMMM@Z PROC		; appropriation_for_float, COMDAT
+?print_info@@YAXXZ PROC					; print_info, COMDAT
 
-; 509  : {
+; 578  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 232				; 000000e8H
+	sub	esp, 192				; 000000c0H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-232]
-	mov	ecx, 58					; 0000003aH
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 510  :     float c = 0.3f;
+; 579  :     cout << "Laboratory work No.1" << endl;
 
-	movss	xmm0, DWORD PTR __real@3e99999a
-	movss	DWORD PTR _c$[ebp], xmm0
+	mov	esi, esp
+	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+	push	OFFSET ??_C@_0BF@CKMOEMFM@Laboratory?5work?5No?41@
+	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+	push	eax
+	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+	add	esp, 8
+	mov	ecx, eax
+	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
+	cmp	esi, esp
+	call	__RTC_CheckEsp
 
-; 511  :     uint64_t start = get_clock();
+; 580  :     cout << "Made by a student of group k-21 Kyrychek Nikolay Pavlovich" << endl;
 
-	call	?get_clock@@YA_KXZ			; get_clock
-	mov	DWORD PTR _start$[ebp], eax
-	mov	DWORD PTR _start$[ebp+4], edx
+	mov	esi, esp
+	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+	push	OFFSET ??_C@_0DL@PMJGFDPG@Made?5by?5a?5student?5of?5group?5k?921@
+	mov	eax, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+	push	eax
+	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
+	add	esp, 8
+	mov	ecx, eax
+	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
+	cmp	esi, esp
+	call	__RTC_CheckEsp
 
-; 512  :     for (int i = 0; i < N_standart; i++)
+; 581  :     cout << endl;
 
-	mov	DWORD PTR _i$1[ebp], 0
-	jmp	SHORT $LN4@appropriat
-$LN2@appropriat:
-	mov	eax, DWORD PTR _i$1[ebp]
-	add	eax, 1
-	mov	DWORD PTR _i$1[ebp], eax
-$LN4@appropriat:
-	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	$LN3@appropriat
+	mov	esi, esp
+	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
+	mov	ecx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
+	cmp	esi, esp
+	call	__RTC_CheckEsp
 
-; 513  :     {
-; 514  :         x1 = i + c;
-
-	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
-	addss	xmm0, DWORD PTR _c$[ebp]
-	movss	DWORD PTR _x1$[ebp], xmm0
-
-; 515  :         x2 = i + c;
-
-	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
-	addss	xmm0, DWORD PTR _c$[ebp]
-	movss	DWORD PTR _x2$[ebp], xmm0
-
-; 516  :         x3 = i + c;
-
-	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
-	addss	xmm0, DWORD PTR _c$[ebp]
-	movss	DWORD PTR _x3$[ebp], xmm0
-
-; 517  :         x4 = i + c;
-
-	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
-	addss	xmm0, DWORD PTR _c$[ebp]
-	movss	DWORD PTR _x4$[ebp], xmm0
-
-; 518  :         x5 = i + c;
-
-	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
-	addss	xmm0, DWORD PTR _c$[ebp]
-	movss	DWORD PTR _x5$[ebp], xmm0
-
-; 519  :         x6 = i + c;
-
-	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
-	addss	xmm0, DWORD PTR _c$[ebp]
-	movss	DWORD PTR _x6$[ebp], xmm0
-
-; 520  :         x7 = i + c;
-
-	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
-	addss	xmm0, DWORD PTR _c$[ebp]
-	movss	DWORD PTR _x7$[ebp], xmm0
-
-; 521  :         x8 = i + c;
-
-	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
-	addss	xmm0, DWORD PTR _c$[ebp]
-	movss	DWORD PTR _x8$[ebp], xmm0
-
-; 522  :         x9 = i + c;
-
-	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
-	addss	xmm0, DWORD PTR _c$[ebp]
-	movss	DWORD PTR _x9$[ebp], xmm0
-
-; 523  :         x10 = i + c;
-
-	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
-	addss	xmm0, DWORD PTR _c$[ebp]
-	movss	DWORD PTR _x10$[ebp], xmm0
-
-; 524  :     }
-
-	jmp	$LN2@appropriat
-$LN3@appropriat:
-
-; 525  :     return get_clock() - start;
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	sub	eax, DWORD PTR _start$[ebp]
-	sbb	edx, DWORD PTR _start$[ebp+4]
-
-; 526  : }
+; 582  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 232				; 000000e8H
+	add	esp, 192				; 000000c0H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?appropriation_for_float@@YA_KMMMMMMMMMM@Z ENDP		; appropriation_for_float
+?print_info@@YAXXZ ENDP					; print_info
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?appropriation_for_long@@YA_KJJJJJJJJJJ@Z
-_TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?appropriation_for_long@@YA_KJJJJJJJJJJ@Z PROC		; appropriation_for_long, COMDAT
-
-; 490  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	mov	ecx, OFFSET __A639F09B_labAOS@cpp
-	call	@__CheckForDebuggerJustMyCode@4
-
-; 491  :     uint64_t start = get_clock();
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	mov	DWORD PTR _start$[ebp], eax
-	mov	DWORD PTR _start$[ebp+4], edx
-
-; 492  :     for (int i = 0; i < N_appropriation; i++)
-
-	mov	DWORD PTR _i$1[ebp], 0
-	jmp	SHORT $LN4@appropriat
-$LN2@appropriat:
-	mov	eax, DWORD PTR _i$1[ebp]
-	add	eax, 1
-	mov	DWORD PTR _i$1[ebp], eax
-$LN4@appropriat:
-	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	SHORT $LN3@appropriat
-
-; 493  :     {
-; 494  :         x1 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x1$[ebp], eax
-
-; 495  :         x2 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x2$[ebp], eax
-
-; 496  :         x3 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x3$[ebp], eax
-
-; 497  :         x4 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x4$[ebp], eax
-
-; 498  :         x5 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x5$[ebp], eax
-
-; 499  :         x6 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x6$[ebp], eax
-
-; 500  :         x7 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x7$[ebp], eax
-
-; 501  :         x8 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x8$[ebp], eax
-
-; 502  :         x9 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x9$[ebp], eax
-
-; 503  :         x10 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x10$[ebp], eax
-
-; 504  :     }
-
-	jmp	SHORT $LN2@appropriat
-$LN3@appropriat:
-
-; 505  :     return get_clock() - start;
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	sub	eax, DWORD PTR _start$[ebp]
-	sbb	edx, DWORD PTR _start$[ebp+4]
-
-; 506  : }
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 220				; 000000dcH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?appropriation_for_long@@YA_KJJJJJJJJJJ@Z ENDP		; appropriation_for_long
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?appropriation_for_double@@YA_KNNNNNNNNNN@Z
-_TEXT	SEGMENT
-_i$1 = -40						; size = 4
-_start$ = -28						; size = 8
-_c$ = -12						; size = 8
-_x1$ = 8						; size = 8
-_x2$ = 16						; size = 8
-_x3$ = 24						; size = 8
-_x4$ = 32						; size = 8
-_x5$ = 40						; size = 8
-_x6$ = 48						; size = 8
-_x7$ = 56						; size = 8
-_x8$ = 64						; size = 8
-_x9$ = 72						; size = 8
-_x10$ = 80						; size = 8
-?appropriation_for_double@@YA_KNNNNNNNNNN@Z PROC	; appropriation_for_double, COMDAT
-
-; 470  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 236				; 000000ecH
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-236]
-	mov	ecx, 59					; 0000003bH
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	mov	ecx, OFFSET __A639F09B_labAOS@cpp
-	call	@__CheckForDebuggerJustMyCode@4
-
-; 471  :     double c = 0.3;
-
-	movsd	xmm0, QWORD PTR __real@3fd3333333333333
-	movsd	QWORD PTR _c$[ebp], xmm0
-
-; 472  :     uint64_t start = get_clock();
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	mov	DWORD PTR _start$[ebp], eax
-	mov	DWORD PTR _start$[ebp+4], edx
-
-; 473  :     for (int i = 0; i < N_standart; i++)
-
-	mov	DWORD PTR _i$1[ebp], 0
-	jmp	SHORT $LN4@appropriat
-$LN2@appropriat:
-	mov	eax, DWORD PTR _i$1[ebp]
-	add	eax, 1
-	mov	DWORD PTR _i$1[ebp], eax
-$LN4@appropriat:
-	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	$LN3@appropriat
-
-; 474  :     {
-; 475  :         x1 = i + c;
-
-	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
-	addsd	xmm0, QWORD PTR _c$[ebp]
-	movsd	QWORD PTR _x1$[ebp], xmm0
-
-; 476  :         x2 = i + c;
-
-	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
-	addsd	xmm0, QWORD PTR _c$[ebp]
-	movsd	QWORD PTR _x2$[ebp], xmm0
-
-; 477  :         x3 = i + c;
-
-	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
-	addsd	xmm0, QWORD PTR _c$[ebp]
-	movsd	QWORD PTR _x3$[ebp], xmm0
-
-; 478  :         x4 = i + c;
-
-	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
-	addsd	xmm0, QWORD PTR _c$[ebp]
-	movsd	QWORD PTR _x4$[ebp], xmm0
-
-; 479  :         x5 = i + c;
-
-	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
-	addsd	xmm0, QWORD PTR _c$[ebp]
-	movsd	QWORD PTR _x5$[ebp], xmm0
-
-; 480  :         x6 = i + c;
-
-	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
-	addsd	xmm0, QWORD PTR _c$[ebp]
-	movsd	QWORD PTR _x6$[ebp], xmm0
-
-; 481  :         x7 = i + c;
-
-	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
-	addsd	xmm0, QWORD PTR _c$[ebp]
-	movsd	QWORD PTR _x7$[ebp], xmm0
-
-; 482  :         x8 = i + c;
-
-	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
-	addsd	xmm0, QWORD PTR _c$[ebp]
-	movsd	QWORD PTR _x8$[ebp], xmm0
-
-; 483  :         x9 = i + c;
-
-	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
-	addsd	xmm0, QWORD PTR _c$[ebp]
-	movsd	QWORD PTR _x9$[ebp], xmm0
-
-; 484  :         x10 = i + c;
-
-	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
-	addsd	xmm0, QWORD PTR _c$[ebp]
-	movsd	QWORD PTR _x10$[ebp], xmm0
-
-; 485  :     }
-
-	jmp	$LN2@appropriat
-$LN3@appropriat:
-
-; 486  :     return get_clock() - start;
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	sub	eax, DWORD PTR _start$[ebp]
-	sbb	edx, DWORD PTR _start$[ebp+4]
-
-; 487  : }
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 236				; 000000ecH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?appropriation_for_double@@YA_KNNNNNNNNNN@Z ENDP	; appropriation_for_double
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?appropriation_for_int@@YA_KHHHHHHHHHH@Z
-_TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?appropriation_for_int@@YA_KHHHHHHHHHH@Z PROC		; appropriation_for_int, COMDAT
-
-; 451  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	mov	ecx, OFFSET __A639F09B_labAOS@cpp
-	call	@__CheckForDebuggerJustMyCode@4
-
-; 452  :     uint64_t start = get_clock();
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	mov	DWORD PTR _start$[ebp], eax
-	mov	DWORD PTR _start$[ebp+4], edx
-
-; 453  :     for (int i = 0; i < N_appropriation; i++)
-
-	mov	DWORD PTR _i$1[ebp], 0
-	jmp	SHORT $LN4@appropriat
-$LN2@appropriat:
-	mov	eax, DWORD PTR _i$1[ebp]
-	add	eax, 1
-	mov	DWORD PTR _i$1[ebp], eax
-$LN4@appropriat:
-	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	SHORT $LN3@appropriat
-
-; 454  :     {
-; 455  :         x1 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x1$[ebp], eax
-
-; 456  :         x2 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x2$[ebp], eax
-
-; 457  :         x3 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x3$[ebp], eax
-
-; 458  :         x4 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x4$[ebp], eax
-
-; 459  :         x5 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x5$[ebp], eax
-
-; 460  :         x6 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x6$[ebp], eax
-
-; 461  :         x7 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x7$[ebp], eax
-
-; 462  :         x8 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x8$[ebp], eax
-
-; 463  :         x9 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x9$[ebp], eax
-
-; 464  :         x10 = i;
-
-	mov	eax, DWORD PTR _i$1[ebp]
-	mov	DWORD PTR _x10$[ebp], eax
-
-; 465  :     }
-
-	jmp	SHORT $LN2@appropriat
-$LN3@appropriat:
-
-; 466  :     return get_clock() - start;
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	sub	eax, DWORD PTR _start$[ebp]
-	sbb	edx, DWORD PTR _start$[ebp+4]
-
-; 467  : }
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 220				; 000000dcH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?appropriation_for_int@@YA_KHHHHHHHHHH@Z ENDP		; appropriation_for_int
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?division_for_char@@YA_KDDDDDDDDDD@Z
+;	COMDAT ?appropriation_for_char@@YA_KXZ
 _TEXT	SEGMENT
 _i$1 = -144						; size = 4
 _start$ = -132						; size = 8
-_t_x10$ = -116						; size = 4
-_t_x9$ = -104						; size = 4
-_t_x8$ = -92						; size = 4
-_t_x7$ = -80						; size = 4
-_t_x6$ = -68						; size = 4
-_t_x5$ = -56						; size = 4
-_t_x4$ = -44						; size = 4
-_t_x3$ = -32						; size = 4
-_t_x2$ = -20						; size = 4
-_t_x1$ = -8						; size = 4
-_x1$ = 8						; size = 1
-_x2$ = 12						; size = 1
-_x3$ = 16						; size = 1
-_x4$ = 20						; size = 1
-_x5$ = 24						; size = 1
-_x6$ = 28						; size = 1
-_x7$ = 32						; size = 1
-_x8$ = 36						; size = 1
-_x9$ = 40						; size = 1
-_x10$ = 44						; size = 1
-?division_for_char@@YA_KDDDDDDDDDD@Z PROC		; division_for_char, COMDAT
+_x10$ = -113						; size = 1
+_x9$ = -101						; size = 1
+_x8$ = -89						; size = 1
+_x7$ = -77						; size = 1
+_x6$ = -65						; size = 1
+_x5$ = -53						; size = 1
+_x4$ = -41						; size = 1
+_x3$ = -29						; size = 1
+_x2$ = -17						; size = 1
+_x1$ = -5						; size = 1
+?appropriation_for_char@@YA_KXZ PROC			; appropriation_for_char, COMDAT
 
-; 429  : {
+; 557  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -4857,141 +3550,110 @@ _x10$ = 44						; size = 1
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 430  :     long t_x1 = x1, t_x2 = x2, t_x3 = x3, t_x4 = x4, t_x5 = x5, t_x6 = x6, t_x7 = x7, t_x8 = x8, t_x9 = x9, t_x10 = x10;
+; 558  :     char x1 = e1, x2 = e2, x3 = e3, x4 = e4, x5 = e5, x6 = e6, x7 = e7, x8 = e8, x9 = e9, x10 = e10;
 
-	movsx	eax, BYTE PTR _x1$[ebp]
-	mov	DWORD PTR _t_x1$[ebp], eax
-	movsx	eax, BYTE PTR _x2$[ebp]
-	mov	DWORD PTR _t_x2$[ebp], eax
-	movsx	eax, BYTE PTR _x3$[ebp]
-	mov	DWORD PTR _t_x3$[ebp], eax
-	movsx	eax, BYTE PTR _x4$[ebp]
-	mov	DWORD PTR _t_x4$[ebp], eax
-	movsx	eax, BYTE PTR _x5$[ebp]
-	mov	DWORD PTR _t_x5$[ebp], eax
-	movsx	eax, BYTE PTR _x6$[ebp]
-	mov	DWORD PTR _t_x6$[ebp], eax
-	movsx	eax, BYTE PTR _x7$[ebp]
-	mov	DWORD PTR _t_x7$[ebp], eax
-	movsx	eax, BYTE PTR _x8$[ebp]
-	mov	DWORD PTR _t_x8$[ebp], eax
-	movsx	eax, BYTE PTR _x9$[ebp]
-	mov	DWORD PTR _t_x9$[ebp], eax
-	movsx	eax, BYTE PTR _x10$[ebp]
-	mov	DWORD PTR _t_x10$[ebp], eax
+	mov	al, BYTE PTR ?e1@@3DA			; e1
+	mov	BYTE PTR _x1$[ebp], al
+	mov	al, BYTE PTR ?e2@@3DA			; e2
+	mov	BYTE PTR _x2$[ebp], al
+	mov	al, BYTE PTR ?e3@@3DA			; e3
+	mov	BYTE PTR _x3$[ebp], al
+	mov	al, BYTE PTR ?e4@@3DA			; e4
+	mov	BYTE PTR _x4$[ebp], al
+	mov	al, BYTE PTR ?e5@@3DA			; e5
+	mov	BYTE PTR _x5$[ebp], al
+	mov	al, BYTE PTR ?e6@@3DA			; e6
+	mov	BYTE PTR _x6$[ebp], al
+	mov	al, BYTE PTR ?e7@@3DA			; e7
+	mov	BYTE PTR _x7$[ebp], al
+	mov	al, BYTE PTR ?e8@@3DA			; e8
+	mov	BYTE PTR _x8$[ebp], al
+	mov	al, BYTE PTR ?e9@@3DA			; e9
+	mov	BYTE PTR _x9$[ebp], al
+	mov	al, BYTE PTR ?e10@@3DA			; e10
+	mov	BYTE PTR _x10$[ebp], al
 
-; 431  :     uint64_t start = get_clock();
+; 559  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 432  : 
-; 433  :     for (int i = 0; i < N_standart; i++)
+; 560  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
-	jmp	SHORT $LN4@division_f
-$LN2@division_f:
+	jmp	SHORT $LN4@appropriat
+$LN2@appropriat:
 	mov	eax, DWORD PTR _i$1[ebp]
 	add	eax, 1
 	mov	DWORD PTR _i$1[ebp], eax
-$LN4@division_f:
+$LN4@appropriat:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	$LN3@division_f
+	jge	SHORT $LN3@appropriat
 
-; 434  :     {
-; 435  :         t_x1 = x2 / x3;
+; 561  :     {
+; 562  :         x1 = i;
 
-	movsx	eax, BYTE PTR _x2$[ebp]
-	movsx	ecx, BYTE PTR _x3$[ebp]
-	cdq
-	idiv	ecx
-	mov	DWORD PTR _t_x1$[ebp], eax
+	mov	al, BYTE PTR _i$1[ebp]
+	mov	BYTE PTR _x1$[ebp], al
 
-; 436  :         t_x2 = x3 / x4;
+; 563  :         x2 = i;
 
-	movsx	eax, BYTE PTR _x3$[ebp]
-	movsx	ecx, BYTE PTR _x4$[ebp]
-	cdq
-	idiv	ecx
-	mov	DWORD PTR _t_x2$[ebp], eax
+	mov	al, BYTE PTR _i$1[ebp]
+	mov	BYTE PTR _x2$[ebp], al
 
-; 437  :         t_x3 = x4 / x5;
+; 564  :         x3 = i;
 
-	movsx	eax, BYTE PTR _x4$[ebp]
-	movsx	ecx, BYTE PTR _x5$[ebp]
-	cdq
-	idiv	ecx
-	mov	DWORD PTR _t_x3$[ebp], eax
+	mov	al, BYTE PTR _i$1[ebp]
+	mov	BYTE PTR _x3$[ebp], al
 
-; 438  :         t_x4 = x5 / x6;
+; 565  :         x4 = i;
 
-	movsx	eax, BYTE PTR _x5$[ebp]
-	movsx	ecx, BYTE PTR _x6$[ebp]
-	cdq
-	idiv	ecx
-	mov	DWORD PTR _t_x4$[ebp], eax
+	mov	al, BYTE PTR _i$1[ebp]
+	mov	BYTE PTR _x4$[ebp], al
 
-; 439  :         t_x5 = x6 / x7;
+; 566  :         x5 = i;
 
-	movsx	eax, BYTE PTR _x6$[ebp]
-	movsx	ecx, BYTE PTR _x7$[ebp]
-	cdq
-	idiv	ecx
-	mov	DWORD PTR _t_x5$[ebp], eax
+	mov	al, BYTE PTR _i$1[ebp]
+	mov	BYTE PTR _x5$[ebp], al
 
-; 440  :         t_x6 = x7 / x8;
+; 567  :         x6 = i;
 
-	movsx	eax, BYTE PTR _x7$[ebp]
-	movsx	ecx, BYTE PTR _x8$[ebp]
-	cdq
-	idiv	ecx
-	mov	DWORD PTR _t_x6$[ebp], eax
+	mov	al, BYTE PTR _i$1[ebp]
+	mov	BYTE PTR _x6$[ebp], al
 
-; 441  :         t_x7 = x8 / x9;
+; 568  :         x7 = i;
 
-	movsx	eax, BYTE PTR _x8$[ebp]
-	movsx	ecx, BYTE PTR _x9$[ebp]
-	cdq
-	idiv	ecx
-	mov	DWORD PTR _t_x7$[ebp], eax
+	mov	al, BYTE PTR _i$1[ebp]
+	mov	BYTE PTR _x7$[ebp], al
 
-; 442  :         t_x8 = x9 / x10;
+; 569  :         x8 = i;
 
-	movsx	eax, BYTE PTR _x9$[ebp]
-	movsx	ecx, BYTE PTR _x10$[ebp]
-	cdq
-	idiv	ecx
-	mov	DWORD PTR _t_x8$[ebp], eax
+	mov	al, BYTE PTR _i$1[ebp]
+	mov	BYTE PTR _x8$[ebp], al
 
-; 443  :         t_x9 = x10 / x1;
+; 570  :         x9 = i;
 
-	movsx	eax, BYTE PTR _x10$[ebp]
-	movsx	ecx, BYTE PTR _x1$[ebp]
-	cdq
-	idiv	ecx
-	mov	DWORD PTR _t_x9$[ebp], eax
+	mov	al, BYTE PTR _i$1[ebp]
+	mov	BYTE PTR _x9$[ebp], al
 
-; 444  :         t_x10 = x1 / x2;
+; 571  :         x10 = i;
 
-	movsx	eax, BYTE PTR _x1$[ebp]
-	movsx	ecx, BYTE PTR _x2$[ebp]
-	cdq
-	idiv	ecx
-	mov	DWORD PTR _t_x10$[ebp], eax
+	mov	al, BYTE PTR _i$1[ebp]
+	mov	BYTE PTR _x10$[ebp], al
 
-; 445  :     }
+; 572  :     }
 
-	jmp	$LN2@division_f
-$LN3@division_f:
+	jmp	SHORT $LN2@appropriat
+$LN3@appropriat:
 
-; 446  :     return get_clock() - start;
+; 573  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 447  : }
+; 574  : }
 
 	pop	edi
 	pop	esi
@@ -5002,173 +3664,192 @@ $LN3@division_f:
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?division_for_char@@YA_KDDDDDDDDDD@Z ENDP		; division_for_char
+?appropriation_for_char@@YA_KXZ ENDP			; appropriation_for_char
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?division_for_float@@YA_KMMMMMMMMMM@Z
+;	COMDAT ?appropriation_for_float@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?division_for_float@@YA_KMMMMMMMMMM@Z PROC		; division_for_float, COMDAT
+_i$1 = -156						; size = 4
+_start$ = -144						; size = 8
+_c$ = -128						; size = 4
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?appropriation_for_float@@YA_KXZ PROC			; appropriation_for_float, COMDAT
 
-; 410  : {
+; 536  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 352				; 00000160H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-352]
+	mov	ecx, 88					; 00000058H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 411  :     uint64_t start = get_clock();
+; 537  :     float x1 = d1, x2 = d2, x3 = d3, x4 = d4, x5 = d5, x6 = d6, x7 = d7, x8 = d8, x9 = d9, x10 = d10;
+
+	movss	xmm0, DWORD PTR ?d1@@3MA
+	movss	DWORD PTR _x1$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d2@@3MA
+	movss	DWORD PTR _x2$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d3@@3MA
+	movss	DWORD PTR _x3$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d4@@3MA
+	movss	DWORD PTR _x4$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d5@@3MA
+	movss	DWORD PTR _x5$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d6@@3MA
+	movss	DWORD PTR _x6$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d7@@3MA
+	movss	DWORD PTR _x7$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d8@@3MA
+	movss	DWORD PTR _x8$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d9@@3MA
+	movss	DWORD PTR _x9$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d10@@3MA
+	movss	DWORD PTR _x10$[ebp], xmm0
+
+; 538  :     float c = 0.3f;
+
+	movss	xmm0, DWORD PTR __real@3e99999a
+	movss	DWORD PTR _c$[ebp], xmm0
+
+; 539  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 412  :     for (int i = 0; i < N_standart; i++)
+; 540  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
-	jmp	SHORT $LN4@division_f
-$LN2@division_f:
+	jmp	SHORT $LN4@appropriat
+$LN2@appropriat:
 	mov	eax, DWORD PTR _i$1[ebp]
 	add	eax, 1
 	mov	DWORD PTR _i$1[ebp], eax
-$LN4@division_f:
+$LN4@appropriat:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	$LN3@division_f
+	jge	$LN3@appropriat
 
-; 413  :     {
-; 414  :         x1 = x2 / x3;
+; 541  :     {
+; 542  :         x1 = i + c;
 
-	movss	xmm0, DWORD PTR _x2$[ebp]
-	divss	xmm0, DWORD PTR _x3$[ebp]
+	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
+	addss	xmm0, DWORD PTR _c$[ebp]
 	movss	DWORD PTR _x1$[ebp], xmm0
 
-; 415  :         x2 = x3 / x4;
+; 543  :         x2 = i + c;
 
-	movss	xmm0, DWORD PTR _x3$[ebp]
-	divss	xmm0, DWORD PTR _x4$[ebp]
+	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
+	addss	xmm0, DWORD PTR _c$[ebp]
 	movss	DWORD PTR _x2$[ebp], xmm0
 
-; 416  :         x3 = x4 / x5;
+; 544  :         x3 = i + c;
 
-	movss	xmm0, DWORD PTR _x4$[ebp]
-	divss	xmm0, DWORD PTR _x5$[ebp]
+	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
+	addss	xmm0, DWORD PTR _c$[ebp]
 	movss	DWORD PTR _x3$[ebp], xmm0
 
-; 417  :         x4 = x5 / x6;
+; 545  :         x4 = i + c;
 
-	movss	xmm0, DWORD PTR _x5$[ebp]
-	divss	xmm0, DWORD PTR _x6$[ebp]
+	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
+	addss	xmm0, DWORD PTR _c$[ebp]
 	movss	DWORD PTR _x4$[ebp], xmm0
 
-; 418  :         x5 = x6 / x7;
+; 546  :         x5 = i + c;
 
-	movss	xmm0, DWORD PTR _x6$[ebp]
-	divss	xmm0, DWORD PTR _x7$[ebp]
+	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
+	addss	xmm0, DWORD PTR _c$[ebp]
 	movss	DWORD PTR _x5$[ebp], xmm0
 
-; 419  :         x6 = x7 / x8;
+; 547  :         x6 = i + c;
 
-	movss	xmm0, DWORD PTR _x7$[ebp]
-	divss	xmm0, DWORD PTR _x8$[ebp]
+	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
+	addss	xmm0, DWORD PTR _c$[ebp]
 	movss	DWORD PTR _x6$[ebp], xmm0
 
-; 420  :         x7 = x8 / x9;
+; 548  :         x7 = i + c;
 
-	movss	xmm0, DWORD PTR _x8$[ebp]
-	divss	xmm0, DWORD PTR _x9$[ebp]
+	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
+	addss	xmm0, DWORD PTR _c$[ebp]
 	movss	DWORD PTR _x7$[ebp], xmm0
 
-; 421  :         x8 = x9 / x10;
+; 549  :         x8 = i + c;
 
-	movss	xmm0, DWORD PTR _x9$[ebp]
-	divss	xmm0, DWORD PTR _x10$[ebp]
+	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
+	addss	xmm0, DWORD PTR _c$[ebp]
 	movss	DWORD PTR _x8$[ebp], xmm0
 
-; 422  :         x9 = x10 / x1;
+; 550  :         x9 = i + c;
 
-	movss	xmm0, DWORD PTR _x10$[ebp]
-	divss	xmm0, DWORD PTR _x1$[ebp]
+	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
+	addss	xmm0, DWORD PTR _c$[ebp]
 	movss	DWORD PTR _x9$[ebp], xmm0
 
-; 423  :         x10 = x1 / x2;
+; 551  :         x10 = i + c;
 
-	movss	xmm0, DWORD PTR _x1$[ebp]
-	divss	xmm0, DWORD PTR _x2$[ebp]
+	cvtsi2ss xmm0, DWORD PTR _i$1[ebp]
+	addss	xmm0, DWORD PTR _c$[ebp]
 	movss	DWORD PTR _x10$[ebp], xmm0
 
-; 424  :     }
+; 552  :     }
 
-	jmp	$LN2@division_f
-$LN3@division_f:
+	jmp	$LN2@appropriat
+$LN3@appropriat:
 
-; 425  :     return get_clock() - start;
+; 553  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 426  : }
+; 554  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 352				; 00000160H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?division_for_float@@YA_KMMMMMMMMMM@Z ENDP		; division_for_float
+?appropriation_for_float@@YA_KXZ ENDP			; appropriation_for_float
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?division_for_long@@YA_KJJJJJJJJJJ@Z
+;	COMDAT ?appropriation_for_long@@YA_KXZ
 _TEXT	SEGMENT
 _i$1 = -144						; size = 4
 _start$ = -132						; size = 8
-_t_x10$ = -116						; size = 4
-_t_x9$ = -104						; size = 4
-_t_x8$ = -92						; size = 4
-_t_x7$ = -80						; size = 4
-_t_x6$ = -68						; size = 4
-_t_x5$ = -56						; size = 4
-_t_x4$ = -44						; size = 4
-_t_x3$ = -32						; size = 4
-_t_x2$ = -20						; size = 4
-_t_x1$ = -8						; size = 4
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?division_for_long@@YA_KJJJJJJJJJJ@Z PROC		; division_for_long, COMDAT
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?appropriation_for_long@@YA_KXZ PROC			; appropriation_for_long, COMDAT
 
-; 390  : {
+; 516  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -5183,7 +3864,875 @@ _x10$ = 44						; size = 4
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 391  :     long t_x1 = x1, t_x2 = x2, t_x3 = x3, t_x4 = x4, t_x5 = x5, t_x6 = x6, t_x7 = x7, t_x8 = x8, t_x9 = x9, t_x10 = x10;
+; 517  :     long x1 = c1, x2 = c2, x3 = c3, x4 = c4, x5 = c5, x6 = c6, x7 = c7, x8 = c8, x9 = c9, x10 = c10;
+
+	mov	eax, DWORD PTR ?c1@@3JA			; c1
+	mov	DWORD PTR _x1$[ebp], eax
+	mov	eax, DWORD PTR ?c2@@3JA			; c2
+	mov	DWORD PTR _x2$[ebp], eax
+	mov	eax, DWORD PTR ?c3@@3JA			; c3
+	mov	DWORD PTR _x3$[ebp], eax
+	mov	eax, DWORD PTR ?c4@@3JA			; c4
+	mov	DWORD PTR _x4$[ebp], eax
+	mov	eax, DWORD PTR ?c5@@3JA			; c5
+	mov	DWORD PTR _x5$[ebp], eax
+	mov	eax, DWORD PTR ?c6@@3JA			; c6
+	mov	DWORD PTR _x6$[ebp], eax
+	mov	eax, DWORD PTR ?c7@@3JA			; c7
+	mov	DWORD PTR _x7$[ebp], eax
+	mov	eax, DWORD PTR ?c8@@3JA			; c8
+	mov	DWORD PTR _x8$[ebp], eax
+	mov	eax, DWORD PTR ?c9@@3JA			; c9
+	mov	DWORD PTR _x9$[ebp], eax
+	mov	eax, DWORD PTR ?c10@@3JA		; c10
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 518  :     uint64_t start = get_clock();
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	mov	DWORD PTR _start$[ebp], eax
+	mov	DWORD PTR _start$[ebp+4], edx
+
+; 519  :     for (int i = 0; i < N_appropriation; i++)
+
+	mov	DWORD PTR _i$1[ebp], 0
+	jmp	SHORT $LN4@appropriat
+$LN2@appropriat:
+	mov	eax, DWORD PTR _i$1[ebp]
+	add	eax, 1
+	mov	DWORD PTR _i$1[ebp], eax
+$LN4@appropriat:
+	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
+	jge	SHORT $LN3@appropriat
+
+; 520  :     {
+; 521  :         x1 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x1$[ebp], eax
+
+; 522  :         x2 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x2$[ebp], eax
+
+; 523  :         x3 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x3$[ebp], eax
+
+; 524  :         x4 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x4$[ebp], eax
+
+; 525  :         x5 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x5$[ebp], eax
+
+; 526  :         x6 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x6$[ebp], eax
+
+; 527  :         x7 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x7$[ebp], eax
+
+; 528  :         x8 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x8$[ebp], eax
+
+; 529  :         x9 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x9$[ebp], eax
+
+; 530  :         x10 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 531  :     }
+
+	jmp	SHORT $LN2@appropriat
+$LN3@appropriat:
+
+; 532  :     return get_clock() - start;
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	sub	eax, DWORD PTR _start$[ebp]
+	sbb	edx, DWORD PTR _start$[ebp+4]
+
+; 533  : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 340				; 00000154H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?appropriation_for_long@@YA_KXZ ENDP			; appropriation_for_long
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
+;	COMDAT ?appropriation_for_double@@YA_KXZ
+_TEXT	SEGMENT
+_i$1 = -200						; size = 4
+_start$ = -188						; size = 8
+_c$ = -172						; size = 8
+_x10$ = -156						; size = 8
+_x9$ = -140						; size = 8
+_x8$ = -124						; size = 8
+_x7$ = -108						; size = 8
+_x6$ = -92						; size = 8
+_x5$ = -76						; size = 8
+_x4$ = -60						; size = 8
+_x3$ = -44						; size = 8
+_x2$ = -28						; size = 8
+_x1$ = -12						; size = 8
+?appropriation_for_double@@YA_KXZ PROC			; appropriation_for_double, COMDAT
+
+; 495  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 396				; 0000018cH
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-396]
+	mov	ecx, 99					; 00000063H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	ecx, OFFSET __A639F09B_labAOS@cpp
+	call	@__CheckForDebuggerJustMyCode@4
+
+; 496  :     double x1 = b1, x2 = b2, x3 = b3, x4 = b4, x5 = b5, x6 = b6, x7 = b7, x8 = b8, x9 = b9, x10 = b10;
+
+	movsd	xmm0, QWORD PTR ?b1@@3NA
+	movsd	QWORD PTR _x1$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b2@@3NA
+	movsd	QWORD PTR _x2$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b3@@3NA
+	movsd	QWORD PTR _x3$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b4@@3NA
+	movsd	QWORD PTR _x4$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b5@@3NA
+	movsd	QWORD PTR _x5$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b6@@3NA
+	movsd	QWORD PTR _x6$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b7@@3NA
+	movsd	QWORD PTR _x7$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b8@@3NA
+	movsd	QWORD PTR _x8$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b9@@3NA
+	movsd	QWORD PTR _x9$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b10@@3NA
+	movsd	QWORD PTR _x10$[ebp], xmm0
+
+; 497  :     double c = 0.3;
+
+	movsd	xmm0, QWORD PTR __real@3fd3333333333333
+	movsd	QWORD PTR _c$[ebp], xmm0
+
+; 498  :     uint64_t start = get_clock();
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	mov	DWORD PTR _start$[ebp], eax
+	mov	DWORD PTR _start$[ebp+4], edx
+
+; 499  :     for (int i = 0; i < N_standart; i++)
+
+	mov	DWORD PTR _i$1[ebp], 0
+	jmp	SHORT $LN4@appropriat
+$LN2@appropriat:
+	mov	eax, DWORD PTR _i$1[ebp]
+	add	eax, 1
+	mov	DWORD PTR _i$1[ebp], eax
+$LN4@appropriat:
+	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
+	jge	$LN3@appropriat
+
+; 500  :     {
+; 501  :         x1 = i + c;
+
+	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
+	addsd	xmm0, QWORD PTR _c$[ebp]
+	movsd	QWORD PTR _x1$[ebp], xmm0
+
+; 502  :         x2 = i + c;
+
+	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
+	addsd	xmm0, QWORD PTR _c$[ebp]
+	movsd	QWORD PTR _x2$[ebp], xmm0
+
+; 503  :         x3 = i + c;
+
+	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
+	addsd	xmm0, QWORD PTR _c$[ebp]
+	movsd	QWORD PTR _x3$[ebp], xmm0
+
+; 504  :         x4 = i + c;
+
+	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
+	addsd	xmm0, QWORD PTR _c$[ebp]
+	movsd	QWORD PTR _x4$[ebp], xmm0
+
+; 505  :         x5 = i + c;
+
+	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
+	addsd	xmm0, QWORD PTR _c$[ebp]
+	movsd	QWORD PTR _x5$[ebp], xmm0
+
+; 506  :         x6 = i + c;
+
+	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
+	addsd	xmm0, QWORD PTR _c$[ebp]
+	movsd	QWORD PTR _x6$[ebp], xmm0
+
+; 507  :         x7 = i + c;
+
+	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
+	addsd	xmm0, QWORD PTR _c$[ebp]
+	movsd	QWORD PTR _x7$[ebp], xmm0
+
+; 508  :         x8 = i + c;
+
+	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
+	addsd	xmm0, QWORD PTR _c$[ebp]
+	movsd	QWORD PTR _x8$[ebp], xmm0
+
+; 509  :         x9 = i + c;
+
+	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
+	addsd	xmm0, QWORD PTR _c$[ebp]
+	movsd	QWORD PTR _x9$[ebp], xmm0
+
+; 510  :         x10 = i + c;
+
+	cvtsi2sd xmm0, DWORD PTR _i$1[ebp]
+	addsd	xmm0, QWORD PTR _c$[ebp]
+	movsd	QWORD PTR _x10$[ebp], xmm0
+
+; 511  :     }
+
+	jmp	$LN2@appropriat
+$LN3@appropriat:
+
+; 512  :     return get_clock() - start;
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	sub	eax, DWORD PTR _start$[ebp]
+	sbb	edx, DWORD PTR _start$[ebp+4]
+
+; 513  : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 396				; 0000018cH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?appropriation_for_double@@YA_KXZ ENDP			; appropriation_for_double
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
+;	COMDAT ?appropriation_for_int@@YA_KXZ
+_TEXT	SEGMENT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?appropriation_for_int@@YA_KXZ PROC			; appropriation_for_int, COMDAT
+
+; 475  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 340				; 00000154H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	ecx, OFFSET __A639F09B_labAOS@cpp
+	call	@__CheckForDebuggerJustMyCode@4
+
+; 476  :     int x1 = a1, x2 = a2, x3 = a3, x4 = a4, x5 = a5, x6 = a6, x7 = a7, x8 = a8, x9 = a9, x10 = a10;
+
+	mov	eax, DWORD PTR ?a1@@3HA			; a1
+	mov	DWORD PTR _x1$[ebp], eax
+	mov	eax, DWORD PTR ?a2@@3HA			; a2
+	mov	DWORD PTR _x2$[ebp], eax
+	mov	eax, DWORD PTR ?a3@@3HA			; a3
+	mov	DWORD PTR _x3$[ebp], eax
+	mov	eax, DWORD PTR ?a4@@3HA			; a4
+	mov	DWORD PTR _x4$[ebp], eax
+	mov	eax, DWORD PTR ?a5@@3HA			; a5
+	mov	DWORD PTR _x5$[ebp], eax
+	mov	eax, DWORD PTR ?a6@@3HA			; a6
+	mov	DWORD PTR _x6$[ebp], eax
+	mov	eax, DWORD PTR ?a7@@3HA			; a7
+	mov	DWORD PTR _x7$[ebp], eax
+	mov	eax, DWORD PTR ?a8@@3HA			; a8
+	mov	DWORD PTR _x8$[ebp], eax
+	mov	eax, DWORD PTR ?a9@@3HA			; a9
+	mov	DWORD PTR _x9$[ebp], eax
+	mov	eax, DWORD PTR ?a10@@3HA		; a10
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 477  :     uint64_t start = get_clock();
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	mov	DWORD PTR _start$[ebp], eax
+	mov	DWORD PTR _start$[ebp+4], edx
+
+; 478  :     for (int i = 0; i < N_appropriation; i++)
+
+	mov	DWORD PTR _i$1[ebp], 0
+	jmp	SHORT $LN4@appropriat
+$LN2@appropriat:
+	mov	eax, DWORD PTR _i$1[ebp]
+	add	eax, 1
+	mov	DWORD PTR _i$1[ebp], eax
+$LN4@appropriat:
+	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
+	jge	SHORT $LN3@appropriat
+
+; 479  :     {
+; 480  :         x1 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x1$[ebp], eax
+
+; 481  :         x2 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x2$[ebp], eax
+
+; 482  :         x3 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x3$[ebp], eax
+
+; 483  :         x4 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x4$[ebp], eax
+
+; 484  :         x5 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x5$[ebp], eax
+
+; 485  :         x6 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x6$[ebp], eax
+
+; 486  :         x7 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x7$[ebp], eax
+
+; 487  :         x8 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x8$[ebp], eax
+
+; 488  :         x9 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x9$[ebp], eax
+
+; 489  :         x10 = i;
+
+	mov	eax, DWORD PTR _i$1[ebp]
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 490  :     }
+
+	jmp	SHORT $LN2@appropriat
+$LN3@appropriat:
+
+; 491  :     return get_clock() - start;
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	sub	eax, DWORD PTR _start$[ebp]
+	sbb	edx, DWORD PTR _start$[ebp+4]
+
+; 492  : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 340				; 00000154H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?appropriation_for_int@@YA_KXZ ENDP			; appropriation_for_int
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
+;	COMDAT ?division_for_char@@YA_KXZ
+_TEXT	SEGMENT
+_i$1 = -264						; size = 4
+_start$ = -252						; size = 8
+_t_x10$ = -233						; size = 1
+_t_x9$ = -221						; size = 1
+_t_x8$ = -209						; size = 1
+_t_x7$ = -197						; size = 1
+_t_x6$ = -185						; size = 1
+_t_x5$ = -173						; size = 1
+_t_x4$ = -161						; size = 1
+_t_x3$ = -149						; size = 1
+_t_x2$ = -137						; size = 1
+_t_x1$ = -125						; size = 1
+_x10$ = -113						; size = 1
+_x9$ = -101						; size = 1
+_x8$ = -89						; size = 1
+_x7$ = -77						; size = 1
+_x6$ = -65						; size = 1
+_x5$ = -53						; size = 1
+_x4$ = -41						; size = 1
+_x3$ = -29						; size = 1
+_x2$ = -17						; size = 1
+_x1$ = -5						; size = 1
+?division_for_char@@YA_KXZ PROC				; division_for_char, COMDAT
+
+; 452  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 460				; 000001ccH
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-460]
+	mov	ecx, 115				; 00000073H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	ecx, OFFSET __A639F09B_labAOS@cpp
+	call	@__CheckForDebuggerJustMyCode@4
+
+; 453  :     char x1 = e1, x2 = e2, x3 = e3, x4 = e4, x5 = e5, x6 = e6, x7 = e7, x8 = e8, x9 = e9, x10 = e10;
+
+	mov	al, BYTE PTR ?e1@@3DA			; e1
+	mov	BYTE PTR _x1$[ebp], al
+	mov	al, BYTE PTR ?e2@@3DA			; e2
+	mov	BYTE PTR _x2$[ebp], al
+	mov	al, BYTE PTR ?e3@@3DA			; e3
+	mov	BYTE PTR _x3$[ebp], al
+	mov	al, BYTE PTR ?e4@@3DA			; e4
+	mov	BYTE PTR _x4$[ebp], al
+	mov	al, BYTE PTR ?e5@@3DA			; e5
+	mov	BYTE PTR _x5$[ebp], al
+	mov	al, BYTE PTR ?e6@@3DA			; e6
+	mov	BYTE PTR _x6$[ebp], al
+	mov	al, BYTE PTR ?e7@@3DA			; e7
+	mov	BYTE PTR _x7$[ebp], al
+	mov	al, BYTE PTR ?e8@@3DA			; e8
+	mov	BYTE PTR _x8$[ebp], al
+	mov	al, BYTE PTR ?e9@@3DA			; e9
+	mov	BYTE PTR _x9$[ebp], al
+	mov	al, BYTE PTR ?e10@@3DA			; e10
+	mov	BYTE PTR _x10$[ebp], al
+
+; 454  :     char t_x1 = x1, t_x2 = x2, t_x3 = x3, t_x4 = x4, t_x5 = x5, t_x6 = x6, t_x7 = x7, t_x8 = x8, t_x9 = x9, t_x10 = x10;
+
+	mov	al, BYTE PTR _x1$[ebp]
+	mov	BYTE PTR _t_x1$[ebp], al
+	mov	al, BYTE PTR _x2$[ebp]
+	mov	BYTE PTR _t_x2$[ebp], al
+	mov	al, BYTE PTR _x3$[ebp]
+	mov	BYTE PTR _t_x3$[ebp], al
+	mov	al, BYTE PTR _x4$[ebp]
+	mov	BYTE PTR _t_x4$[ebp], al
+	mov	al, BYTE PTR _x5$[ebp]
+	mov	BYTE PTR _t_x5$[ebp], al
+	mov	al, BYTE PTR _x6$[ebp]
+	mov	BYTE PTR _t_x6$[ebp], al
+	mov	al, BYTE PTR _x7$[ebp]
+	mov	BYTE PTR _t_x7$[ebp], al
+	mov	al, BYTE PTR _x8$[ebp]
+	mov	BYTE PTR _t_x8$[ebp], al
+	mov	al, BYTE PTR _x9$[ebp]
+	mov	BYTE PTR _t_x9$[ebp], al
+	mov	al, BYTE PTR _x10$[ebp]
+	mov	BYTE PTR _t_x10$[ebp], al
+
+; 455  :     uint64_t start = get_clock();
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	mov	DWORD PTR _start$[ebp], eax
+	mov	DWORD PTR _start$[ebp+4], edx
+
+; 456  : 
+; 457  :     for (int i = 0; i < N_standart; i++)
+
+	mov	DWORD PTR _i$1[ebp], 0
+	jmp	SHORT $LN4@division_f
+$LN2@division_f:
+	mov	eax, DWORD PTR _i$1[ebp]
+	add	eax, 1
+	mov	DWORD PTR _i$1[ebp], eax
+$LN4@division_f:
+	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
+	jge	$LN3@division_f
+
+; 458  :     {
+; 459  :         t_x1 = x2 / x3;
+
+	movsx	eax, BYTE PTR _x2$[ebp]
+	movsx	ecx, BYTE PTR _x3$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _t_x1$[ebp], al
+
+; 460  :         t_x2 = x3 / x4;
+
+	movsx	eax, BYTE PTR _x3$[ebp]
+	movsx	ecx, BYTE PTR _x4$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _t_x2$[ebp], al
+
+; 461  :         t_x3 = x4 / x5;
+
+	movsx	eax, BYTE PTR _x4$[ebp]
+	movsx	ecx, BYTE PTR _x5$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _t_x3$[ebp], al
+
+; 462  :         t_x4 = x5 / x6;
+
+	movsx	eax, BYTE PTR _x5$[ebp]
+	movsx	ecx, BYTE PTR _x6$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _t_x4$[ebp], al
+
+; 463  :         t_x5 = x6 / x7;
+
+	movsx	eax, BYTE PTR _x6$[ebp]
+	movsx	ecx, BYTE PTR _x7$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _t_x5$[ebp], al
+
+; 464  :         t_x6 = x7 / x8;
+
+	movsx	eax, BYTE PTR _x7$[ebp]
+	movsx	ecx, BYTE PTR _x8$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _t_x6$[ebp], al
+
+; 465  :         t_x7 = x8 / x9;
+
+	movsx	eax, BYTE PTR _x8$[ebp]
+	movsx	ecx, BYTE PTR _x9$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _t_x7$[ebp], al
+
+; 466  :         t_x8 = x9 / x10;
+
+	movsx	eax, BYTE PTR _x9$[ebp]
+	movsx	ecx, BYTE PTR _x10$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _t_x8$[ebp], al
+
+; 467  :         t_x9 = x10 / x1;
+
+	movsx	eax, BYTE PTR _x10$[ebp]
+	movsx	ecx, BYTE PTR _x1$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _t_x9$[ebp], al
+
+; 468  :         t_x10 = x1 / x2;
+
+	movsx	eax, BYTE PTR _x1$[ebp]
+	movsx	ecx, BYTE PTR _x2$[ebp]
+	cdq
+	idiv	ecx
+	mov	BYTE PTR _t_x10$[ebp], al
+
+; 469  :     }
+
+	jmp	$LN2@division_f
+$LN3@division_f:
+
+; 470  :     return get_clock() - start;
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	sub	eax, DWORD PTR _start$[ebp]
+	sbb	edx, DWORD PTR _start$[ebp+4]
+
+; 471  : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 460				; 000001ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?division_for_char@@YA_KXZ ENDP				; division_for_char
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
+;	COMDAT ?division_for_float@@YA_KXZ
+_TEXT	SEGMENT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?division_for_float@@YA_KXZ PROC			; division_for_float, COMDAT
+
+; 432  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 340				; 00000154H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	ecx, OFFSET __A639F09B_labAOS@cpp
+	call	@__CheckForDebuggerJustMyCode@4
+
+; 433  :     float x1 = d1, x2 = d2, x3 = d3, x4 = d4, x5 = d5, x6 = d6, x7 = d7, x8 = d8, x9 = d9, x10 = d10;
+
+	movss	xmm0, DWORD PTR ?d1@@3MA
+	movss	DWORD PTR _x1$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d2@@3MA
+	movss	DWORD PTR _x2$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d3@@3MA
+	movss	DWORD PTR _x3$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d4@@3MA
+	movss	DWORD PTR _x4$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d5@@3MA
+	movss	DWORD PTR _x5$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d6@@3MA
+	movss	DWORD PTR _x6$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d7@@3MA
+	movss	DWORD PTR _x7$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d8@@3MA
+	movss	DWORD PTR _x8$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d9@@3MA
+	movss	DWORD PTR _x9$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d10@@3MA
+	movss	DWORD PTR _x10$[ebp], xmm0
+
+; 434  :     uint64_t start = get_clock();
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	mov	DWORD PTR _start$[ebp], eax
+	mov	DWORD PTR _start$[ebp+4], edx
+
+; 435  :     for (int i = 0; i < N_standart; i++)
+
+	mov	DWORD PTR _i$1[ebp], 0
+	jmp	SHORT $LN4@division_f
+$LN2@division_f:
+	mov	eax, DWORD PTR _i$1[ebp]
+	add	eax, 1
+	mov	DWORD PTR _i$1[ebp], eax
+$LN4@division_f:
+	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
+	jge	$LN3@division_f
+
+; 436  :     {
+; 437  :         x1 = x2 / x3;
+
+	movss	xmm0, DWORD PTR _x2$[ebp]
+	divss	xmm0, DWORD PTR _x3$[ebp]
+	movss	DWORD PTR _x1$[ebp], xmm0
+
+; 438  :         x2 = x3 / x4;
+
+	movss	xmm0, DWORD PTR _x3$[ebp]
+	divss	xmm0, DWORD PTR _x4$[ebp]
+	movss	DWORD PTR _x2$[ebp], xmm0
+
+; 439  :         x3 = x4 / x5;
+
+	movss	xmm0, DWORD PTR _x4$[ebp]
+	divss	xmm0, DWORD PTR _x5$[ebp]
+	movss	DWORD PTR _x3$[ebp], xmm0
+
+; 440  :         x4 = x5 / x6;
+
+	movss	xmm0, DWORD PTR _x5$[ebp]
+	divss	xmm0, DWORD PTR _x6$[ebp]
+	movss	DWORD PTR _x4$[ebp], xmm0
+
+; 441  :         x5 = x6 / x7;
+
+	movss	xmm0, DWORD PTR _x6$[ebp]
+	divss	xmm0, DWORD PTR _x7$[ebp]
+	movss	DWORD PTR _x5$[ebp], xmm0
+
+; 442  :         x6 = x7 / x8;
+
+	movss	xmm0, DWORD PTR _x7$[ebp]
+	divss	xmm0, DWORD PTR _x8$[ebp]
+	movss	DWORD PTR _x6$[ebp], xmm0
+
+; 443  :         x7 = x8 / x9;
+
+	movss	xmm0, DWORD PTR _x8$[ebp]
+	divss	xmm0, DWORD PTR _x9$[ebp]
+	movss	DWORD PTR _x7$[ebp], xmm0
+
+; 444  :         x8 = x9 / x10;
+
+	movss	xmm0, DWORD PTR _x9$[ebp]
+	divss	xmm0, DWORD PTR _x10$[ebp]
+	movss	DWORD PTR _x8$[ebp], xmm0
+
+; 445  :         x9 = x10 / x1;
+
+	movss	xmm0, DWORD PTR _x10$[ebp]
+	divss	xmm0, DWORD PTR _x1$[ebp]
+	movss	DWORD PTR _x9$[ebp], xmm0
+
+; 446  :         x10 = x1 / x2;
+
+	movss	xmm0, DWORD PTR _x1$[ebp]
+	divss	xmm0, DWORD PTR _x2$[ebp]
+	movss	DWORD PTR _x10$[ebp], xmm0
+
+; 447  :     }
+
+	jmp	$LN2@division_f
+$LN3@division_f:
+
+; 448  :     return get_clock() - start;
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	sub	eax, DWORD PTR _start$[ebp]
+	sbb	edx, DWORD PTR _start$[ebp+4]
+
+; 449  : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 340				; 00000154H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?division_for_float@@YA_KXZ ENDP			; division_for_float
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
+;	COMDAT ?division_for_long@@YA_KXZ
+_TEXT	SEGMENT
+_i$1 = -264						; size = 4
+_start$ = -252						; size = 8
+_t_x10$ = -236						; size = 4
+_t_x9$ = -224						; size = 4
+_t_x8$ = -212						; size = 4
+_t_x7$ = -200						; size = 4
+_t_x6$ = -188						; size = 4
+_t_x5$ = -176						; size = 4
+_t_x4$ = -164						; size = 4
+_t_x3$ = -152						; size = 4
+_t_x2$ = -140						; size = 4
+_t_x1$ = -128						; size = 4
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?division_for_long@@YA_KXZ PROC				; division_for_long, COMDAT
+
+; 411  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 460				; 000001ccH
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-460]
+	mov	ecx, 115				; 00000073H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	ecx, OFFSET __A639F09B_labAOS@cpp
+	call	@__CheckForDebuggerJustMyCode@4
+
+; 412  :     long x1 = c1, x2 = c2, x3 = c3, x4 = c4, x5 = c5, x6 = c6, x7 = c7, x8 = c8, x9 = c9, x10 = c10;
+
+	mov	eax, DWORD PTR ?c1@@3JA			; c1
+	mov	DWORD PTR _x1$[ebp], eax
+	mov	eax, DWORD PTR ?c2@@3JA			; c2
+	mov	DWORD PTR _x2$[ebp], eax
+	mov	eax, DWORD PTR ?c3@@3JA			; c3
+	mov	DWORD PTR _x3$[ebp], eax
+	mov	eax, DWORD PTR ?c4@@3JA			; c4
+	mov	DWORD PTR _x4$[ebp], eax
+	mov	eax, DWORD PTR ?c5@@3JA			; c5
+	mov	DWORD PTR _x5$[ebp], eax
+	mov	eax, DWORD PTR ?c6@@3JA			; c6
+	mov	DWORD PTR _x6$[ebp], eax
+	mov	eax, DWORD PTR ?c7@@3JA			; c7
+	mov	DWORD PTR _x7$[ebp], eax
+	mov	eax, DWORD PTR ?c8@@3JA			; c8
+	mov	DWORD PTR _x8$[ebp], eax
+	mov	eax, DWORD PTR ?c9@@3JA			; c9
+	mov	DWORD PTR _x9$[ebp], eax
+	mov	eax, DWORD PTR ?c10@@3JA		; c10
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 413  :     long t_x1 = x1, t_x2 = x2, t_x3 = x3, t_x4 = x4, t_x5 = x5, t_x6 = x6, t_x7 = x7, t_x8 = x8, t_x9 = x9, t_x10 = x10;
 
 	mov	eax, DWORD PTR _x1$[ebp]
 	mov	DWORD PTR _t_x1$[ebp], eax
@@ -5206,14 +4755,14 @@ _x10$ = 44						; size = 4
 	mov	eax, DWORD PTR _x10$[ebp]
 	mov	DWORD PTR _t_x10$[ebp], eax
 
-; 392  :     uint64_t start = get_clock();
+; 414  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 393  : 
-; 394  :     for (int i = 0; i < N_standart; i++) {
+; 415  : 
+; 416  :     for (int i = 0; i < N_standart; i++) {
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@division_f
@@ -5223,134 +4772,349 @@ $LN2@division_f:
 	mov	DWORD PTR _i$1[ebp], eax
 $LN4@division_f:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	SHORT $LN3@division_f
+	jge	$LN3@division_f
 
-; 395  :         t_x1 = x2 / x3;
+; 417  :         t_x1 = x2 / x3;
 
 	mov	eax, DWORD PTR _x2$[ebp]
 	cdq
 	idiv	DWORD PTR _x3$[ebp]
 	mov	DWORD PTR _t_x1$[ebp], eax
 
-; 396  :         t_x2 = x3 / x4;
+; 418  :         t_x2 = x3 / x4;
 
 	mov	eax, DWORD PTR _x3$[ebp]
 	cdq
 	idiv	DWORD PTR _x4$[ebp]
 	mov	DWORD PTR _t_x2$[ebp], eax
 
-; 397  :         t_x3 = x4 / x5;
+; 419  :         t_x3 = x4 / x5;
 
 	mov	eax, DWORD PTR _x4$[ebp]
 	cdq
 	idiv	DWORD PTR _x5$[ebp]
 	mov	DWORD PTR _t_x3$[ebp], eax
 
-; 398  :         t_x4 = x5 / x6;
+; 420  :         t_x4 = x5 / x6;
 
 	mov	eax, DWORD PTR _x5$[ebp]
 	cdq
 	idiv	DWORD PTR _x6$[ebp]
 	mov	DWORD PTR _t_x4$[ebp], eax
 
-; 399  :         t_x5 = x6 / x7;
+; 421  :         t_x5 = x6 / x7;
 
 	mov	eax, DWORD PTR _x6$[ebp]
 	cdq
 	idiv	DWORD PTR _x7$[ebp]
 	mov	DWORD PTR _t_x5$[ebp], eax
 
-; 400  :         t_x6 = x7 / x8;
+; 422  :         t_x6 = x7 / x8;
 
 	mov	eax, DWORD PTR _x7$[ebp]
 	cdq
 	idiv	DWORD PTR _x8$[ebp]
 	mov	DWORD PTR _t_x6$[ebp], eax
 
-; 401  :         t_x7 = x8 / x9;
+; 423  :         t_x7 = x8 / x9;
 
 	mov	eax, DWORD PTR _x8$[ebp]
 	cdq
 	idiv	DWORD PTR _x9$[ebp]
 	mov	DWORD PTR _t_x7$[ebp], eax
 
-; 402  :         t_x8 = x9 / x10;
+; 424  :         t_x8 = x9 / x10;
 
 	mov	eax, DWORD PTR _x9$[ebp]
 	cdq
 	idiv	DWORD PTR _x10$[ebp]
 	mov	DWORD PTR _t_x8$[ebp], eax
 
-; 403  :         t_x9 = x10 / x1;
+; 425  :         t_x9 = x10 / x1;
 
 	mov	eax, DWORD PTR _x10$[ebp]
 	cdq
 	idiv	DWORD PTR _x1$[ebp]
 	mov	DWORD PTR _t_x9$[ebp], eax
 
-; 404  :         t_x10 = x1 / x2;
+; 426  :         t_x10 = x1 / x2;
 
 	mov	eax, DWORD PTR _x1$[ebp]
 	cdq
 	idiv	DWORD PTR _x2$[ebp]
 	mov	DWORD PTR _t_x10$[ebp], eax
 
-; 405  :     }
+; 427  :     }
 
 	jmp	$LN2@division_f
 $LN3@division_f:
 
-; 406  :     return get_clock() - start;
+; 428  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 407  : }
+; 429  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 340				; 00000154H
+	add	esp, 460				; 000001ccH
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?division_for_long@@YA_KJJJJJJJJJJ@Z ENDP		; division_for_long
+?division_for_long@@YA_KXZ ENDP				; division_for_long
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?division_for_double@@YA_KNNNNNNNNNN@Z
+;	COMDAT ?division_for_double@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 8
-_x2$ = 16						; size = 8
-_x3$ = 24						; size = 8
-_x4$ = 32						; size = 8
-_x5$ = 40						; size = 8
-_x6$ = 48						; size = 8
-_x7$ = 56						; size = 8
-_x8$ = 64						; size = 8
-_x9$ = 72						; size = 8
-_x10$ = 80						; size = 8
-?division_for_double@@YA_KNNNNNNNNNN@Z PROC		; division_for_double, COMDAT
+_i$1 = -184						; size = 4
+_start$ = -172						; size = 8
+_x10$ = -156						; size = 8
+_x9$ = -140						; size = 8
+_x8$ = -124						; size = 8
+_x7$ = -108						; size = 8
+_x6$ = -92						; size = 8
+_x5$ = -76						; size = 8
+_x4$ = -60						; size = 8
+_x3$ = -44						; size = 8
+_x2$ = -28						; size = 8
+_x1$ = -12						; size = 8
+?division_for_double@@YA_KXZ PROC			; division_for_double, COMDAT
 
-; 371  : {
+; 391  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 380				; 0000017cH
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-380]
+	mov	ecx, 95					; 0000005fH
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
+
+; 392  :     double x1 = b1, x2 = b2, x3 = b3, x4 = b4, x5 = b5, x6 = b6, x7 = b7, x8 = b8, x9 = b9, x10 = b10;
+
+	movsd	xmm0, QWORD PTR ?b1@@3NA
+	movsd	QWORD PTR _x1$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b2@@3NA
+	movsd	QWORD PTR _x2$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b3@@3NA
+	movsd	QWORD PTR _x3$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b4@@3NA
+	movsd	QWORD PTR _x4$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b5@@3NA
+	movsd	QWORD PTR _x5$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b6@@3NA
+	movsd	QWORD PTR _x6$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b7@@3NA
+	movsd	QWORD PTR _x7$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b8@@3NA
+	movsd	QWORD PTR _x8$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b9@@3NA
+	movsd	QWORD PTR _x9$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b10@@3NA
+	movsd	QWORD PTR _x10$[ebp], xmm0
+
+; 393  :     uint64_t start = get_clock();
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	mov	DWORD PTR _start$[ebp], eax
+	mov	DWORD PTR _start$[ebp+4], edx
+
+; 394  :     for (int i = 0; i < N_standart; i++)
+
+	mov	DWORD PTR _i$1[ebp], 0
+	jmp	SHORT $LN4@division_f
+$LN2@division_f:
+	mov	eax, DWORD PTR _i$1[ebp]
+	add	eax, 1
+	mov	DWORD PTR _i$1[ebp], eax
+$LN4@division_f:
+	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
+	jge	$LN3@division_f
+
+; 395  :     {
+; 396  :         x1 = x2 / x3;
+
+	movsd	xmm0, QWORD PTR _x2$[ebp]
+	divsd	xmm0, QWORD PTR _x3$[ebp]
+	movsd	QWORD PTR _x1$[ebp], xmm0
+
+; 397  :         x2 = x3 / x4;
+
+	movsd	xmm0, QWORD PTR _x3$[ebp]
+	divsd	xmm0, QWORD PTR _x4$[ebp]
+	movsd	QWORD PTR _x2$[ebp], xmm0
+
+; 398  :         x3 = x4 / x5;
+
+	movsd	xmm0, QWORD PTR _x4$[ebp]
+	divsd	xmm0, QWORD PTR _x5$[ebp]
+	movsd	QWORD PTR _x3$[ebp], xmm0
+
+; 399  :         x4 = x5 / x6;
+
+	movsd	xmm0, QWORD PTR _x5$[ebp]
+	divsd	xmm0, QWORD PTR _x6$[ebp]
+	movsd	QWORD PTR _x4$[ebp], xmm0
+
+; 400  :         x5 = x6 / x7;
+
+	movsd	xmm0, QWORD PTR _x6$[ebp]
+	divsd	xmm0, QWORD PTR _x7$[ebp]
+	movsd	QWORD PTR _x5$[ebp], xmm0
+
+; 401  :         x6 = x7 / x8;
+
+	movsd	xmm0, QWORD PTR _x7$[ebp]
+	divsd	xmm0, QWORD PTR _x8$[ebp]
+	movsd	QWORD PTR _x6$[ebp], xmm0
+
+; 402  :         x7 = x8 / x9;
+
+	movsd	xmm0, QWORD PTR _x8$[ebp]
+	divsd	xmm0, QWORD PTR _x9$[ebp]
+	movsd	QWORD PTR _x7$[ebp], xmm0
+
+; 403  :         x8 = x9 / x10;
+
+	movsd	xmm0, QWORD PTR _x9$[ebp]
+	divsd	xmm0, QWORD PTR _x10$[ebp]
+	movsd	QWORD PTR _x8$[ebp], xmm0
+
+; 404  :         x9 = x10 / x1;
+
+	movsd	xmm0, QWORD PTR _x10$[ebp]
+	divsd	xmm0, QWORD PTR _x1$[ebp]
+	movsd	QWORD PTR _x9$[ebp], xmm0
+
+; 405  :         x10 = x1 / x2;
+
+	movsd	xmm0, QWORD PTR _x1$[ebp]
+	divsd	xmm0, QWORD PTR _x2$[ebp]
+	movsd	QWORD PTR _x10$[ebp], xmm0
+
+; 406  :     }
+
+	jmp	$LN2@division_f
+$LN3@division_f:
+
+; 407  :     return get_clock() - start;
+
+	call	?get_clock@@YA_KXZ			; get_clock
+	sub	eax, DWORD PTR _start$[ebp]
+	sbb	edx, DWORD PTR _start$[ebp+4]
+
+; 408  : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 380				; 0000017cH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?division_for_double@@YA_KXZ ENDP			; division_for_double
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
+;	COMDAT ?division_for_int@@YA_KXZ
+_TEXT	SEGMENT
+_i$1 = -264						; size = 4
+_start$ = -252						; size = 8
+_t_x10$ = -236						; size = 4
+_t_x9$ = -224						; size = 4
+_t_x8$ = -212						; size = 4
+_t_x7$ = -200						; size = 4
+_t_x6$ = -188						; size = 4
+_t_x5$ = -176						; size = 4
+_t_x4$ = -164						; size = 4
+_t_x3$ = -152						; size = 4
+_t_x2$ = -140						; size = 4
+_t_x1$ = -128						; size = 4
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?division_for_int@@YA_KXZ PROC				; division_for_int, COMDAT
+
+; 369  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 460				; 000001ccH
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-460]
+	mov	ecx, 115				; 00000073H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	ecx, OFFSET __A639F09B_labAOS@cpp
+	call	@__CheckForDebuggerJustMyCode@4
+
+; 370  :     int x1 = a1, x2 = a2, x3 = a3, x4 = a4, x5 = a5, x6 = a6, x7 = a7, x8 = a8, x9 = a9, x10 = a10;
+
+	mov	eax, DWORD PTR ?a1@@3HA			; a1
+	mov	DWORD PTR _x1$[ebp], eax
+	mov	eax, DWORD PTR ?a2@@3HA			; a2
+	mov	DWORD PTR _x2$[ebp], eax
+	mov	eax, DWORD PTR ?a3@@3HA			; a3
+	mov	DWORD PTR _x3$[ebp], eax
+	mov	eax, DWORD PTR ?a4@@3HA			; a4
+	mov	DWORD PTR _x4$[ebp], eax
+	mov	eax, DWORD PTR ?a5@@3HA			; a5
+	mov	DWORD PTR _x5$[ebp], eax
+	mov	eax, DWORD PTR ?a6@@3HA			; a6
+	mov	DWORD PTR _x6$[ebp], eax
+	mov	eax, DWORD PTR ?a7@@3HA			; a7
+	mov	DWORD PTR _x7$[ebp], eax
+	mov	eax, DWORD PTR ?a8@@3HA			; a8
+	mov	DWORD PTR _x8$[ebp], eax
+	mov	eax, DWORD PTR ?a9@@3HA			; a9
+	mov	DWORD PTR _x9$[ebp], eax
+	mov	eax, DWORD PTR ?a10@@3HA		; a10
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 371  :     int t_x1 = x1, t_x2 = x2, t_x3 = x3, t_x4 = x4, t_x5 = x5, t_x6 = x6, t_x7 = x7, t_x8 = x8, t_x9 = x9, t_x10 = x10;
+
+	mov	eax, DWORD PTR _x1$[ebp]
+	mov	DWORD PTR _t_x1$[ebp], eax
+	mov	eax, DWORD PTR _x2$[ebp]
+	mov	DWORD PTR _t_x2$[ebp], eax
+	mov	eax, DWORD PTR _x3$[ebp]
+	mov	DWORD PTR _t_x3$[ebp], eax
+	mov	eax, DWORD PTR _x4$[ebp]
+	mov	DWORD PTR _t_x4$[ebp], eax
+	mov	eax, DWORD PTR _x5$[ebp]
+	mov	DWORD PTR _t_x5$[ebp], eax
+	mov	eax, DWORD PTR _x6$[ebp]
+	mov	DWORD PTR _t_x6$[ebp], eax
+	mov	eax, DWORD PTR _x7$[ebp]
+	mov	DWORD PTR _t_x7$[ebp], eax
+	mov	eax, DWORD PTR _x8$[ebp]
+	mov	DWORD PTR _t_x8$[ebp], eax
+	mov	eax, DWORD PTR _x9$[ebp]
+	mov	DWORD PTR _t_x9$[ebp], eax
+	mov	eax, DWORD PTR _x10$[ebp]
+	mov	DWORD PTR _t_x10$[ebp], eax
 
 ; 372  :     uint64_t start = get_clock();
 
@@ -5358,7 +5122,8 @@ _x10$ = 80						; size = 8
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 373  :     for (int i = 0; i < N_standart; i++)
+; 373  : 
+; 374  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@division_f
@@ -5370,120 +5135,120 @@ $LN4@division_f:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	$LN3@division_f
 
-; 374  :     {
-; 375  :         x1 = x2 / x3;
+; 375  :     {
+; 376  :         t_x1 = x2 / x3;
 
-	movsd	xmm0, QWORD PTR _x2$[ebp]
-	divsd	xmm0, QWORD PTR _x3$[ebp]
-	movsd	QWORD PTR _x1$[ebp], xmm0
+	mov	eax, DWORD PTR _x2$[ebp]
+	cdq
+	idiv	DWORD PTR _x3$[ebp]
+	mov	DWORD PTR _t_x1$[ebp], eax
 
-; 376  :         x2 = x3 / x4;
+; 377  :         t_x2 = x3 / x4;
 
-	movsd	xmm0, QWORD PTR _x3$[ebp]
-	divsd	xmm0, QWORD PTR _x4$[ebp]
-	movsd	QWORD PTR _x2$[ebp], xmm0
+	mov	eax, DWORD PTR _x3$[ebp]
+	cdq
+	idiv	DWORD PTR _x4$[ebp]
+	mov	DWORD PTR _t_x2$[ebp], eax
 
-; 377  :         x3 = x4 / x5;
+; 378  :         t_x3 = x4 / x5;
 
-	movsd	xmm0, QWORD PTR _x4$[ebp]
-	divsd	xmm0, QWORD PTR _x5$[ebp]
-	movsd	QWORD PTR _x3$[ebp], xmm0
+	mov	eax, DWORD PTR _x4$[ebp]
+	cdq
+	idiv	DWORD PTR _x5$[ebp]
+	mov	DWORD PTR _t_x3$[ebp], eax
 
-; 378  :         x4 = x5 / x6;
+; 379  :         t_x4 = x5 / x6;
 
-	movsd	xmm0, QWORD PTR _x5$[ebp]
-	divsd	xmm0, QWORD PTR _x6$[ebp]
-	movsd	QWORD PTR _x4$[ebp], xmm0
+	mov	eax, DWORD PTR _x5$[ebp]
+	cdq
+	idiv	DWORD PTR _x6$[ebp]
+	mov	DWORD PTR _t_x4$[ebp], eax
 
-; 379  :         x5 = x6 / x7;
+; 380  :         t_x5 = x6 / x7;
 
-	movsd	xmm0, QWORD PTR _x6$[ebp]
-	divsd	xmm0, QWORD PTR _x7$[ebp]
-	movsd	QWORD PTR _x5$[ebp], xmm0
+	mov	eax, DWORD PTR _x6$[ebp]
+	cdq
+	idiv	DWORD PTR _x7$[ebp]
+	mov	DWORD PTR _t_x5$[ebp], eax
 
-; 380  :         x6 = x7 / x8;
+; 381  :         t_x6 = x7 / x8;
 
-	movsd	xmm0, QWORD PTR _x7$[ebp]
-	divsd	xmm0, QWORD PTR _x8$[ebp]
-	movsd	QWORD PTR _x6$[ebp], xmm0
+	mov	eax, DWORD PTR _x7$[ebp]
+	cdq
+	idiv	DWORD PTR _x8$[ebp]
+	mov	DWORD PTR _t_x6$[ebp], eax
 
-; 381  :         x7 = x8 / x9;
+; 382  :         t_x7 = x8 / x9;
 
-	movsd	xmm0, QWORD PTR _x8$[ebp]
-	divsd	xmm0, QWORD PTR _x9$[ebp]
-	movsd	QWORD PTR _x7$[ebp], xmm0
+	mov	eax, DWORD PTR _x8$[ebp]
+	cdq
+	idiv	DWORD PTR _x9$[ebp]
+	mov	DWORD PTR _t_x7$[ebp], eax
 
-; 382  :         x8 = x9 / x10;
+; 383  :         t_x8 = x9 / x10;
 
-	movsd	xmm0, QWORD PTR _x9$[ebp]
-	divsd	xmm0, QWORD PTR _x10$[ebp]
-	movsd	QWORD PTR _x8$[ebp], xmm0
+	mov	eax, DWORD PTR _x9$[ebp]
+	cdq
+	idiv	DWORD PTR _x10$[ebp]
+	mov	DWORD PTR _t_x8$[ebp], eax
 
-; 383  :         x9 = x10 / x1;
+; 384  :         t_x9 = x10 / x1;
 
-	movsd	xmm0, QWORD PTR _x10$[ebp]
-	divsd	xmm0, QWORD PTR _x1$[ebp]
-	movsd	QWORD PTR _x9$[ebp], xmm0
+	mov	eax, DWORD PTR _x10$[ebp]
+	cdq
+	idiv	DWORD PTR _x1$[ebp]
+	mov	DWORD PTR _t_x9$[ebp], eax
 
-; 384  :         x10 = x1 / x2;
+; 385  :         t_x10 = x1 / x2;
 
-	movsd	xmm0, QWORD PTR _x1$[ebp]
-	divsd	xmm0, QWORD PTR _x2$[ebp]
-	movsd	QWORD PTR _x10$[ebp], xmm0
+	mov	eax, DWORD PTR _x1$[ebp]
+	cdq
+	idiv	DWORD PTR _x2$[ebp]
+	mov	DWORD PTR _t_x10$[ebp], eax
 
-; 385  :     }
+; 386  :     }
 
 	jmp	$LN2@division_f
 $LN3@division_f:
 
-; 386  :     return get_clock() - start;
+; 387  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 387  : }
+; 388  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 460				; 000001ccH
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?division_for_double@@YA_KNNNNNNNNNN@Z ENDP		; division_for_double
+?division_for_int@@YA_KXZ ENDP				; division_for_int
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?division_for_int@@YA_KHHHHHHHHHH@Z
+;	COMDAT ?multiplication_for_char@@YA_KXZ
 _TEXT	SEGMENT
 _i$1 = -144						; size = 4
 _start$ = -132						; size = 8
-_t_x10$ = -116						; size = 4
-_t_x9$ = -104						; size = 4
-_t_x8$ = -92						; size = 4
-_t_x7$ = -80						; size = 4
-_t_x6$ = -68						; size = 4
-_t_x5$ = -56						; size = 4
-_t_x4$ = -44						; size = 4
-_t_x3$ = -32						; size = 4
-_t_x2$ = -20						; size = 4
-_t_x1$ = -8						; size = 4
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?division_for_int@@YA_KHHHHHHHHHH@Z PROC		; division_for_int, COMDAT
+_x10$ = -113						; size = 1
+_x9$ = -101						; size = 1
+_x8$ = -89						; size = 1
+_x7$ = -77						; size = 1
+_x6$ = -65						; size = 1
+_x5$ = -53						; size = 1
+_x4$ = -41						; size = 1
+_x3$ = -29						; size = 1
+_x2$ = -17						; size = 1
+_x1$ = -5						; size = 1
+?multiplication_for_char@@YA_KXZ PROC			; multiplication_for_char, COMDAT
 
-; 350  : {
+; 348  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -5498,131 +5263,130 @@ _x10$ = 44						; size = 4
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 351  :     long t_x1 = x1, t_x2 = x2, t_x3 = x3, t_x4 = x4, t_x5 = x5, t_x6 = x6, t_x7 = x7, t_x8 = x8, t_x9 = x9, t_x10 = x10;
+; 349  :     char x1 = e1, x2 = e2, x3 = e3, x4 = e4, x5 = e5, x6 = e6, x7 = e7, x8 = e8, x9 = e9, x10 = e10;
 
-	mov	eax, DWORD PTR _x1$[ebp]
-	mov	DWORD PTR _t_x1$[ebp], eax
-	mov	eax, DWORD PTR _x2$[ebp]
-	mov	DWORD PTR _t_x2$[ebp], eax
-	mov	eax, DWORD PTR _x3$[ebp]
-	mov	DWORD PTR _t_x3$[ebp], eax
-	mov	eax, DWORD PTR _x4$[ebp]
-	mov	DWORD PTR _t_x4$[ebp], eax
-	mov	eax, DWORD PTR _x5$[ebp]
-	mov	DWORD PTR _t_x5$[ebp], eax
-	mov	eax, DWORD PTR _x6$[ebp]
-	mov	DWORD PTR _t_x6$[ebp], eax
-	mov	eax, DWORD PTR _x7$[ebp]
-	mov	DWORD PTR _t_x7$[ebp], eax
-	mov	eax, DWORD PTR _x8$[ebp]
-	mov	DWORD PTR _t_x8$[ebp], eax
-	mov	eax, DWORD PTR _x9$[ebp]
-	mov	DWORD PTR _t_x9$[ebp], eax
-	mov	eax, DWORD PTR _x10$[ebp]
-	mov	DWORD PTR _t_x10$[ebp], eax
+	mov	al, BYTE PTR ?e1@@3DA			; e1
+	mov	BYTE PTR _x1$[ebp], al
+	mov	al, BYTE PTR ?e2@@3DA			; e2
+	mov	BYTE PTR _x2$[ebp], al
+	mov	al, BYTE PTR ?e3@@3DA			; e3
+	mov	BYTE PTR _x3$[ebp], al
+	mov	al, BYTE PTR ?e4@@3DA			; e4
+	mov	BYTE PTR _x4$[ebp], al
+	mov	al, BYTE PTR ?e5@@3DA			; e5
+	mov	BYTE PTR _x5$[ebp], al
+	mov	al, BYTE PTR ?e6@@3DA			; e6
+	mov	BYTE PTR _x6$[ebp], al
+	mov	al, BYTE PTR ?e7@@3DA			; e7
+	mov	BYTE PTR _x7$[ebp], al
+	mov	al, BYTE PTR ?e8@@3DA			; e8
+	mov	BYTE PTR _x8$[ebp], al
+	mov	al, BYTE PTR ?e9@@3DA			; e9
+	mov	BYTE PTR _x9$[ebp], al
+	mov	al, BYTE PTR ?e10@@3DA			; e10
+	mov	BYTE PTR _x10$[ebp], al
 
-; 352  :     uint64_t start = get_clock();
+; 350  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 353  : 
-; 354  :     for (int i = 0; i < N_standart; i++)
+; 351  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
-	jmp	SHORT $LN4@division_f
-$LN2@division_f:
+	jmp	SHORT $LN4@multiplica
+$LN2@multiplica:
 	mov	eax, DWORD PTR _i$1[ebp]
 	add	eax, 1
 	mov	DWORD PTR _i$1[ebp], eax
-$LN4@division_f:
+$LN4@multiplica:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	SHORT $LN3@division_f
+	jge	$LN3@multiplica
 
-; 355  :     {
-; 356  :         t_x1 = x2 / x3;
+; 352  :     {
+; 353  :         x1 = x2 * x3;
 
-	mov	eax, DWORD PTR _x2$[ebp]
-	cdq
-	idiv	DWORD PTR _x3$[ebp]
-	mov	DWORD PTR _t_x1$[ebp], eax
+	movsx	eax, BYTE PTR _x2$[ebp]
+	movsx	ecx, BYTE PTR _x3$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _x1$[ebp], al
 
-; 357  :         t_x2 = x3 / x4;
+; 354  :         x2 = x3 * x4;
 
-	mov	eax, DWORD PTR _x3$[ebp]
-	cdq
-	idiv	DWORD PTR _x4$[ebp]
-	mov	DWORD PTR _t_x2$[ebp], eax
+	movsx	eax, BYTE PTR _x3$[ebp]
+	movsx	ecx, BYTE PTR _x4$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _x2$[ebp], al
 
-; 358  :         t_x3 = x4 / x5;
+; 355  :         x3 = x4 * x5;
 
-	mov	eax, DWORD PTR _x4$[ebp]
-	cdq
-	idiv	DWORD PTR _x5$[ebp]
-	mov	DWORD PTR _t_x3$[ebp], eax
+	movsx	eax, BYTE PTR _x4$[ebp]
+	movsx	ecx, BYTE PTR _x5$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _x3$[ebp], al
 
-; 359  :         t_x4 = x5 / x6;
+; 356  :         x4 = x5 * x6;
 
-	mov	eax, DWORD PTR _x5$[ebp]
-	cdq
-	idiv	DWORD PTR _x6$[ebp]
-	mov	DWORD PTR _t_x4$[ebp], eax
+	movsx	eax, BYTE PTR _x5$[ebp]
+	movsx	ecx, BYTE PTR _x6$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _x4$[ebp], al
 
-; 360  :         t_x5 = x6 / x7;
+; 357  :         x5 = x6 * x7;
 
-	mov	eax, DWORD PTR _x6$[ebp]
-	cdq
-	idiv	DWORD PTR _x7$[ebp]
-	mov	DWORD PTR _t_x5$[ebp], eax
+	movsx	eax, BYTE PTR _x6$[ebp]
+	movsx	ecx, BYTE PTR _x7$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _x5$[ebp], al
 
-; 361  :         t_x6 = x7 / x8;
+; 358  :         x6 = x7 * x8;
 
-	mov	eax, DWORD PTR _x7$[ebp]
-	cdq
-	idiv	DWORD PTR _x8$[ebp]
-	mov	DWORD PTR _t_x6$[ebp], eax
+	movsx	eax, BYTE PTR _x7$[ebp]
+	movsx	ecx, BYTE PTR _x8$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _x6$[ebp], al
 
-; 362  :         t_x7 = x8 / x9;
+; 359  :         x7 = x8 * x9;
 
-	mov	eax, DWORD PTR _x8$[ebp]
-	cdq
-	idiv	DWORD PTR _x9$[ebp]
-	mov	DWORD PTR _t_x7$[ebp], eax
+	movsx	eax, BYTE PTR _x8$[ebp]
+	movsx	ecx, BYTE PTR _x9$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _x7$[ebp], al
 
-; 363  :         t_x8 = x9 / x10;
+; 360  :         x8 = x9 * x10;
 
-	mov	eax, DWORD PTR _x9$[ebp]
-	cdq
-	idiv	DWORD PTR _x10$[ebp]
-	mov	DWORD PTR _t_x8$[ebp], eax
+	movsx	eax, BYTE PTR _x9$[ebp]
+	movsx	ecx, BYTE PTR _x10$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _x8$[ebp], al
 
-; 364  :         t_x9 = x10 / x1;
+; 361  :         x9 = x10 * x1;
 
-	mov	eax, DWORD PTR _x10$[ebp]
-	cdq
-	idiv	DWORD PTR _x1$[ebp]
-	mov	DWORD PTR _t_x9$[ebp], eax
+	movsx	eax, BYTE PTR _x10$[ebp]
+	movsx	ecx, BYTE PTR _x1$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _x9$[ebp], al
 
-; 365  :         t_x10 = x1 / x2;
+; 362  :         x10 = x1 * x2;
 
-	mov	eax, DWORD PTR _x1$[ebp]
-	cdq
-	idiv	DWORD PTR _x2$[ebp]
-	mov	DWORD PTR _t_x10$[ebp], eax
+	movsx	eax, BYTE PTR _x1$[ebp]
+	movsx	ecx, BYTE PTR _x2$[ebp]
+	imul	eax, ecx
+	mov	BYTE PTR _x10$[ebp], al
 
-; 366  :     }
+; 363  :     }
 
-	jmp	$LN2@division_f
-$LN3@division_f:
+	jmp	$LN2@multiplica
+$LN3@multiplica:
 
-; 367  :     return get_clock() - start;
+; 364  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 368  : }
+; 365  : }
 
 	pop	edi
 	pop	esi
@@ -5633,48 +5397,71 @@ $LN3@division_f:
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?division_for_int@@YA_KHHHHHHHHHH@Z ENDP		; division_for_int
+?multiplication_for_char@@YA_KXZ ENDP			; multiplication_for_char
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?multiplication_for_char@@YA_KDDDDDDDDDD@Z
+;	COMDAT ?multiplication_for_float@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 1
-_x2$ = 12						; size = 1
-_x3$ = 16						; size = 1
-_x4$ = 20						; size = 1
-_x5$ = 24						; size = 1
-_x6$ = 28						; size = 1
-_x7$ = 32						; size = 1
-_x8$ = 36						; size = 1
-_x9$ = 40						; size = 1
-_x10$ = 44						; size = 1
-?multiplication_for_char@@YA_KDDDDDDDDDD@Z PROC		; multiplication_for_char, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?multiplication_for_float@@YA_KXZ PROC			; multiplication_for_float, COMDAT
 
-; 330  : {
+; 328  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 331  :     uint64_t start = get_clock();
+; 329  :     float x1 = d1, x2 = d2, x3 = d3, x4 = d4, x5 = d5, x6 = d6, x7 = d7, x8 = d8, x9 = d9, x10 = d10;
+
+	movss	xmm0, DWORD PTR ?d1@@3MA
+	movss	DWORD PTR _x1$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d2@@3MA
+	movss	DWORD PTR _x2$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d3@@3MA
+	movss	DWORD PTR _x3$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d4@@3MA
+	movss	DWORD PTR _x4$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d5@@3MA
+	movss	DWORD PTR _x5$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d6@@3MA
+	movss	DWORD PTR _x6$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d7@@3MA
+	movss	DWORD PTR _x7$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d8@@3MA
+	movss	DWORD PTR _x8$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d9@@3MA
+	movss	DWORD PTR _x9$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d10@@3MA
+	movss	DWORD PTR _x10$[ebp], xmm0
+
+; 330  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 332  :     for (int i = 0; i < N_standart; i++)
+; 331  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@multiplica
@@ -5686,277 +5473,154 @@ $LN4@multiplica:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	$LN3@multiplica
 
-; 333  :     {
-; 334  :         x1 = x2 * x3;
-
-	movsx	eax, BYTE PTR _x2$[ebp]
-	movsx	ecx, BYTE PTR _x3$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _x1$[ebp], al
-
-; 335  :         x2 = x3 * x4;
-
-	movsx	eax, BYTE PTR _x3$[ebp]
-	movsx	ecx, BYTE PTR _x4$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _x2$[ebp], al
-
-; 336  :         x3 = x4 * x5;
-
-	movsx	eax, BYTE PTR _x4$[ebp]
-	movsx	ecx, BYTE PTR _x5$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _x3$[ebp], al
-
-; 337  :         x4 = x5 * x6;
-
-	movsx	eax, BYTE PTR _x5$[ebp]
-	movsx	ecx, BYTE PTR _x6$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _x4$[ebp], al
-
-; 338  :         x5 = x6 * x7;
-
-	movsx	eax, BYTE PTR _x6$[ebp]
-	movsx	ecx, BYTE PTR _x7$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _x5$[ebp], al
-
-; 339  :         x6 = x7 * x8;
-
-	movsx	eax, BYTE PTR _x7$[ebp]
-	movsx	ecx, BYTE PTR _x8$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _x6$[ebp], al
-
-; 340  :         x7 = x8 * x9;
-
-	movsx	eax, BYTE PTR _x8$[ebp]
-	movsx	ecx, BYTE PTR _x9$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _x7$[ebp], al
-
-; 341  :         x8 = x9 * x10;
-
-	movsx	eax, BYTE PTR _x9$[ebp]
-	movsx	ecx, BYTE PTR _x10$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _x8$[ebp], al
-
-; 342  :         x9 = x10 * x1;
-
-	movsx	eax, BYTE PTR _x10$[ebp]
-	movsx	ecx, BYTE PTR _x1$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _x9$[ebp], al
-
-; 343  :         x10 = x1 * x2;
-
-	movsx	eax, BYTE PTR _x1$[ebp]
-	movsx	ecx, BYTE PTR _x2$[ebp]
-	imul	eax, ecx
-	mov	BYTE PTR _x10$[ebp], al
-
-; 344  :     }
-
-	jmp	$LN2@multiplica
-$LN3@multiplica:
-
-; 345  :     return get_clock() - start;
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	sub	eax, DWORD PTR _start$[ebp]
-	sbb	edx, DWORD PTR _start$[ebp+4]
-
-; 346  : }
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 220				; 000000dcH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?multiplication_for_char@@YA_KDDDDDDDDDD@Z ENDP		; multiplication_for_char
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?multiplication_for_float@@YA_KMMMMMMMMMM@Z
-_TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?multiplication_for_float@@YA_KMMMMMMMMMM@Z PROC	; multiplication_for_float, COMDAT
-
-; 311  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	mov	ecx, OFFSET __A639F09B_labAOS@cpp
-	call	@__CheckForDebuggerJustMyCode@4
-
-; 312  :     uint64_t start = get_clock();
-
-	call	?get_clock@@YA_KXZ			; get_clock
-	mov	DWORD PTR _start$[ebp], eax
-	mov	DWORD PTR _start$[ebp+4], edx
-
-; 313  :     for (int i = 0; i < N_standart; i++)
-
-	mov	DWORD PTR _i$1[ebp], 0
-	jmp	SHORT $LN4@multiplica
-$LN2@multiplica:
-	mov	eax, DWORD PTR _i$1[ebp]
-	add	eax, 1
-	mov	DWORD PTR _i$1[ebp], eax
-$LN4@multiplica:
-	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
-	jge	$LN3@multiplica
-
-; 314  :     {
-; 315  :         x1 = x2 * x3;
+; 332  :     {
+; 333  :         x1 = x2 * x3;
 
 	movss	xmm0, DWORD PTR _x2$[ebp]
 	mulss	xmm0, DWORD PTR _x3$[ebp]
 	movss	DWORD PTR _x1$[ebp], xmm0
 
-; 316  :         x2 = x3 * x4;
+; 334  :         x2 = x3 * x4;
 
 	movss	xmm0, DWORD PTR _x3$[ebp]
 	mulss	xmm0, DWORD PTR _x4$[ebp]
 	movss	DWORD PTR _x2$[ebp], xmm0
 
-; 317  :         x3 = x4 * x5;
+; 335  :         x3 = x4 * x5;
 
 	movss	xmm0, DWORD PTR _x4$[ebp]
 	mulss	xmm0, DWORD PTR _x5$[ebp]
 	movss	DWORD PTR _x3$[ebp], xmm0
 
-; 318  :         x4 = x5 * x6;
+; 336  :         x4 = x5 * x6;
 
 	movss	xmm0, DWORD PTR _x5$[ebp]
 	mulss	xmm0, DWORD PTR _x6$[ebp]
 	movss	DWORD PTR _x4$[ebp], xmm0
 
-; 319  :         x5 = x6 * x7;
+; 337  :         x5 = x6 * x7;
 
 	movss	xmm0, DWORD PTR _x6$[ebp]
 	mulss	xmm0, DWORD PTR _x7$[ebp]
 	movss	DWORD PTR _x5$[ebp], xmm0
 
-; 320  :         x6 = x7 * x8;
+; 338  :         x6 = x7 * x8;
 
 	movss	xmm0, DWORD PTR _x7$[ebp]
 	mulss	xmm0, DWORD PTR _x8$[ebp]
 	movss	DWORD PTR _x6$[ebp], xmm0
 
-; 321  :         x7 = x8 * x9;
+; 339  :         x7 = x8 * x9;
 
 	movss	xmm0, DWORD PTR _x8$[ebp]
 	mulss	xmm0, DWORD PTR _x9$[ebp]
 	movss	DWORD PTR _x7$[ebp], xmm0
 
-; 322  :         x8 = x9 * x10;
+; 340  :         x8 = x9 * x10;
 
 	movss	xmm0, DWORD PTR _x9$[ebp]
 	mulss	xmm0, DWORD PTR _x10$[ebp]
 	movss	DWORD PTR _x8$[ebp], xmm0
 
-; 323  :         x9 = x10 * x1;
+; 341  :         x9 = x10 * x1;
 
 	movss	xmm0, DWORD PTR _x10$[ebp]
 	mulss	xmm0, DWORD PTR _x1$[ebp]
 	movss	DWORD PTR _x9$[ebp], xmm0
 
-; 324  :         x10 = x1 * x2;
+; 342  :         x10 = x1 * x2;
 
 	movss	xmm0, DWORD PTR _x1$[ebp]
 	mulss	xmm0, DWORD PTR _x2$[ebp]
 	movss	DWORD PTR _x10$[ebp], xmm0
 
-; 325  :     }
+; 343  :     }
 
 	jmp	$LN2@multiplica
 $LN3@multiplica:
 
-; 326  :     return get_clock() - start;
+; 344  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 327  : }
+; 345  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?multiplication_for_float@@YA_KMMMMMMMMMM@Z ENDP	; multiplication_for_float
+?multiplication_for_float@@YA_KXZ ENDP			; multiplication_for_float
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?multiplication_for_long@@YA_KJJJJJJJJJJ@Z
+;	COMDAT ?multiplication_for_long@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?multiplication_for_long@@YA_KJJJJJJJJJJ@Z PROC		; multiplication_for_long, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?multiplication_for_long@@YA_KXZ PROC			; multiplication_for_long, COMDAT
 
-; 292  : {
+; 308  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 293  :     uint64_t start = get_clock();
+; 309  :     long x1 = c1, x2 = c2, x3 = c3, x4 = c4, x5 = c5, x6 = c6, x7 = c7, x8 = c8, x9 = c9, x10 = c10;
+
+	mov	eax, DWORD PTR ?c1@@3JA			; c1
+	mov	DWORD PTR _x1$[ebp], eax
+	mov	eax, DWORD PTR ?c2@@3JA			; c2
+	mov	DWORD PTR _x2$[ebp], eax
+	mov	eax, DWORD PTR ?c3@@3JA			; c3
+	mov	DWORD PTR _x3$[ebp], eax
+	mov	eax, DWORD PTR ?c4@@3JA			; c4
+	mov	DWORD PTR _x4$[ebp], eax
+	mov	eax, DWORD PTR ?c5@@3JA			; c5
+	mov	DWORD PTR _x5$[ebp], eax
+	mov	eax, DWORD PTR ?c6@@3JA			; c6
+	mov	DWORD PTR _x6$[ebp], eax
+	mov	eax, DWORD PTR ?c7@@3JA			; c7
+	mov	DWORD PTR _x7$[ebp], eax
+	mov	eax, DWORD PTR ?c8@@3JA			; c8
+	mov	DWORD PTR _x8$[ebp], eax
+	mov	eax, DWORD PTR ?c9@@3JA			; c9
+	mov	DWORD PTR _x9$[ebp], eax
+	mov	eax, DWORD PTR ?c10@@3JA		; c10
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 310  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 294  :     for (int i = 0; i < N_multiplication; i++)
+; 311  :     for (int i = 0; i < N_multiplication; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@multiplica
@@ -5968,131 +5632,154 @@ $LN4@multiplica:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	SHORT $LN3@multiplica
 
-; 295  :     {
-; 296  :         x1 = x2 * x3;
+; 312  :     {
+; 313  :         x1 = x2 * x3;
 
 	mov	eax, DWORD PTR _x2$[ebp]
 	imul	eax, DWORD PTR _x3$[ebp]
 	mov	DWORD PTR _x1$[ebp], eax
 
-; 297  :         x2 = x3 * x4;
+; 314  :         x2 = x3 * x4;
 
 	mov	eax, DWORD PTR _x3$[ebp]
 	imul	eax, DWORD PTR _x4$[ebp]
 	mov	DWORD PTR _x2$[ebp], eax
 
-; 298  :         x3 = x4 * x5;
+; 315  :         x3 = x4 * x5;
 
 	mov	eax, DWORD PTR _x4$[ebp]
 	imul	eax, DWORD PTR _x5$[ebp]
 	mov	DWORD PTR _x3$[ebp], eax
 
-; 299  :         x4 = x5 * x6;
+; 316  :         x4 = x5 * x6;
 
 	mov	eax, DWORD PTR _x5$[ebp]
 	imul	eax, DWORD PTR _x6$[ebp]
 	mov	DWORD PTR _x4$[ebp], eax
 
-; 300  :         x5 = x6 * x7;
+; 317  :         x5 = x6 * x7;
 
 	mov	eax, DWORD PTR _x6$[ebp]
 	imul	eax, DWORD PTR _x7$[ebp]
 	mov	DWORD PTR _x5$[ebp], eax
 
-; 301  :         x6 = x7 * x8;
+; 318  :         x6 = x7 * x8;
 
 	mov	eax, DWORD PTR _x7$[ebp]
 	imul	eax, DWORD PTR _x8$[ebp]
 	mov	DWORD PTR _x6$[ebp], eax
 
-; 302  :         x7 = x8 * x9;
+; 319  :         x7 = x8 * x9;
 
 	mov	eax, DWORD PTR _x8$[ebp]
 	imul	eax, DWORD PTR _x9$[ebp]
 	mov	DWORD PTR _x7$[ebp], eax
 
-; 303  :         x8 = x9 * x10;
+; 320  :         x8 = x9 * x10;
 
 	mov	eax, DWORD PTR _x9$[ebp]
 	imul	eax, DWORD PTR _x10$[ebp]
 	mov	DWORD PTR _x8$[ebp], eax
 
-; 304  :         x9 = x10 * x1;
+; 321  :         x9 = x10 * x1;
 
 	mov	eax, DWORD PTR _x10$[ebp]
 	imul	eax, DWORD PTR _x1$[ebp]
 	mov	DWORD PTR _x9$[ebp], eax
 
-; 305  :         x10 = x1 * x2;
+; 322  :         x10 = x1 * x2;
 
 	mov	eax, DWORD PTR _x1$[ebp]
 	imul	eax, DWORD PTR _x2$[ebp]
 	mov	DWORD PTR _x10$[ebp], eax
 
-; 306  :     }
+; 323  :     }
 
-	jmp	SHORT $LN2@multiplica
+	jmp	$LN2@multiplica
 $LN3@multiplica:
 
-; 307  :     return get_clock() - start;
+; 324  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 308  : }
+; 325  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?multiplication_for_long@@YA_KJJJJJJJJJJ@Z ENDP		; multiplication_for_long
+?multiplication_for_long@@YA_KXZ ENDP			; multiplication_for_long
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?multiplication_for_double@@YA_KNNNNNNNNNN@Z
+;	COMDAT ?multiplication_for_double@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 8
-_x2$ = 16						; size = 8
-_x3$ = 24						; size = 8
-_x4$ = 32						; size = 8
-_x5$ = 40						; size = 8
-_x6$ = 48						; size = 8
-_x7$ = 56						; size = 8
-_x8$ = 64						; size = 8
-_x9$ = 72						; size = 8
-_x10$ = 80						; size = 8
-?multiplication_for_double@@YA_KNNNNNNNNNN@Z PROC	; multiplication_for_double, COMDAT
+_i$1 = -184						; size = 4
+_start$ = -172						; size = 8
+_x10$ = -156						; size = 8
+_x9$ = -140						; size = 8
+_x8$ = -124						; size = 8
+_x7$ = -108						; size = 8
+_x6$ = -92						; size = 8
+_x5$ = -76						; size = 8
+_x4$ = -60						; size = 8
+_x3$ = -44						; size = 8
+_x2$ = -28						; size = 8
+_x1$ = -12						; size = 8
+?multiplication_for_double@@YA_KXZ PROC			; multiplication_for_double, COMDAT
 
-; 273  : {
+; 288  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 380				; 0000017cH
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-380]
+	mov	ecx, 95					; 0000005fH
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 274  :     uint64_t start = get_clock();
+; 289  :     double x1 = b1, x2 = b2, x3 = b3, x4 = b4, x5 = b5, x6 = b6, x7 = b7, x8 = b8, x9 = b9, x10 = b10;
+
+	movsd	xmm0, QWORD PTR ?b1@@3NA
+	movsd	QWORD PTR _x1$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b2@@3NA
+	movsd	QWORD PTR _x2$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b3@@3NA
+	movsd	QWORD PTR _x3$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b4@@3NA
+	movsd	QWORD PTR _x4$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b5@@3NA
+	movsd	QWORD PTR _x5$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b6@@3NA
+	movsd	QWORD PTR _x6$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b7@@3NA
+	movsd	QWORD PTR _x7$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b8@@3NA
+	movsd	QWORD PTR _x8$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b9@@3NA
+	movsd	QWORD PTR _x9$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b10@@3NA
+	movsd	QWORD PTR _x10$[ebp], xmm0
+
+; 290  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 275  :     for (int i = 0; i < N_standart; i++)
+; 291  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@multiplica
@@ -6104,131 +5791,154 @@ $LN4@multiplica:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	$LN3@multiplica
 
-; 276  :     {
-; 277  :         x1 = x2 * x3;
+; 292  :     {
+; 293  :         x1 = x2 * x3;
 
 	movsd	xmm0, QWORD PTR _x2$[ebp]
 	mulsd	xmm0, QWORD PTR _x3$[ebp]
 	movsd	QWORD PTR _x1$[ebp], xmm0
 
-; 278  :         x2 = x3 * x4;
+; 294  :         x2 = x3 * x4;
 
 	movsd	xmm0, QWORD PTR _x3$[ebp]
 	mulsd	xmm0, QWORD PTR _x4$[ebp]
 	movsd	QWORD PTR _x2$[ebp], xmm0
 
-; 279  :         x3 = x4 * x5;
+; 295  :         x3 = x4 * x5;
 
 	movsd	xmm0, QWORD PTR _x4$[ebp]
 	mulsd	xmm0, QWORD PTR _x5$[ebp]
 	movsd	QWORD PTR _x3$[ebp], xmm0
 
-; 280  :         x4 = x5 * x6;
+; 296  :         x4 = x5 * x6;
 
 	movsd	xmm0, QWORD PTR _x5$[ebp]
 	mulsd	xmm0, QWORD PTR _x6$[ebp]
 	movsd	QWORD PTR _x4$[ebp], xmm0
 
-; 281  :         x5 = x6 * x7;
+; 297  :         x5 = x6 * x7;
 
 	movsd	xmm0, QWORD PTR _x6$[ebp]
 	mulsd	xmm0, QWORD PTR _x7$[ebp]
 	movsd	QWORD PTR _x5$[ebp], xmm0
 
-; 282  :         x6 = x7 * x8;
+; 298  :         x6 = x7 * x8;
 
 	movsd	xmm0, QWORD PTR _x7$[ebp]
 	mulsd	xmm0, QWORD PTR _x8$[ebp]
 	movsd	QWORD PTR _x6$[ebp], xmm0
 
-; 283  :         x7 = x8 * x9;
+; 299  :         x7 = x8 * x9;
 
 	movsd	xmm0, QWORD PTR _x8$[ebp]
 	mulsd	xmm0, QWORD PTR _x9$[ebp]
 	movsd	QWORD PTR _x7$[ebp], xmm0
 
-; 284  :         x8 = x9 * x10;
+; 300  :         x8 = x9 * x10;
 
 	movsd	xmm0, QWORD PTR _x9$[ebp]
 	mulsd	xmm0, QWORD PTR _x10$[ebp]
 	movsd	QWORD PTR _x8$[ebp], xmm0
 
-; 285  :         x9 = x10 * x1;
+; 301  :         x9 = x10 * x1;
 
 	movsd	xmm0, QWORD PTR _x10$[ebp]
 	mulsd	xmm0, QWORD PTR _x1$[ebp]
 	movsd	QWORD PTR _x9$[ebp], xmm0
 
-; 286  :         x10 = x1 * x2;
+; 302  :         x10 = x1 * x2;
 
 	movsd	xmm0, QWORD PTR _x1$[ebp]
 	mulsd	xmm0, QWORD PTR _x2$[ebp]
 	movsd	QWORD PTR _x10$[ebp], xmm0
 
-; 287  :     }
+; 303  :     }
 
 	jmp	$LN2@multiplica
 $LN3@multiplica:
 
-; 288  :     return get_clock() - start;
+; 304  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 289  : }
+; 305  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 380				; 0000017cH
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?multiplication_for_double@@YA_KNNNNNNNNNN@Z ENDP	; multiplication_for_double
+?multiplication_for_double@@YA_KXZ ENDP			; multiplication_for_double
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?multiplication_for_int@@YA_KHHHHHHHHHH@Z
+;	COMDAT ?multiplication_for_int@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?multiplication_for_int@@YA_KHHHHHHHHHH@Z PROC		; multiplication_for_int, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?multiplication_for_int@@YA_KXZ PROC			; multiplication_for_int, COMDAT
 
-; 254  : {
+; 268  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 255  :     uint64_t start = get_clock();
+; 269  :     int x1 = a1, x2 = a2, x3 = a3, x4 = a4, x5 = a5, x6 = a6, x7 = a7, x8 = a8, x9 = a9, x10 = a10;
+
+	mov	eax, DWORD PTR ?a1@@3HA			; a1
+	mov	DWORD PTR _x1$[ebp], eax
+	mov	eax, DWORD PTR ?a2@@3HA			; a2
+	mov	DWORD PTR _x2$[ebp], eax
+	mov	eax, DWORD PTR ?a3@@3HA			; a3
+	mov	DWORD PTR _x3$[ebp], eax
+	mov	eax, DWORD PTR ?a4@@3HA			; a4
+	mov	DWORD PTR _x4$[ebp], eax
+	mov	eax, DWORD PTR ?a5@@3HA			; a5
+	mov	DWORD PTR _x5$[ebp], eax
+	mov	eax, DWORD PTR ?a6@@3HA			; a6
+	mov	DWORD PTR _x6$[ebp], eax
+	mov	eax, DWORD PTR ?a7@@3HA			; a7
+	mov	DWORD PTR _x7$[ebp], eax
+	mov	eax, DWORD PTR ?a8@@3HA			; a8
+	mov	DWORD PTR _x8$[ebp], eax
+	mov	eax, DWORD PTR ?a9@@3HA			; a9
+	mov	DWORD PTR _x9$[ebp], eax
+	mov	eax, DWORD PTR ?a10@@3HA		; a10
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 270  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 256  :     for (int i = 0; i < N_multiplication; i++)
+; 271  :     for (int i = 0; i < N_multiplication; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@multiplica
@@ -6240,131 +5950,154 @@ $LN4@multiplica:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	SHORT $LN3@multiplica
 
-; 257  :     {
-; 258  :         x1 = x2 * x3;
+; 272  :     {
+; 273  :         x1 = x2 * x3;
 
 	mov	eax, DWORD PTR _x2$[ebp]
 	imul	eax, DWORD PTR _x3$[ebp]
 	mov	DWORD PTR _x1$[ebp], eax
 
-; 259  :         x2 = x3 * x4;
+; 274  :         x2 = x3 * x4;
 
 	mov	eax, DWORD PTR _x3$[ebp]
 	imul	eax, DWORD PTR _x4$[ebp]
 	mov	DWORD PTR _x2$[ebp], eax
 
-; 260  :         x3 = x4 * x5;
+; 275  :         x3 = x4 * x5;
 
 	mov	eax, DWORD PTR _x4$[ebp]
 	imul	eax, DWORD PTR _x5$[ebp]
 	mov	DWORD PTR _x3$[ebp], eax
 
-; 261  :         x4 = x5 * x6;
+; 276  :         x4 = x5 * x6;
 
 	mov	eax, DWORD PTR _x5$[ebp]
 	imul	eax, DWORD PTR _x6$[ebp]
 	mov	DWORD PTR _x4$[ebp], eax
 
-; 262  :         x5 = x6 * x7;
+; 277  :         x5 = x6 * x7;
 
 	mov	eax, DWORD PTR _x6$[ebp]
 	imul	eax, DWORD PTR _x7$[ebp]
 	mov	DWORD PTR _x5$[ebp], eax
 
-; 263  :         x6 = x7 * x8;
+; 278  :         x6 = x7 * x8;
 
 	mov	eax, DWORD PTR _x7$[ebp]
 	imul	eax, DWORD PTR _x8$[ebp]
 	mov	DWORD PTR _x6$[ebp], eax
 
-; 264  :         x7 = x8 * x9;
+; 279  :         x7 = x8 * x9;
 
 	mov	eax, DWORD PTR _x8$[ebp]
 	imul	eax, DWORD PTR _x9$[ebp]
 	mov	DWORD PTR _x7$[ebp], eax
 
-; 265  :         x8 = x9 * x10;
+; 280  :         x8 = x9 * x10;
 
 	mov	eax, DWORD PTR _x9$[ebp]
 	imul	eax, DWORD PTR _x10$[ebp]
 	mov	DWORD PTR _x8$[ebp], eax
 
-; 266  :         x9 = x10 * x1;
+; 281  :         x9 = x10 * x1;
 
 	mov	eax, DWORD PTR _x10$[ebp]
 	imul	eax, DWORD PTR _x1$[ebp]
 	mov	DWORD PTR _x9$[ebp], eax
 
-; 267  :         x10 = x1 * x2;
+; 282  :         x10 = x1 * x2;
 
 	mov	eax, DWORD PTR _x1$[ebp]
 	imul	eax, DWORD PTR _x2$[ebp]
 	mov	DWORD PTR _x10$[ebp], eax
 
-; 268  :     }
+; 283  :     }
 
-	jmp	SHORT $LN2@multiplica
+	jmp	$LN2@multiplica
 $LN3@multiplica:
 
-; 269  :     return get_clock() - start;
+; 284  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 270  : }
+; 285  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?multiplication_for_int@@YA_KHHHHHHHHHH@Z ENDP		; multiplication_for_int
+?multiplication_for_int@@YA_KXZ ENDP			; multiplication_for_int
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?minus_for_char@@YA_KDDDDDDDDDD@Z
+;	COMDAT ?minus_for_char@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 1
-_x2$ = 12						; size = 1
-_x3$ = 16						; size = 1
-_x4$ = 20						; size = 1
-_x5$ = 24						; size = 1
-_x6$ = 28						; size = 1
-_x7$ = 32						; size = 1
-_x8$ = 36						; size = 1
-_x9$ = 40						; size = 1
-_x10$ = 44						; size = 1
-?minus_for_char@@YA_KDDDDDDDDDD@Z PROC			; minus_for_char, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -113						; size = 1
+_x9$ = -101						; size = 1
+_x8$ = -89						; size = 1
+_x7$ = -77						; size = 1
+_x6$ = -65						; size = 1
+_x5$ = -53						; size = 1
+_x4$ = -41						; size = 1
+_x3$ = -29						; size = 1
+_x2$ = -17						; size = 1
+_x1$ = -5						; size = 1
+?minus_for_char@@YA_KXZ PROC				; minus_for_char, COMDAT
 
-; 234  : {
+; 247  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 235  :     uint64_t start = get_clock();
+; 248  :     char x1 = e1, x2 = e2, x3 = e3, x4 = e4, x5 = e5, x6 = e6, x7 = e7, x8 = e8, x9 = e9, x10 = e10;
+
+	mov	al, BYTE PTR ?e1@@3DA			; e1
+	mov	BYTE PTR _x1$[ebp], al
+	mov	al, BYTE PTR ?e2@@3DA			; e2
+	mov	BYTE PTR _x2$[ebp], al
+	mov	al, BYTE PTR ?e3@@3DA			; e3
+	mov	BYTE PTR _x3$[ebp], al
+	mov	al, BYTE PTR ?e4@@3DA			; e4
+	mov	BYTE PTR _x4$[ebp], al
+	mov	al, BYTE PTR ?e5@@3DA			; e5
+	mov	BYTE PTR _x5$[ebp], al
+	mov	al, BYTE PTR ?e6@@3DA			; e6
+	mov	BYTE PTR _x6$[ebp], al
+	mov	al, BYTE PTR ?e7@@3DA			; e7
+	mov	BYTE PTR _x7$[ebp], al
+	mov	al, BYTE PTR ?e8@@3DA			; e8
+	mov	BYTE PTR _x8$[ebp], al
+	mov	al, BYTE PTR ?e9@@3DA			; e9
+	mov	BYTE PTR _x9$[ebp], al
+	mov	al, BYTE PTR ?e10@@3DA			; e10
+	mov	BYTE PTR _x10$[ebp], al
+
+; 249  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 236  :     for (int i = 0; i < N_standart; i++)
+; 250  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@minus_for_
@@ -6376,141 +6109,164 @@ $LN4@minus_for_:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	$LN3@minus_for_
 
-; 237  :     {
-; 238  :         x1 = x2 - x3;
+; 251  :     {
+; 252  :         x1 = x2 - x3;
 
 	movsx	eax, BYTE PTR _x2$[ebp]
 	movsx	ecx, BYTE PTR _x3$[ebp]
 	sub	eax, ecx
 	mov	BYTE PTR _x1$[ebp], al
 
-; 239  :         x2 = x3 - x4;
+; 253  :         x2 = x3 - x4;
 
 	movsx	eax, BYTE PTR _x3$[ebp]
 	movsx	ecx, BYTE PTR _x4$[ebp]
 	sub	eax, ecx
 	mov	BYTE PTR _x2$[ebp], al
 
-; 240  :         x3 = x4 - x5;
+; 254  :         x3 = x4 - x5;
 
 	movsx	eax, BYTE PTR _x4$[ebp]
 	movsx	ecx, BYTE PTR _x5$[ebp]
 	sub	eax, ecx
 	mov	BYTE PTR _x3$[ebp], al
 
-; 241  :         x4 = x5 - x6;
+; 255  :         x4 = x5 - x6;
 
 	movsx	eax, BYTE PTR _x5$[ebp]
 	movsx	ecx, BYTE PTR _x6$[ebp]
 	sub	eax, ecx
 	mov	BYTE PTR _x4$[ebp], al
 
-; 242  :         x5 = x6 - x7;
+; 256  :         x5 = x6 - x7;
 
 	movsx	eax, BYTE PTR _x6$[ebp]
 	movsx	ecx, BYTE PTR _x7$[ebp]
 	sub	eax, ecx
 	mov	BYTE PTR _x5$[ebp], al
 
-; 243  :         x6 = x7 - x8;
+; 257  :         x6 = x7 - x8;
 
 	movsx	eax, BYTE PTR _x7$[ebp]
 	movsx	ecx, BYTE PTR _x8$[ebp]
 	sub	eax, ecx
 	mov	BYTE PTR _x6$[ebp], al
 
-; 244  :         x7 = x8 - x9;
+; 258  :         x7 = x8 - x9;
 
 	movsx	eax, BYTE PTR _x8$[ebp]
 	movsx	ecx, BYTE PTR _x9$[ebp]
 	sub	eax, ecx
 	mov	BYTE PTR _x7$[ebp], al
 
-; 245  :         x8 = x9 - x10;
+; 259  :         x8 = x9 - x10;
 
 	movsx	eax, BYTE PTR _x9$[ebp]
 	movsx	ecx, BYTE PTR _x10$[ebp]
 	sub	eax, ecx
 	mov	BYTE PTR _x8$[ebp], al
 
-; 246  :         x9 = x10 - x1;
+; 260  :         x9 = x10 - x1;
 
 	movsx	eax, BYTE PTR _x10$[ebp]
 	movsx	ecx, BYTE PTR _x1$[ebp]
 	sub	eax, ecx
 	mov	BYTE PTR _x9$[ebp], al
 
-; 247  :         x10 = x1 - x2;
+; 261  :         x10 = x1 - x2;
 
 	movsx	eax, BYTE PTR _x1$[ebp]
 	movsx	ecx, BYTE PTR _x2$[ebp]
 	sub	eax, ecx
 	mov	BYTE PTR _x10$[ebp], al
 
-; 248  :     }
+; 262  :     }
 
 	jmp	$LN2@minus_for_
 $LN3@minus_for_:
 
-; 249  :     return get_clock() - start;
+; 263  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 250  : }
+; 264  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?minus_for_char@@YA_KDDDDDDDDDD@Z ENDP			; minus_for_char
+?minus_for_char@@YA_KXZ ENDP				; minus_for_char
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?minus_for_float@@YA_KMMMMMMMMMM@Z
+;	COMDAT ?minus_for_float@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?minus_for_float@@YA_KMMMMMMMMMM@Z PROC			; minus_for_float, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?minus_for_float@@YA_KXZ PROC				; minus_for_float, COMDAT
 
-; 215  : {
+; 227  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 216  :     uint64_t start = get_clock();
+; 228  :     float x1 = d1, x2 = d2, x3 = d3, x4 = d4, x5 = d5, x6 = d6, x7 = d7, x8 = d8, x9 = d9, x10 = d10;
+
+	movss	xmm0, DWORD PTR ?d1@@3MA
+	movss	DWORD PTR _x1$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d2@@3MA
+	movss	DWORD PTR _x2$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d3@@3MA
+	movss	DWORD PTR _x3$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d4@@3MA
+	movss	DWORD PTR _x4$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d5@@3MA
+	movss	DWORD PTR _x5$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d6@@3MA
+	movss	DWORD PTR _x6$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d7@@3MA
+	movss	DWORD PTR _x7$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d8@@3MA
+	movss	DWORD PTR _x8$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d9@@3MA
+	movss	DWORD PTR _x9$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d10@@3MA
+	movss	DWORD PTR _x10$[ebp], xmm0
+
+; 229  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 217  :     for (int i = 0; i < N_standart; i++)
+; 230  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@minus_for_
@@ -6522,131 +6278,154 @@ $LN4@minus_for_:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	$LN3@minus_for_
 
-; 218  :     {
-; 219  :         x1 = x2 - x3;
+; 231  :     {
+; 232  :         x1 = x2 - x3;
 
 	movss	xmm0, DWORD PTR _x2$[ebp]
 	subss	xmm0, DWORD PTR _x3$[ebp]
 	movss	DWORD PTR _x1$[ebp], xmm0
 
-; 220  :         x2 = x3 - x4;
+; 233  :         x2 = x3 - x4;
 
 	movss	xmm0, DWORD PTR _x3$[ebp]
 	subss	xmm0, DWORD PTR _x4$[ebp]
 	movss	DWORD PTR _x2$[ebp], xmm0
 
-; 221  :         x3 = x4 - x5;
+; 234  :         x3 = x4 - x5;
 
 	movss	xmm0, DWORD PTR _x4$[ebp]
 	subss	xmm0, DWORD PTR _x5$[ebp]
 	movss	DWORD PTR _x3$[ebp], xmm0
 
-; 222  :         x4 = x5 - x6;
+; 235  :         x4 = x5 - x6;
 
 	movss	xmm0, DWORD PTR _x5$[ebp]
 	subss	xmm0, DWORD PTR _x6$[ebp]
 	movss	DWORD PTR _x4$[ebp], xmm0
 
-; 223  :         x5 = x6 - x7;
+; 236  :         x5 = x6 - x7;
 
 	movss	xmm0, DWORD PTR _x6$[ebp]
 	subss	xmm0, DWORD PTR _x7$[ebp]
 	movss	DWORD PTR _x5$[ebp], xmm0
 
-; 224  :         x6 = x7 - x8;
+; 237  :         x6 = x7 - x8;
 
 	movss	xmm0, DWORD PTR _x7$[ebp]
 	subss	xmm0, DWORD PTR _x8$[ebp]
 	movss	DWORD PTR _x6$[ebp], xmm0
 
-; 225  :         x7 = x8 - x9;
+; 238  :         x7 = x8 - x9;
 
 	movss	xmm0, DWORD PTR _x8$[ebp]
 	subss	xmm0, DWORD PTR _x9$[ebp]
 	movss	DWORD PTR _x7$[ebp], xmm0
 
-; 226  :         x8 = x9 - x10;
+; 239  :         x8 = x9 - x10;
 
 	movss	xmm0, DWORD PTR _x9$[ebp]
 	subss	xmm0, DWORD PTR _x10$[ebp]
 	movss	DWORD PTR _x8$[ebp], xmm0
 
-; 227  :         x9 = x10 - x1;
+; 240  :         x9 = x10 - x1;
 
 	movss	xmm0, DWORD PTR _x10$[ebp]
 	subss	xmm0, DWORD PTR _x1$[ebp]
 	movss	DWORD PTR _x9$[ebp], xmm0
 
-; 228  :         x10 = x1 - x2;
+; 241  :         x10 = x1 - x2;
 
 	movss	xmm0, DWORD PTR _x1$[ebp]
 	subss	xmm0, DWORD PTR _x2$[ebp]
 	movss	DWORD PTR _x10$[ebp], xmm0
 
-; 229  :     }
+; 242  :     }
 
 	jmp	$LN2@minus_for_
 $LN3@minus_for_:
 
-; 230  :     return get_clock() - start;
+; 243  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 231  : }
+; 244  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?minus_for_float@@YA_KMMMMMMMMMM@Z ENDP			; minus_for_float
+?minus_for_float@@YA_KXZ ENDP				; minus_for_float
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?minus_for_long@@YA_KJJJJJJJJJJ@Z
+;	COMDAT ?minus_for_long@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?minus_for_long@@YA_KJJJJJJJJJJ@Z PROC			; minus_for_long, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?minus_for_long@@YA_KXZ PROC				; minus_for_long, COMDAT
 
-; 196  : {
+; 207  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 197  :     uint64_t start = get_clock();
+; 208  :     long x1 = c1, x2 = c2, x3 = c3, x4 = c4, x5 = c5, x6 = c6, x7 = c7, x8 = c8, x9 = c9, x10 = c10;
+
+	mov	eax, DWORD PTR ?c1@@3JA			; c1
+	mov	DWORD PTR _x1$[ebp], eax
+	mov	eax, DWORD PTR ?c2@@3JA			; c2
+	mov	DWORD PTR _x2$[ebp], eax
+	mov	eax, DWORD PTR ?c3@@3JA			; c3
+	mov	DWORD PTR _x3$[ebp], eax
+	mov	eax, DWORD PTR ?c4@@3JA			; c4
+	mov	DWORD PTR _x4$[ebp], eax
+	mov	eax, DWORD PTR ?c5@@3JA			; c5
+	mov	DWORD PTR _x5$[ebp], eax
+	mov	eax, DWORD PTR ?c6@@3JA			; c6
+	mov	DWORD PTR _x6$[ebp], eax
+	mov	eax, DWORD PTR ?c7@@3JA			; c7
+	mov	DWORD PTR _x7$[ebp], eax
+	mov	eax, DWORD PTR ?c8@@3JA			; c8
+	mov	DWORD PTR _x8$[ebp], eax
+	mov	eax, DWORD PTR ?c9@@3JA			; c9
+	mov	DWORD PTR _x9$[ebp], eax
+	mov	eax, DWORD PTR ?c10@@3JA		; c10
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 209  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 198  :     for (int i = 0; i < N_minus; i++)
+; 210  :     for (int i = 0; i < N_minus; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@minus_for_
@@ -6658,131 +6437,154 @@ $LN4@minus_for_:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	SHORT $LN3@minus_for_
 
-; 199  :     {
-; 200  :         x1 = x2 - x3;
+; 211  :     {
+; 212  :         x1 = x2 - x3;
 
 	mov	eax, DWORD PTR _x2$[ebp]
 	sub	eax, DWORD PTR _x3$[ebp]
 	mov	DWORD PTR _x1$[ebp], eax
 
-; 201  :         x2 = x3 - x4;
+; 213  :         x2 = x3 - x4;
 
 	mov	eax, DWORD PTR _x3$[ebp]
 	sub	eax, DWORD PTR _x4$[ebp]
 	mov	DWORD PTR _x2$[ebp], eax
 
-; 202  :         x3 = x4 - x5;
+; 214  :         x3 = x4 - x5;
 
 	mov	eax, DWORD PTR _x4$[ebp]
 	sub	eax, DWORD PTR _x5$[ebp]
 	mov	DWORD PTR _x3$[ebp], eax
 
-; 203  :         x4 = x5 - x6;
+; 215  :         x4 = x5 - x6;
 
 	mov	eax, DWORD PTR _x5$[ebp]
 	sub	eax, DWORD PTR _x6$[ebp]
 	mov	DWORD PTR _x4$[ebp], eax
 
-; 204  :         x5 = x6 - x7;
+; 216  :         x5 = x6 - x7;
 
 	mov	eax, DWORD PTR _x6$[ebp]
 	sub	eax, DWORD PTR _x7$[ebp]
 	mov	DWORD PTR _x5$[ebp], eax
 
-; 205  :         x6 = x7 - x8;
+; 217  :         x6 = x7 - x8;
 
 	mov	eax, DWORD PTR _x7$[ebp]
 	sub	eax, DWORD PTR _x8$[ebp]
 	mov	DWORD PTR _x6$[ebp], eax
 
-; 206  :         x7 = x8 - x9;
+; 218  :         x7 = x8 - x9;
 
 	mov	eax, DWORD PTR _x8$[ebp]
 	sub	eax, DWORD PTR _x9$[ebp]
 	mov	DWORD PTR _x7$[ebp], eax
 
-; 207  :         x8 = x9 - x10;
+; 219  :         x8 = x9 - x10;
 
 	mov	eax, DWORD PTR _x9$[ebp]
 	sub	eax, DWORD PTR _x10$[ebp]
 	mov	DWORD PTR _x8$[ebp], eax
 
-; 208  :         x9 = x10 - x1;
+; 220  :         x9 = x10 - x1;
 
 	mov	eax, DWORD PTR _x10$[ebp]
 	sub	eax, DWORD PTR _x1$[ebp]
 	mov	DWORD PTR _x9$[ebp], eax
 
-; 209  :         x10 = x1 - x2;
+; 221  :         x10 = x1 - x2;
 
 	mov	eax, DWORD PTR _x1$[ebp]
 	sub	eax, DWORD PTR _x2$[ebp]
 	mov	DWORD PTR _x10$[ebp], eax
 
-; 210  :     }
+; 222  :     }
 
 	jmp	SHORT $LN2@minus_for_
 $LN3@minus_for_:
 
-; 211  :     return get_clock() - start;
+; 223  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 212  : }
+; 224  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?minus_for_long@@YA_KJJJJJJJJJJ@Z ENDP			; minus_for_long
+?minus_for_long@@YA_KXZ ENDP				; minus_for_long
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?minus_for_double@@YA_KNNNNNNNNNN@Z
+;	COMDAT ?minus_for_double@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 8
-_x2$ = 16						; size = 8
-_x3$ = 24						; size = 8
-_x4$ = 32						; size = 8
-_x5$ = 40						; size = 8
-_x6$ = 48						; size = 8
-_x7$ = 56						; size = 8
-_x8$ = 64						; size = 8
-_x9$ = 72						; size = 8
-_x10$ = 80						; size = 8
-?minus_for_double@@YA_KNNNNNNNNNN@Z PROC		; minus_for_double, COMDAT
+_i$1 = -184						; size = 4
+_start$ = -172						; size = 8
+_x10$ = -156						; size = 8
+_x9$ = -140						; size = 8
+_x8$ = -124						; size = 8
+_x7$ = -108						; size = 8
+_x6$ = -92						; size = 8
+_x5$ = -76						; size = 8
+_x4$ = -60						; size = 8
+_x3$ = -44						; size = 8
+_x2$ = -28						; size = 8
+_x1$ = -12						; size = 8
+?minus_for_double@@YA_KXZ PROC				; minus_for_double, COMDAT
 
-; 177  : {
+; 187  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 380				; 0000017cH
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-380]
+	mov	ecx, 95					; 0000005fH
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 178  :     uint64_t start = get_clock();
+; 188  :     double x1 = b1, x2 = b2, x3 = b3, x4 = b4, x5 = b5, x6 = b6, x7 = b7, x8 = b8, x9 = b9, x10 = b10;
+
+	movsd	xmm0, QWORD PTR ?b1@@3NA
+	movsd	QWORD PTR _x1$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b2@@3NA
+	movsd	QWORD PTR _x2$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b3@@3NA
+	movsd	QWORD PTR _x3$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b4@@3NA
+	movsd	QWORD PTR _x4$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b5@@3NA
+	movsd	QWORD PTR _x5$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b6@@3NA
+	movsd	QWORD PTR _x6$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b7@@3NA
+	movsd	QWORD PTR _x7$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b8@@3NA
+	movsd	QWORD PTR _x8$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b9@@3NA
+	movsd	QWORD PTR _x9$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b10@@3NA
+	movsd	QWORD PTR _x10$[ebp], xmm0
+
+; 189  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 179  :     for (int i = 0; i < N_standart; i++)
+; 190  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@minus_for_
@@ -6794,131 +6596,154 @@ $LN4@minus_for_:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	$LN3@minus_for_
 
-; 180  :     {
-; 181  :         x1 = x2 - x3;
+; 191  :     {
+; 192  :         x1 = x2 - x3;
 
 	movsd	xmm0, QWORD PTR _x2$[ebp]
 	subsd	xmm0, QWORD PTR _x3$[ebp]
 	movsd	QWORD PTR _x1$[ebp], xmm0
 
-; 182  :         x2 = x3 - x4;
+; 193  :         x2 = x3 - x4;
 
 	movsd	xmm0, QWORD PTR _x3$[ebp]
 	subsd	xmm0, QWORD PTR _x4$[ebp]
 	movsd	QWORD PTR _x2$[ebp], xmm0
 
-; 183  :         x3 = x4 - x5;
+; 194  :         x3 = x4 - x5;
 
 	movsd	xmm0, QWORD PTR _x4$[ebp]
 	subsd	xmm0, QWORD PTR _x5$[ebp]
 	movsd	QWORD PTR _x3$[ebp], xmm0
 
-; 184  :         x4 = x5 - x6;
+; 195  :         x4 = x5 - x6;
 
 	movsd	xmm0, QWORD PTR _x5$[ebp]
 	subsd	xmm0, QWORD PTR _x6$[ebp]
 	movsd	QWORD PTR _x4$[ebp], xmm0
 
-; 185  :         x5 = x6 - x7;
+; 196  :         x5 = x6 - x7;
 
 	movsd	xmm0, QWORD PTR _x6$[ebp]
 	subsd	xmm0, QWORD PTR _x7$[ebp]
 	movsd	QWORD PTR _x5$[ebp], xmm0
 
-; 186  :         x6 = x7 - x8;
+; 197  :         x6 = x7 - x8;
 
 	movsd	xmm0, QWORD PTR _x7$[ebp]
 	subsd	xmm0, QWORD PTR _x8$[ebp]
 	movsd	QWORD PTR _x6$[ebp], xmm0
 
-; 187  :         x7 = x8 - x9;
+; 198  :         x7 = x8 - x9;
 
 	movsd	xmm0, QWORD PTR _x8$[ebp]
 	subsd	xmm0, QWORD PTR _x9$[ebp]
 	movsd	QWORD PTR _x7$[ebp], xmm0
 
-; 188  :         x8 = x9 - x10;
+; 199  :         x8 = x9 - x10;
 
 	movsd	xmm0, QWORD PTR _x9$[ebp]
 	subsd	xmm0, QWORD PTR _x10$[ebp]
 	movsd	QWORD PTR _x8$[ebp], xmm0
 
-; 189  :         x9 = x10 - x1;
+; 200  :         x9 = x10 - x1;
 
 	movsd	xmm0, QWORD PTR _x10$[ebp]
 	subsd	xmm0, QWORD PTR _x1$[ebp]
 	movsd	QWORD PTR _x9$[ebp], xmm0
 
-; 190  :         x10 = x1 - x2;
+; 201  :         x10 = x1 - x2;
 
 	movsd	xmm0, QWORD PTR _x1$[ebp]
 	subsd	xmm0, QWORD PTR _x2$[ebp]
 	movsd	QWORD PTR _x10$[ebp], xmm0
 
-; 191  :     }
+; 202  :     }
 
 	jmp	$LN2@minus_for_
 $LN3@minus_for_:
 
-; 192  :     return get_clock() - start;
+; 203  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 193  : }
+; 204  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 380				; 0000017cH
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?minus_for_double@@YA_KNNNNNNNNNN@Z ENDP		; minus_for_double
+?minus_for_double@@YA_KXZ ENDP				; minus_for_double
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?minus_for_int@@YA_KHHHHHHHHHH@Z
+;	COMDAT ?minus_for_int@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?minus_for_int@@YA_KHHHHHHHHHH@Z PROC			; minus_for_int, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?minus_for_int@@YA_KXZ PROC				; minus_for_int, COMDAT
 
-; 158  : {
+; 167  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 159  :     uint64_t start = get_clock();
+; 168  :     int x1 = a1, x2 = a2, x3 = a3, x4 = a4, x5 = a5, x6 = a6, x7 = a7, x8 = a8, x9 = a9, x10 = a10;
+
+	mov	eax, DWORD PTR ?a1@@3HA			; a1
+	mov	DWORD PTR _x1$[ebp], eax
+	mov	eax, DWORD PTR ?a2@@3HA			; a2
+	mov	DWORD PTR _x2$[ebp], eax
+	mov	eax, DWORD PTR ?a3@@3HA			; a3
+	mov	DWORD PTR _x3$[ebp], eax
+	mov	eax, DWORD PTR ?a4@@3HA			; a4
+	mov	DWORD PTR _x4$[ebp], eax
+	mov	eax, DWORD PTR ?a5@@3HA			; a5
+	mov	DWORD PTR _x5$[ebp], eax
+	mov	eax, DWORD PTR ?a6@@3HA			; a6
+	mov	DWORD PTR _x6$[ebp], eax
+	mov	eax, DWORD PTR ?a7@@3HA			; a7
+	mov	DWORD PTR _x7$[ebp], eax
+	mov	eax, DWORD PTR ?a8@@3HA			; a8
+	mov	DWORD PTR _x8$[ebp], eax
+	mov	eax, DWORD PTR ?a9@@3HA			; a9
+	mov	DWORD PTR _x9$[ebp], eax
+	mov	eax, DWORD PTR ?a10@@3HA		; a10
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 169  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 160  :     for (int i = 0; i < N_minus; i++)
+; 170  :     for (int i = 0; i < N_minus; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@minus_for_
@@ -6930,131 +6755,154 @@ $LN4@minus_for_:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	SHORT $LN3@minus_for_
 
-; 161  :     {
-; 162  :         x1 = x2 - x3;
+; 171  :     {
+; 172  :         x1 = x2 - x3;
 
 	mov	eax, DWORD PTR _x2$[ebp]
 	sub	eax, DWORD PTR _x3$[ebp]
 	mov	DWORD PTR _x1$[ebp], eax
 
-; 163  :         x2 = x3 - x4;
+; 173  :         x2 = x3 - x4;
 
 	mov	eax, DWORD PTR _x3$[ebp]
 	sub	eax, DWORD PTR _x4$[ebp]
 	mov	DWORD PTR _x2$[ebp], eax
 
-; 164  :         x3 = x4 - x5;
+; 174  :         x3 = x4 - x5;
 
 	mov	eax, DWORD PTR _x4$[ebp]
 	sub	eax, DWORD PTR _x5$[ebp]
 	mov	DWORD PTR _x3$[ebp], eax
 
-; 165  :         x4 = x5 - x6;
+; 175  :         x4 = x5 - x6;
 
 	mov	eax, DWORD PTR _x5$[ebp]
 	sub	eax, DWORD PTR _x6$[ebp]
 	mov	DWORD PTR _x4$[ebp], eax
 
-; 166  :         x5 = x6 - x7;
+; 176  :         x5 = x6 - x7;
 
 	mov	eax, DWORD PTR _x6$[ebp]
 	sub	eax, DWORD PTR _x7$[ebp]
 	mov	DWORD PTR _x5$[ebp], eax
 
-; 167  :         x6 = x7 - x8;
+; 177  :         x6 = x7 - x8;
 
 	mov	eax, DWORD PTR _x7$[ebp]
 	sub	eax, DWORD PTR _x8$[ebp]
 	mov	DWORD PTR _x6$[ebp], eax
 
-; 168  :         x7 = x8 - x9;
+; 178  :         x7 = x8 - x9;
 
 	mov	eax, DWORD PTR _x8$[ebp]
 	sub	eax, DWORD PTR _x9$[ebp]
 	mov	DWORD PTR _x7$[ebp], eax
 
-; 169  :         x8 = x9 - x10;
+; 179  :         x8 = x9 - x10;
 
 	mov	eax, DWORD PTR _x9$[ebp]
 	sub	eax, DWORD PTR _x10$[ebp]
 	mov	DWORD PTR _x8$[ebp], eax
 
-; 170  :         x9 = x10 - x1;
+; 180  :         x9 = x10 - x1;
 
 	mov	eax, DWORD PTR _x10$[ebp]
 	sub	eax, DWORD PTR _x1$[ebp]
 	mov	DWORD PTR _x9$[ebp], eax
 
-; 171  :         x10 = x1 - x2;
+; 181  :         x10 = x1 - x2;
 
 	mov	eax, DWORD PTR _x1$[ebp]
 	sub	eax, DWORD PTR _x2$[ebp]
 	mov	DWORD PTR _x10$[ebp], eax
 
-; 172  :     }
+; 182  :     }
 
 	jmp	SHORT $LN2@minus_for_
 $LN3@minus_for_:
 
-; 173  :     return get_clock() - start;
+; 183  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 174  : }
+; 184  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?minus_for_int@@YA_KHHHHHHHHHH@Z ENDP			; minus_for_int
+?minus_for_int@@YA_KXZ ENDP				; minus_for_int
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?plus_for_char@@YA_KDDDDDDDDDD@Z
+;	COMDAT ?plus_for_char@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 1
-_x2$ = 12						; size = 1
-_x3$ = 16						; size = 1
-_x4$ = 20						; size = 1
-_x5$ = 24						; size = 1
-_x6$ = 28						; size = 1
-_x7$ = 32						; size = 1
-_x8$ = 36						; size = 1
-_x9$ = 40						; size = 1
-_x10$ = 44						; size = 1
-?plus_for_char@@YA_KDDDDDDDDDD@Z PROC			; plus_for_char, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -113						; size = 1
+_x9$ = -101						; size = 1
+_x8$ = -89						; size = 1
+_x7$ = -77						; size = 1
+_x6$ = -65						; size = 1
+_x5$ = -53						; size = 1
+_x4$ = -41						; size = 1
+_x3$ = -29						; size = 1
+_x2$ = -17						; size = 1
+_x1$ = -5						; size = 1
+?plus_for_char@@YA_KXZ PROC				; plus_for_char, COMDAT
 
-; 138  : {
+; 146  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 139  :     uint64_t start = get_clock();
+; 147  :     char x1 = e1, x2 = e2, x3 = e3, x4 = e4, x5 = e5, x6 = e6, x7 = e7, x8 = e8, x9 = e9, x10 = e10;
+
+	mov	al, BYTE PTR ?e1@@3DA			; e1
+	mov	BYTE PTR _x1$[ebp], al
+	mov	al, BYTE PTR ?e2@@3DA			; e2
+	mov	BYTE PTR _x2$[ebp], al
+	mov	al, BYTE PTR ?e3@@3DA			; e3
+	mov	BYTE PTR _x3$[ebp], al
+	mov	al, BYTE PTR ?e4@@3DA			; e4
+	mov	BYTE PTR _x4$[ebp], al
+	mov	al, BYTE PTR ?e5@@3DA			; e5
+	mov	BYTE PTR _x5$[ebp], al
+	mov	al, BYTE PTR ?e6@@3DA			; e6
+	mov	BYTE PTR _x6$[ebp], al
+	mov	al, BYTE PTR ?e7@@3DA			; e7
+	mov	BYTE PTR _x7$[ebp], al
+	mov	al, BYTE PTR ?e8@@3DA			; e8
+	mov	BYTE PTR _x8$[ebp], al
+	mov	al, BYTE PTR ?e9@@3DA			; e9
+	mov	BYTE PTR _x9$[ebp], al
+	mov	al, BYTE PTR ?e10@@3DA			; e10
+	mov	BYTE PTR _x10$[ebp], al
+
+; 148  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 140  :     for (int i = 0; i < N_standart; i++)
+; 149  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@plus_for_c
@@ -7066,141 +6914,164 @@ $LN4@plus_for_c:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	$LN3@plus_for_c
 
-; 141  :     {
-; 142  :         x1 = x2 + x3;
+; 150  :     {
+; 151  :         x1 = x2 + x3;
 
 	movsx	eax, BYTE PTR _x2$[ebp]
 	movsx	ecx, BYTE PTR _x3$[ebp]
 	add	eax, ecx
 	mov	BYTE PTR _x1$[ebp], al
 
-; 143  :         x2 = x3 + x4;
+; 152  :         x2 = x3 + x4;
 
 	movsx	eax, BYTE PTR _x3$[ebp]
 	movsx	ecx, BYTE PTR _x4$[ebp]
 	add	eax, ecx
 	mov	BYTE PTR _x2$[ebp], al
 
-; 144  :         x3 = x4 + x5;
+; 153  :         x3 = x4 + x5;
 
 	movsx	eax, BYTE PTR _x4$[ebp]
 	movsx	ecx, BYTE PTR _x5$[ebp]
 	add	eax, ecx
 	mov	BYTE PTR _x3$[ebp], al
 
-; 145  :         x4 = x5 + x6;
+; 154  :         x4 = x5 + x6;
 
 	movsx	eax, BYTE PTR _x5$[ebp]
 	movsx	ecx, BYTE PTR _x6$[ebp]
 	add	eax, ecx
 	mov	BYTE PTR _x4$[ebp], al
 
-; 146  :         x5 = x6 + x7;
+; 155  :         x5 = x6 + x7;
 
 	movsx	eax, BYTE PTR _x6$[ebp]
 	movsx	ecx, BYTE PTR _x7$[ebp]
 	add	eax, ecx
 	mov	BYTE PTR _x5$[ebp], al
 
-; 147  :         x6 = x7 + x8;
+; 156  :         x6 = x7 + x8;
 
 	movsx	eax, BYTE PTR _x7$[ebp]
 	movsx	ecx, BYTE PTR _x8$[ebp]
 	add	eax, ecx
 	mov	BYTE PTR _x6$[ebp], al
 
-; 148  :         x7 = x8 + x9;
+; 157  :         x7 = x8 + x9;
 
 	movsx	eax, BYTE PTR _x8$[ebp]
 	movsx	ecx, BYTE PTR _x9$[ebp]
 	add	eax, ecx
 	mov	BYTE PTR _x7$[ebp], al
 
-; 149  :         x8 = x9 + x10;
+; 158  :         x8 = x9 + x10;
 
 	movsx	eax, BYTE PTR _x9$[ebp]
 	movsx	ecx, BYTE PTR _x10$[ebp]
 	add	eax, ecx
 	mov	BYTE PTR _x8$[ebp], al
 
-; 150  :         x9 = x10 + x1;
+; 159  :         x9 = x10 + x1;
 
 	movsx	eax, BYTE PTR _x10$[ebp]
 	movsx	ecx, BYTE PTR _x1$[ebp]
 	add	eax, ecx
 	mov	BYTE PTR _x9$[ebp], al
 
-; 151  :         x10 = x1 + x2;
+; 160  :         x10 = x1 + x2;
 
 	movsx	eax, BYTE PTR _x1$[ebp]
 	movsx	ecx, BYTE PTR _x2$[ebp]
 	add	eax, ecx
 	mov	BYTE PTR _x10$[ebp], al
 
-; 152  :     }
+; 161  :     }
 
 	jmp	$LN2@plus_for_c
 $LN3@plus_for_c:
 
-; 153  :     return get_clock() - start;
+; 162  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 154  : }
+; 163  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?plus_for_char@@YA_KDDDDDDDDDD@Z ENDP			; plus_for_char
+?plus_for_char@@YA_KXZ ENDP				; plus_for_char
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?plus_for_float@@YA_KMMMMMMMMMM@Z
+;	COMDAT ?plus_for_float@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?plus_for_float@@YA_KMMMMMMMMMM@Z PROC			; plus_for_float, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?plus_for_float@@YA_KXZ PROC				; plus_for_float, COMDAT
 
-; 119  : {
+; 126  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 120  :     uint64_t start = get_clock();
+; 127  :     float x1 = d1, x2 = d2, x3 = d3, x4 = d4, x5 = d5, x6 = d6, x7 = d7, x8 = d8, x9 = d9, x10 = d10;
+
+	movss	xmm0, DWORD PTR ?d1@@3MA
+	movss	DWORD PTR _x1$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d2@@3MA
+	movss	DWORD PTR _x2$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d3@@3MA
+	movss	DWORD PTR _x3$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d4@@3MA
+	movss	DWORD PTR _x4$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d5@@3MA
+	movss	DWORD PTR _x5$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d6@@3MA
+	movss	DWORD PTR _x6$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d7@@3MA
+	movss	DWORD PTR _x7$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d8@@3MA
+	movss	DWORD PTR _x8$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d9@@3MA
+	movss	DWORD PTR _x9$[ebp], xmm0
+	movss	xmm0, DWORD PTR ?d10@@3MA
+	movss	DWORD PTR _x10$[ebp], xmm0
+
+; 128  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 121  :     for (int i = 0; i < N_standart; i++)
+; 129  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@plus_for_f
@@ -7212,131 +7083,154 @@ $LN4@plus_for_f:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	$LN3@plus_for_f
 
-; 122  :     {
-; 123  :         x1 = x2 + x3;
+; 130  :     {
+; 131  :         x1 = x2 + x3;
 
 	movss	xmm0, DWORD PTR _x2$[ebp]
 	addss	xmm0, DWORD PTR _x3$[ebp]
 	movss	DWORD PTR _x1$[ebp], xmm0
 
-; 124  :         x2 = x3 + x4;
+; 132  :         x2 = x3 + x4;
 
 	movss	xmm0, DWORD PTR _x3$[ebp]
 	addss	xmm0, DWORD PTR _x4$[ebp]
 	movss	DWORD PTR _x2$[ebp], xmm0
 
-; 125  :         x3 = x4 + x5;
+; 133  :         x3 = x4 + x5;
 
 	movss	xmm0, DWORD PTR _x4$[ebp]
 	addss	xmm0, DWORD PTR _x5$[ebp]
 	movss	DWORD PTR _x3$[ebp], xmm0
 
-; 126  :         x4 = x5 + x6;
+; 134  :         x4 = x5 + x6;
 
 	movss	xmm0, DWORD PTR _x5$[ebp]
 	addss	xmm0, DWORD PTR _x6$[ebp]
 	movss	DWORD PTR _x4$[ebp], xmm0
 
-; 127  :         x5 = x6 + x7;
+; 135  :         x5 = x6 + x7;
 
 	movss	xmm0, DWORD PTR _x6$[ebp]
 	addss	xmm0, DWORD PTR _x7$[ebp]
 	movss	DWORD PTR _x5$[ebp], xmm0
 
-; 128  :         x6 = x7 + x8;
+; 136  :         x6 = x7 + x8;
 
 	movss	xmm0, DWORD PTR _x7$[ebp]
 	addss	xmm0, DWORD PTR _x8$[ebp]
 	movss	DWORD PTR _x6$[ebp], xmm0
 
-; 129  :         x7 = x8 + x9;
+; 137  :         x7 = x8 + x9;
 
 	movss	xmm0, DWORD PTR _x8$[ebp]
 	addss	xmm0, DWORD PTR _x9$[ebp]
 	movss	DWORD PTR _x7$[ebp], xmm0
 
-; 130  :         x8 = x9 + x10;
+; 138  :         x8 = x9 + x10;
 
 	movss	xmm0, DWORD PTR _x9$[ebp]
 	addss	xmm0, DWORD PTR _x10$[ebp]
 	movss	DWORD PTR _x8$[ebp], xmm0
 
-; 131  :         x9 = x10 + x1;
+; 139  :         x9 = x10 + x1;
 
 	movss	xmm0, DWORD PTR _x10$[ebp]
 	addss	xmm0, DWORD PTR _x1$[ebp]
 	movss	DWORD PTR _x9$[ebp], xmm0
 
-; 132  :         x10 = x1 + x2;
+; 140  :         x10 = x1 + x2;
 
 	movss	xmm0, DWORD PTR _x1$[ebp]
 	addss	xmm0, DWORD PTR _x2$[ebp]
 	movss	DWORD PTR _x10$[ebp], xmm0
 
-; 133  :     }
+; 141  :     }
 
 	jmp	$LN2@plus_for_f
 $LN3@plus_for_f:
 
-; 134  :     return get_clock() - start;
+; 142  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 135  : }
+; 143  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?plus_for_float@@YA_KMMMMMMMMMM@Z ENDP			; plus_for_float
+?plus_for_float@@YA_KXZ ENDP				; plus_for_float
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?plus_for_long@@YA_KJJJJJJJJJJ@Z
+;	COMDAT ?plus_for_long@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?plus_for_long@@YA_KJJJJJJJJJJ@Z PROC			; plus_for_long, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?plus_for_long@@YA_KXZ PROC				; plus_for_long, COMDAT
 
-; 100  : {
+; 106  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 101  :     uint64_t start = get_clock();
+; 107  :     long x1 = c1, x2 = c2, x3 = c3, x4 = c4, x5 = c5, x6 = c6, x7 = c7, x8 = c8, x9 = c9, x10 = c10;
+
+	mov	eax, DWORD PTR ?c1@@3JA			; c1
+	mov	DWORD PTR _x1$[ebp], eax
+	mov	eax, DWORD PTR ?c2@@3JA			; c2
+	mov	DWORD PTR _x2$[ebp], eax
+	mov	eax, DWORD PTR ?c3@@3JA			; c3
+	mov	DWORD PTR _x3$[ebp], eax
+	mov	eax, DWORD PTR ?c4@@3JA			; c4
+	mov	DWORD PTR _x4$[ebp], eax
+	mov	eax, DWORD PTR ?c5@@3JA			; c5
+	mov	DWORD PTR _x5$[ebp], eax
+	mov	eax, DWORD PTR ?c6@@3JA			; c6
+	mov	DWORD PTR _x6$[ebp], eax
+	mov	eax, DWORD PTR ?c7@@3JA			; c7
+	mov	DWORD PTR _x7$[ebp], eax
+	mov	eax, DWORD PTR ?c8@@3JA			; c8
+	mov	DWORD PTR _x8$[ebp], eax
+	mov	eax, DWORD PTR ?c9@@3JA			; c9
+	mov	DWORD PTR _x9$[ebp], eax
+	mov	eax, DWORD PTR ?c10@@3JA		; c10
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 108  :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 102  :     for (int i = 0; i < N_standart; i++)
+; 109  :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@plus_for_l
@@ -7348,131 +7242,154 @@ $LN4@plus_for_l:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	SHORT $LN3@plus_for_l
 
-; 103  :     {
-; 104  :         x1 = x2 + x3;
+; 110  :     {
+; 111  :         x1 = x2 + x3;
 
 	mov	eax, DWORD PTR _x2$[ebp]
 	add	eax, DWORD PTR _x3$[ebp]
 	mov	DWORD PTR _x1$[ebp], eax
 
-; 105  :         x2 = x3 + x4;
+; 112  :         x2 = x3 + x4;
 
 	mov	eax, DWORD PTR _x3$[ebp]
 	add	eax, DWORD PTR _x4$[ebp]
 	mov	DWORD PTR _x2$[ebp], eax
 
-; 106  :         x3 = x4 + x5;
+; 113  :         x3 = x4 + x5;
 
 	mov	eax, DWORD PTR _x4$[ebp]
 	add	eax, DWORD PTR _x5$[ebp]
 	mov	DWORD PTR _x3$[ebp], eax
 
-; 107  :         x4 = x5 + x6;
+; 114  :         x4 = x5 + x6;
 
 	mov	eax, DWORD PTR _x5$[ebp]
 	add	eax, DWORD PTR _x6$[ebp]
 	mov	DWORD PTR _x4$[ebp], eax
 
-; 108  :         x5 = x6 + x7;
+; 115  :         x5 = x6 + x7;
 
 	mov	eax, DWORD PTR _x6$[ebp]
 	add	eax, DWORD PTR _x7$[ebp]
 	mov	DWORD PTR _x5$[ebp], eax
 
-; 109  :         x6 = x7 + x8;
+; 116  :         x6 = x7 + x8;
 
 	mov	eax, DWORD PTR _x7$[ebp]
 	add	eax, DWORD PTR _x8$[ebp]
 	mov	DWORD PTR _x6$[ebp], eax
 
-; 110  :         x7 = x8 + x9;
+; 117  :         x7 = x8 + x9;
 
 	mov	eax, DWORD PTR _x8$[ebp]
 	add	eax, DWORD PTR _x9$[ebp]
 	mov	DWORD PTR _x7$[ebp], eax
 
-; 111  :         x8 = x9 + x10;
+; 118  :         x8 = x9 + x10;
 
 	mov	eax, DWORD PTR _x9$[ebp]
 	add	eax, DWORD PTR _x10$[ebp]
 	mov	DWORD PTR _x8$[ebp], eax
 
-; 112  :         x9 = x10 + x1;
+; 119  :         x9 = x10 + x1;
 
 	mov	eax, DWORD PTR _x10$[ebp]
 	add	eax, DWORD PTR _x1$[ebp]
 	mov	DWORD PTR _x9$[ebp], eax
 
-; 113  :         x10 = x1 + x2;
+; 120  :         x10 = x1 + x2;
 
 	mov	eax, DWORD PTR _x1$[ebp]
 	add	eax, DWORD PTR _x2$[ebp]
 	mov	DWORD PTR _x10$[ebp], eax
 
-; 114  :     }
+; 121  :     }
 
 	jmp	SHORT $LN2@plus_for_l
 $LN3@plus_for_l:
 
-; 115  :     return get_clock() - start;
+; 122  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 116  : }
+; 123  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?plus_for_long@@YA_KJJJJJJJJJJ@Z ENDP			; plus_for_long
+?plus_for_long@@YA_KXZ ENDP				; plus_for_long
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?plus_for_double@@YA_KNNNNNNNNNN@Z
+;	COMDAT ?plus_for_double@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 8
-_x2$ = 16						; size = 8
-_x3$ = 24						; size = 8
-_x4$ = 32						; size = 8
-_x5$ = 40						; size = 8
-_x6$ = 48						; size = 8
-_x7$ = 56						; size = 8
-_x8$ = 64						; size = 8
-_x9$ = 72						; size = 8
-_x10$ = 80						; size = 8
-?plus_for_double@@YA_KNNNNNNNNNN@Z PROC			; plus_for_double, COMDAT
+_i$1 = -184						; size = 4
+_start$ = -172						; size = 8
+_x10$ = -156						; size = 8
+_x9$ = -140						; size = 8
+_x8$ = -124						; size = 8
+_x7$ = -108						; size = 8
+_x6$ = -92						; size = 8
+_x5$ = -76						; size = 8
+_x4$ = -60						; size = 8
+_x3$ = -44						; size = 8
+_x2$ = -28						; size = 8
+_x1$ = -12						; size = 8
+?plus_for_double@@YA_KXZ PROC				; plus_for_double, COMDAT
 
-; 81   : {
+; 86   : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 380				; 0000017cH
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-380]
+	mov	ecx, 95					; 0000005fH
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 82   :     uint64_t start = get_clock();
+; 87   :     double x1 = b1, x2 = b2, x3 = b3, x4 = b4, x5 = b5, x6 = b6, x7 = b7, x8 = b8, x9 = b9, x10 = b10;
+
+	movsd	xmm0, QWORD PTR ?b1@@3NA
+	movsd	QWORD PTR _x1$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b2@@3NA
+	movsd	QWORD PTR _x2$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b3@@3NA
+	movsd	QWORD PTR _x3$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b4@@3NA
+	movsd	QWORD PTR _x4$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b5@@3NA
+	movsd	QWORD PTR _x5$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b6@@3NA
+	movsd	QWORD PTR _x6$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b7@@3NA
+	movsd	QWORD PTR _x7$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b8@@3NA
+	movsd	QWORD PTR _x8$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b9@@3NA
+	movsd	QWORD PTR _x9$[ebp], xmm0
+	movsd	xmm0, QWORD PTR ?b10@@3NA
+	movsd	QWORD PTR _x10$[ebp], xmm0
+
+; 88   :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 83   :     for (int i = 0; i < N_standart; i++)
+; 89   :     for (int i = 0; i < N_standart; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@plus_for_d
@@ -7484,131 +7401,154 @@ $LN4@plus_for_d:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	$LN3@plus_for_d
 
-; 84   :     {
-; 85   :         x1 = x2 + x3;
+; 90   :     {
+; 91   :         x1 = x2 + x3;
 
 	movsd	xmm0, QWORD PTR _x2$[ebp]
 	addsd	xmm0, QWORD PTR _x3$[ebp]
 	movsd	QWORD PTR _x1$[ebp], xmm0
 
-; 86   :         x2 = x3 + x4;
+; 92   :         x2 = x3 + x4;
 
 	movsd	xmm0, QWORD PTR _x3$[ebp]
 	addsd	xmm0, QWORD PTR _x4$[ebp]
 	movsd	QWORD PTR _x2$[ebp], xmm0
 
-; 87   :         x3 = x4 + x5;
+; 93   :         x3 = x4 + x5;
 
 	movsd	xmm0, QWORD PTR _x4$[ebp]
 	addsd	xmm0, QWORD PTR _x5$[ebp]
 	movsd	QWORD PTR _x3$[ebp], xmm0
 
-; 88   :         x4 = x5 + x6;
+; 94   :         x4 = x5 + x6;
 
 	movsd	xmm0, QWORD PTR _x5$[ebp]
 	addsd	xmm0, QWORD PTR _x6$[ebp]
 	movsd	QWORD PTR _x4$[ebp], xmm0
 
-; 89   :         x5 = x6 + x7;
+; 95   :         x5 = x6 + x7;
 
 	movsd	xmm0, QWORD PTR _x6$[ebp]
 	addsd	xmm0, QWORD PTR _x7$[ebp]
 	movsd	QWORD PTR _x5$[ebp], xmm0
 
-; 90   :         x6 = x7 + x8;
+; 96   :         x6 = x7 + x8;
 
 	movsd	xmm0, QWORD PTR _x7$[ebp]
 	addsd	xmm0, QWORD PTR _x8$[ebp]
 	movsd	QWORD PTR _x6$[ebp], xmm0
 
-; 91   :         x7 = x8 + x9;
+; 97   :         x7 = x8 + x9;
 
 	movsd	xmm0, QWORD PTR _x8$[ebp]
 	addsd	xmm0, QWORD PTR _x9$[ebp]
 	movsd	QWORD PTR _x7$[ebp], xmm0
 
-; 92   :         x8 = x9 + x10;
+; 98   :         x8 = x9 + x10;
 
 	movsd	xmm0, QWORD PTR _x9$[ebp]
 	addsd	xmm0, QWORD PTR _x10$[ebp]
 	movsd	QWORD PTR _x8$[ebp], xmm0
 
-; 93   :         x9 = x10 + x1;
+; 99   :         x9 = x10 + x1;
 
 	movsd	xmm0, QWORD PTR _x10$[ebp]
 	addsd	xmm0, QWORD PTR _x1$[ebp]
 	movsd	QWORD PTR _x9$[ebp], xmm0
 
-; 94   :         x10 = x1 + x2;
+; 100  :         x10 = x1 + x2;
 
 	movsd	xmm0, QWORD PTR _x1$[ebp]
 	addsd	xmm0, QWORD PTR _x2$[ebp]
 	movsd	QWORD PTR _x10$[ebp], xmm0
 
-; 95   :     }
+; 101  :     }
 
 	jmp	$LN2@plus_for_d
 $LN3@plus_for_d:
 
-; 96   :     return get_clock() - start;
+; 102  :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 97   : }
+; 103  : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 380				; 0000017cH
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?plus_for_double@@YA_KNNNNNNNNNN@Z ENDP			; plus_for_double
+?plus_for_double@@YA_KXZ ENDP				; plus_for_double
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?plus_for_int@@YA_KHHHHHHHHHH@Z
+;	COMDAT ?plus_for_int@@YA_KXZ
 _TEXT	SEGMENT
-_i$1 = -24						; size = 4
-_start$ = -12						; size = 8
-_x1$ = 8						; size = 4
-_x2$ = 12						; size = 4
-_x3$ = 16						; size = 4
-_x4$ = 20						; size = 4
-_x5$ = 24						; size = 4
-_x6$ = 28						; size = 4
-_x7$ = 32						; size = 4
-_x8$ = 36						; size = 4
-_x9$ = 40						; size = 4
-_x10$ = 44						; size = 4
-?plus_for_int@@YA_KHHHHHHHHHH@Z PROC			; plus_for_int, COMDAT
+_i$1 = -144						; size = 4
+_start$ = -132						; size = 8
+_x10$ = -116						; size = 4
+_x9$ = -104						; size = 4
+_x8$ = -92						; size = 4
+_x7$ = -80						; size = 4
+_x6$ = -68						; size = 4
+_x5$ = -56						; size = 4
+_x4$ = -44						; size = 4
+_x3$ = -32						; size = 4
+_x2$ = -20						; size = 4
+_x1$ = -8						; size = 4
+?plus_for_int@@YA_KXZ PROC				; plus_for_int, COMDAT
 
-; 62   : {
+; 66   : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
+	sub	esp, 340				; 00000154H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
+	lea	edi, DWORD PTR [ebp-340]
+	mov	ecx, 85					; 00000055H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 63   :     uint64_t start = get_clock();
+; 67   :     int x1 = a1, x2 = a2, x3 = a3, x4 = a4, x5 = a5, x6 = a6, x7 = a7, x8 = a8, x9 = a9, x10 = a10;
+
+	mov	eax, DWORD PTR ?a1@@3HA			; a1
+	mov	DWORD PTR _x1$[ebp], eax
+	mov	eax, DWORD PTR ?a2@@3HA			; a2
+	mov	DWORD PTR _x2$[ebp], eax
+	mov	eax, DWORD PTR ?a3@@3HA			; a3
+	mov	DWORD PTR _x3$[ebp], eax
+	mov	eax, DWORD PTR ?a4@@3HA			; a4
+	mov	DWORD PTR _x4$[ebp], eax
+	mov	eax, DWORD PTR ?a5@@3HA			; a5
+	mov	DWORD PTR _x5$[ebp], eax
+	mov	eax, DWORD PTR ?a6@@3HA			; a6
+	mov	DWORD PTR _x6$[ebp], eax
+	mov	eax, DWORD PTR ?a7@@3HA			; a7
+	mov	DWORD PTR _x7$[ebp], eax
+	mov	eax, DWORD PTR ?a8@@3HA			; a8
+	mov	DWORD PTR _x8$[ebp], eax
+	mov	eax, DWORD PTR ?a9@@3HA			; a9
+	mov	DWORD PTR _x9$[ebp], eax
+	mov	eax, DWORD PTR ?a10@@3HA		; a10
+	mov	DWORD PTR _x10$[ebp], eax
+
+; 68   :     uint64_t start = get_clock();
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	mov	DWORD PTR _start$[ebp], eax
 	mov	DWORD PTR _start$[ebp+4], edx
 
-; 64   :     for (int i = 0; i < N_plus; i++)
+; 69   :     for (int i = 0; i < N_plus; i++)
 
 	mov	DWORD PTR _i$1[ebp], 0
 	jmp	SHORT $LN4@plus_for_i
@@ -7620,90 +7560,90 @@ $LN4@plus_for_i:
 	cmp	DWORD PTR _i$1[ebp], 1000000		; 000f4240H
 	jge	SHORT $LN3@plus_for_i
 
-; 65   :     {
-; 66   :         x1 = x2 + x3;
+; 70   :     {
+; 71   :         x1 = x2 + x3;
 
 	mov	eax, DWORD PTR _x2$[ebp]
 	add	eax, DWORD PTR _x3$[ebp]
 	mov	DWORD PTR _x1$[ebp], eax
 
-; 67   :         x2 = x3 + x4;
+; 72   :         x2 = x3 + x4;
 
 	mov	eax, DWORD PTR _x3$[ebp]
 	add	eax, DWORD PTR _x4$[ebp]
 	mov	DWORD PTR _x2$[ebp], eax
 
-; 68   :         x3 = x4 + x5;
+; 73   :         x3 = x4 + x5;
 
 	mov	eax, DWORD PTR _x4$[ebp]
 	add	eax, DWORD PTR _x5$[ebp]
 	mov	DWORD PTR _x3$[ebp], eax
 
-; 69   :         x4 = x5 + x6;
+; 74   :         x4 = x5 + x6;
 
 	mov	eax, DWORD PTR _x5$[ebp]
 	add	eax, DWORD PTR _x6$[ebp]
 	mov	DWORD PTR _x4$[ebp], eax
 
-; 70   :         x5 = x6 + x7;
+; 75   :         x5 = x6 + x7;
 
 	mov	eax, DWORD PTR _x6$[ebp]
 	add	eax, DWORD PTR _x7$[ebp]
 	mov	DWORD PTR _x5$[ebp], eax
 
-; 71   :         x6 = x7 + x8;
+; 76   :         x6 = x7 + x8;
 
 	mov	eax, DWORD PTR _x7$[ebp]
 	add	eax, DWORD PTR _x8$[ebp]
 	mov	DWORD PTR _x6$[ebp], eax
 
-; 72   :         x7 = x8 + x9;
+; 77   :         x7 = x8 + x9;
 
 	mov	eax, DWORD PTR _x8$[ebp]
 	add	eax, DWORD PTR _x9$[ebp]
 	mov	DWORD PTR _x7$[ebp], eax
 
-; 73   :         x8 = x9 + x10;
+; 78   :         x8 = x9 + x10;
 
 	mov	eax, DWORD PTR _x9$[ebp]
 	add	eax, DWORD PTR _x10$[ebp]
 	mov	DWORD PTR _x8$[ebp], eax
 
-; 74   :         x9 = x10 + x1;
+; 79   :         x9 = x10 + x1;
 
 	mov	eax, DWORD PTR _x10$[ebp]
 	add	eax, DWORD PTR _x1$[ebp]
 	mov	DWORD PTR _x9$[ebp], eax
 
-; 75   :         x10 = x1 + x2;
+; 80   :         x10 = x1 + x2;
 
 	mov	eax, DWORD PTR _x1$[ebp]
 	add	eax, DWORD PTR _x2$[ebp]
 	mov	DWORD PTR _x10$[ebp], eax
 
-; 76   :     }
+; 81   :     }
 
 	jmp	SHORT $LN2@plus_for_i
 $LN3@plus_for_i:
 
-; 77   :     return get_clock() - start;
+; 82   :     return get_clock() - start;
 
 	call	?get_clock@@YA_KXZ			; get_clock
 	sub	eax, DWORD PTR _start$[ebp]
 	sbb	edx, DWORD PTR _start$[ebp+4]
 
-; 78   : }
+; 83   : }
 
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 220				; 000000dcH
+	add	esp, 340				; 00000154H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?plus_for_int@@YA_KHHHHHHHHHH@Z ENDP			; plus_for_int
+?plus_for_int@@YA_KXZ ENDP				; plus_for_int
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\ostream
@@ -8774,7 +8714,7 @@ _tsc$ = -24						; size = 8
 _start$ = -8						; size = 4
 ?init_clock@@YAXXZ PROC					; init_clock, COMDAT
 
-; 48   : {
+; 45   : {
 
 	push	ebp
 	mov	ebp, esp
@@ -8789,27 +8729,27 @@ _start$ = -8						; size = 4
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 49   :     clock_t start;
-; 50   :     unsigned __int64 tsc;
-; 51   : 
-; 52   :     start = wait_clock_update();
+; 46   :     clock_t start;
+; 47   :     unsigned __int64 tsc;
+; 48   : 
+; 49   :     start = wait_clock_update();
 
 	call	?wait_clock_update@@YAJXZ		; wait_clock_update
 	mov	DWORD PTR _start$[ebp], eax
 
-; 53   :     tsc = __rdtsc();
+; 50   :     tsc = __rdtsc();
 
 	rdtsc
 	mov	DWORD PTR _tsc$[ebp], eax
 	mov	DWORD PTR _tsc$[ebp+4], edx
 
-; 54   :     start = wait_clock_update() - start;
+; 51   :     start = wait_clock_update() - start;
 
 	call	?wait_clock_update@@YAJXZ		; wait_clock_update
 	sub	eax, DWORD PTR _start$[ebp]
 	mov	DWORD PTR _start$[ebp], eax
 
-; 55   :     tsc = __rdtsc() - tsc;
+; 52   :     tsc = __rdtsc() - tsc;
 
 	rdtsc
 	sub	eax, DWORD PTR _tsc$[ebp]
@@ -8817,7 +8757,7 @@ _start$ = -8						; size = 4
 	mov	DWORD PTR _tsc$[ebp], eax
 	mov	DWORD PTR _tsc$[ebp+4], edx
 
-; 56   :     tick_per_second = tsc / start * CLOCKS_PER_SEC;
+; 53   :     tick_per_second = tsc / start * CLOCKS_PER_SEC;
 
 	mov	eax, DWORD PTR _start$[ebp]
 	cdq
@@ -8836,7 +8776,7 @@ _start$ = -8						; size = 4
 	mov	DWORD PTR ?tick_per_second@@3_KA, eax
 	mov	DWORD PTR ?tick_per_second@@3_KA+4, edx
 
-; 57   :     cout << "CPU TSC ticks per second: " << tick_per_second << endl;
+; 54   :     cout << "CPU TSC ticks per second: " << tick_per_second << endl;
 
 	mov	esi, esp
 	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
@@ -8859,7 +8799,7 @@ _start$ = -8						; size = 4
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 58   : }
+; 55   : }
 
 	pop	edi
 	pop	esi
@@ -8880,7 +8820,7 @@ _tmp$ = -20						; size = 4
 _start$ = -8						; size = 4
 ?wait_clock_update@@YAJXZ PROC				; wait_clock_update, COMDAT
 
-; 37   : {
+; 33   : {
 
 	push	ebp
 	mov	ebp, esp
@@ -8895,7 +8835,7 @@ _start$ = -8						; size = 4
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 38   :     clock_t start = clock();
+; 34   :     clock_t start = clock();
 
 	mov	esi, esp
 	call	DWORD PTR __imp__clock
@@ -8904,10 +8844,10 @@ _start$ = -8						; size = 4
 	mov	DWORD PTR _start$[ebp], eax
 $LN4@wait_clock:
 
-; 39   :     clock_t tmp;
-; 40   :     do
-; 41   :     {
-; 42   :         tmp = clock();
+; 35   :     clock_t tmp;
+; 36   :     do
+; 37   :     {
+; 38   :         tmp = clock();
 
 	mov	esi, esp
 	call	DWORD PTR __imp__clock
@@ -8915,17 +8855,17 @@ $LN4@wait_clock:
 	call	__RTC_CheckEsp
 	mov	DWORD PTR _tmp$[ebp], eax
 
-; 43   :     } while (tmp == start);
+; 39   :     } while (tmp == start);
 
 	mov	eax, DWORD PTR _tmp$[ebp]
 	cmp	eax, DWORD PTR _start$[ebp]
 	je	SHORT $LN4@wait_clock
 
-; 44   :     return tmp;
+; 40   :     return tmp;
 
 	mov	eax, DWORD PTR _tmp$[ebp]
 
-; 45   : }
+; 41   : }
 
 	pop	edi
 	pop	esi
@@ -8944,7 +8884,7 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 ?get_clock@@YA_KXZ PROC					; get_clock, COMDAT
 
-; 33   : {
+; 28   : {
 
 	push	ebp
 	mov	ebp, esp
@@ -8959,11 +8899,11 @@ _TEXT	SEGMENT
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 34   :     return __rdtsc();
+; 29   :     return __rdtsc();
 
 	rdtsc
 
-; 35   : }
+; 30   : }
 
 	pop	edi
 	pop	esi
