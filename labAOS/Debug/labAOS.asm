@@ -66,9 +66,9 @@ PUBLIC	?e8@@3DA					; e8
 PUBLIC	?e9@@3DA					; e9
 PUBLIC	?e10@@3DA					; e10
 _BSS	SEGMENT
-?time_standart@@3PANA DQ 019H DUP (?)			; time_standart
+?time_standart@@3PANA DQ 014H DUP (?)			; time_standart
 ?empty_time@@3NA DQ 01H DUP (?)				; empty_time
-?ad_time@@3PANA DQ 019H DUP (?)				; ad_time
+?ad_time@@3PANA DQ 014H DUP (?)				; ad_time
 ?tick_per_second@@3_KA DQ 01H DUP (?)			; tick_per_second
 _BSS	ENDS
 msvcjmc	SEGMENT
@@ -124,54 +124,54 @@ __38038D2D_xstddef DB 01H
 __EE19A480_xatomic@h DB 01H
 msvcjmc	ENDS
 _DATA	SEGMENT
-?name_type@@3PADA DB 'idlfcidlfcidlfcidlfcidlfc', 00H	; name_type
+?name_type@@3PADA DB 'idlfcidlfcidlfcidlfc', 00H	; name_type
 ?e1@@3DA DB	016H					; e1
 ?e2@@3DA DB	04cH					; e2
-?name_operator@@3PADA DB '+++++-----*****/////=====', 00H ; name_operator
 ?e3@@3DA DB	01bH					; e3
+?name_operator@@3PADA DB '+++++-----*****/////', 00H	; name_operator
 ?e4@@3DA DB	0dH					; e4
-?a1@@3HA DD	017H					; a1
-?a2@@3HA DD	01aH					; a2
-?a3@@3HA DD	01bH					; a3
-?a4@@3HA DD	052H					; a4
-?a5@@3HA DD	01dH					; a5
-?a6@@3HA DD	059H					; a6
-?a7@@3HA DD	0cH					; a7
-?a8@@3HA DD	05aH					; a8
-?a9@@3HA DD	020H					; a9
-?a10@@3HA DD	038H					; a10
-?b1@@3NA DQ	0403799999999999ar		; 23.6	; b1
-?b2@@3NA DQ	0403ab33333333333r		; 26.7	; b2
-?b3@@3NA DQ	0403b4ccccccccccdr		; 27.3	; b3
-?b4@@3NA DQ	0405495c28f5c28f6r		; 82.34	; b4
-?b5@@3NA DQ	040378f5c28f5c28fr		; 23.56	; b5
-?b6@@3NA DQ	040565ccccccccccdr		; 89.45	; b6
-?b7@@3NA DQ	04028bd70a3d70a3dr		; 12.37	; b7
-?b8@@3NA DQ	04056b28f5c28f5c3r		; 90.79	; b8
-?b9@@3NA DQ	040401d70a3d70a3dr		; 32.23	; b9
-?b10@@3NA DQ	0404c3ae147ae147br		; 56.46	; b10
-?c1@@3JA DD	019H					; c1
-?c2@@3JA DD	04eH					; c2
-?c3@@3JA DD	017H					; c3
-?c4@@3JA DD	0cH					; c4
-?c5@@3JA DD	04eH					; c5
-?c6@@3JA DD	02dH					; c6
-?c7@@3JA DD	03aH					; c7
-?c8@@3JA DD	022H					; c8
-?c9@@3JA DD	04fH					; c9
-?c10@@3JA DD	038H					; c10
-?d1@@3MA DD	041b4cccdr			; 22.6	; d1
-?d2@@3MA DD	041cd999ar			; 25.7	; d2
-?d3@@3MA DD	041e26666r			; 28.3	; d3
-?d4@@3MA DD	042aaae14r			; 85.34	; d4
-?d5@@3MA DD	041dc7ae1r			; 27.56	; d5
-?d6@@3MA DD	042aae666r			; 85.45	; d6
-?d7@@3MA DD	04182f5c3r			; 16.37	; d7
-?d8@@3MA DD	042bd947br			; 94.79	; d8
-?d9@@3MA DD	04218eb85r			; 38.23	; d9
-?d10@@3MA DD	0425dd70ar			; 55.46	; d10
 ?e5@@3DA DB	046H					; e5
 ?e6@@3DA DB	02fH					; e6
+?a1@@3HA DD	065H					; a1
+?a2@@3HA DD	06bH					; a2
+?a3@@3HA DD	071H					; a3
+?a4@@3HA DD	089H					; a4
+?a5@@3HA DD	095H					; a5
+?a6@@3HA DD	09dH					; a6
+?a7@@3HA DD	0a7H					; a7
+?a8@@3HA DD	0b5H					; a8
+?a9@@3HA DD	0c1H					; a9
+?a10@@3HA DD	0c7H					; a10
+?b1@@3NA DQ	04059666666666666r		; 101.6	; b1
+?b2@@3NA DQ	0405aeccccccccccdr		; 107.7	; b2
+?b3@@3NA DQ	0405c533333333333r		; 113.3	; b3
+?b4@@3NA DQ	040612ae147ae147br		; 137.34 ; b4
+?b5@@3NA DQ	04062b1eb851eb852r		; 149.56 ; b5
+?b6@@3NA DQ	04063ae6666666666r		; 157.45 ; b6
+?b7@@3NA DQ	04064ebd70a3d70a4r		; 167.37 ; b7
+?b8@@3NA DQ	04066b947ae147ae1r		; 181.79 ; b8
+?b9@@3NA DQ	04068275c28f5c28fr		; 193.23 ; b9
+?b10@@3NA DQ	04068eeb851eb851fr		; 199.46 ; b10
+?c1@@3JA DD	065H					; c1
+?c2@@3JA DD	06bH					; c2
+?c3@@3JA DD	071H					; c3
+?c4@@3JA DD	089H					; c4
+?c5@@3JA DD	095H					; c5
+?c6@@3JA DD	09dH					; c6
+?c7@@3JA DD	0a7H					; c7
+?c8@@3JA DD	0b5H					; c8
+?c9@@3JA DD	0c1H					; c9
+?c10@@3JA DD	0c7H					; c10
+?d1@@3MA DD	042cb3333r			; 101.6	; d1
+?d2@@3MA DD	042d76666r			; 107.7	; d2
+?d3@@3MA DD	042e2999ar			; 113.3	; d3
+?d4@@3MA DD	04309570ar			; 137.34 ; d4
+?d5@@3MA DD	043158f5cr			; 149.56 ; d5
+?d6@@3MA DD	0431d7333r			; 157.45 ; d6
+?d7@@3MA DD	043275eb8r			; 167.37 ; d7
+?d8@@3MA DD	04335ca3dr			; 181.79 ; d8
+?d9@@3MA DD	043413ae1r			; 193.23 ; d9
+?d10@@3MA DD	0434775c3r			; 199.46 ; d10
 ?e7@@3DA DB	036H					; e7
 ?e8@@3DA DB	027H					; e8
 ?e9@@3DA DB	049H					; e9
@@ -218,7 +218,6 @@ PUBLIC	?plus_@@YAXXZ					; plus_
 PUBLIC	?minus_@@YAXXZ					; minus_
 PUBLIC	?multiplication_@@YAXXZ				; multiplication_
 PUBLIC	?division_@@YAXXZ				; division_
-PUBLIC	?appropriation_@@YAXXZ				; appropriation_
 PUBLIC	_main
 PUBLIC	??0_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z ; std::basic_ostream<char,std::char_traits<char> >::_Sentry_base::_Sentry_base
 PUBLIC	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ ; std::basic_ostream<char,std::char_traits<char> >::_Sentry_base::~_Sentry_base
@@ -260,11 +259,6 @@ PUBLIC	??_C@_0BG@IAHMPM@Division?5for?5double?3?5@	; `string'
 PUBLIC	??_C@_0BE@CJKJODID@Division?5for?5long?3?5@	; `string'
 PUBLIC	??_C@_0BF@GPFCHGCD@Division?5for?5float?3?5@	; `string'
 PUBLIC	??_C@_0BE@CHHDJDKO@Division?5for?5char?3?5@	; `string'
-PUBLIC	??_C@_0BI@FHMGCJPO@Appropriation?5for?5int?3?5@	; `string'
-PUBLIC	??_C@_0BL@NPNHDGJJ@Appropriation?5for?5double?3?5@ ; `string'
-PUBLIC	??_C@_0BJ@FEDELPGI@Appropriation?5for?5long?3?5@ ; `string'
-PUBLIC	??_C@_0BK@FIPHNAIP@Appropriation?5for?5float?3?5@ ; `string'
-PUBLIC	??_C@_0BJ@FKOOMPEF@Appropriation?5for?5char?3?5@ ; `string'
 PUBLIC	__real@3e99999a
 PUBLIC	__real@3fd3333333333333
 PUBLIC	__real@4024000000000000
@@ -356,31 +350,6 @@ rtc$TMZ	ENDS
 rtc$IMZ	SEGMENT
 __RTC_InitBase.rtc$IMZ DD FLAT:__RTC_InitBase
 rtc$IMZ	ENDS
-;	COMDAT ??_C@_0BJ@FKOOMPEF@Appropriation?5for?5char?3?5@
-CONST	SEGMENT
-??_C@_0BJ@FKOOMPEF@Appropriation?5for?5char?3?5@ DB 'Appropriation for ch'
-	DB	'ar: ', 00H					; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BK@FIPHNAIP@Appropriation?5for?5float?3?5@
-CONST	SEGMENT
-??_C@_0BK@FIPHNAIP@Appropriation?5for?5float?3?5@ DB 'Appropriation for f'
-	DB	'loat: ', 00H				; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BJ@FEDELPGI@Appropriation?5for?5long?3?5@
-CONST	SEGMENT
-??_C@_0BJ@FEDELPGI@Appropriation?5for?5long?3?5@ DB 'Appropriation for lo'
-	DB	'ng: ', 00H					; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BL@NPNHDGJJ@Appropriation?5for?5double?3?5@
-CONST	SEGMENT
-??_C@_0BL@NPNHDGJJ@Appropriation?5for?5double?3?5@ DB 'Appropriation for '
-	DB	'double: ', 00H				; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BI@FHMGCJPO@Appropriation?5for?5int?3?5@
-CONST	SEGMENT
-??_C@_0BI@FHMGCJPO@Appropriation?5for?5int?3?5@ DB 'Appropriation for int'
-	DB	': ', 00H					; `string'
-CONST	ENDS
 ;	COMDAT ??_C@_0BE@CHHDJDKO@Division?5for?5char?3?5@
 CONST	SEGMENT
 ??_C@_0BE@CHHDJDKO@Division?5for?5char?3?5@ DB 'Division for char: ', 00H ; `string'
@@ -1161,7 +1130,7 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 _main	PROC						; COMDAT
 
-; 828  : {
+; 829  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -1176,65 +1145,62 @@ _main	PROC						; COMDAT
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
 	call	@__CheckForDebuggerJustMyCode@4
 
-; 829  :     // counting the number of ticks in 1 sec
-; 830  :     init_clock();
+; 830  :     // counting the number of ticks in 1 sec
+; 831  :     init_clock();
 
 	call	?init_clock@@YAXXZ			; init_clock
 
-; 831  : 
-; 832  :     // print information about project
-; 833  :     print_info();
+; 832  : 
+; 833  :     // print information about project
+; 834  :     print_info();
 
 	call	?print_info@@YAXXZ			; print_info
 
-; 834  :     
-; 835  :     // CPU overclocking
-; 836  :     cpu_overclocking();
+; 835  :     
+; 836  :     // CPU overclocking
+; 837  :     cpu_overclocking();
 
 	call	?cpu_overclocking@@YAXXZ		; cpu_overclocking
 
-; 837  :     
-; 838  :     // cycle plus
-; 839  :     plus_();
+; 838  :     
+; 839  :     // cycle plus
+; 840  :     plus_();
 
 	call	?plus_@@YAXXZ				; plus_
 
-; 840  : 
-; 841  :     // cycle minus
-; 842  :     minus_();
+; 841  : 
+; 842  :     // cycle minus
+; 843  :     minus_();
 
 	call	?minus_@@YAXXZ				; minus_
 
-; 843  : 
-; 844  :     // cycle multiplication
-; 845  :     multiplication_();
+; 844  : 
+; 845  :     // cycle multiplication
+; 846  :     multiplication_();
 
 	call	?multiplication_@@YAXXZ			; multiplication_
 
-; 846  : 
-; 847  :     // cycle division
-; 848  :     division_();
+; 847  : 
+; 848  :     // cycle division
+; 849  :     division_();
 
 	call	?division_@@YAXXZ			; division_
 
-; 849  : 
-; 850  :     // cycle: Appropriation
-; 851  :     appropriation_();
-
-	call	?appropriation_@@YAXXZ			; appropriation_
-
-; 852  : 
-; 853  :     // building a diagram
-; 854  :     search_maximum();
+; 850  : 
+; 851  :     // cycle: Appropriation
+; 852  :     //appropriation_();
+; 853  : 
+; 854  :     // building a diagram
+; 855  :     search_maximum();
 
 	call	?search_maximum@@YAXXZ			; search_maximum
 
-; 855  : 
-; 856  :     return 0;
+; 856  : 
+; 857  :     return 0;
 
 	xor	eax, eax
 
-; 857  : }
+; 858  : }
 
 	pop	edi
 	pop	esi
@@ -1246,309 +1212,6 @@ _main	PROC						; COMDAT
 	pop	ebp
 	ret	0
 _main	ENDP
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
-;	COMDAT ?appropriation_@@YAXXZ
-_TEXT	SEGMENT
-?appropriation_@@YAXXZ PROC				; appropriation_, COMDAT
-
-; 800  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 192				; 000000c0H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-192]
-	mov	ecx, 48					; 00000030H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	mov	ecx, OFFSET __A639F09B_labAOS@cpp
-	call	@__CheckForDebuggerJustMyCode@4
-
-; 801  :     // cycle: Appropriation for int
-; 802  :     ad_time[20] = (appropriation_for_int() - empty_time) / N_appropriation / 10;
-
-	call	?appropriation_for_int@@YA_KXZ		; appropriation_for_int
-	mov	ecx, eax
-	call	__ultod3
-	subsd	xmm0, QWORD PTR ?empty_time@@3NA
-	divsd	xmm0, QWORD PTR __real@412e848000000000
-	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	eax, 8
-	imul	ecx, eax, 20
-	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
-
-; 803  :     time_standart[20] = tick_per_second / ad_time[20];
-
-	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
-	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
-	call	__ultod3
-	mov	eax, 8
-	imul	ecx, eax, 20
-	divsd	xmm0, QWORD PTR ?ad_time@@3PANA[ecx]
-	mov	edx, 8
-	imul	eax, edx, 20
-	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
-
-; 804  :     cout << "Appropriation for int: " << time_standart[20] << " operations in 1 second" << endl;
-
-	mov	esi, esp
-	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-	push	OFFSET ??_C@_0BI@MBACHEGP@?5operations?5in?51?5second@
-	mov	eax, 8
-	imul	ecx, eax, 20
-	mov	edi, esp
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?time_standart@@3PANA[ecx]
-	movsd	QWORD PTR [esp], xmm0
-	push	OFFSET ??_C@_0BI@FHMGCJPO@Appropriation?5for?5int?3?5@
-	mov	edx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-	push	edx
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z
-	cmp	edi, esp
-	call	__RTC_CheckEsp
-	push	eax
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 805  : 
-; 806  :     // cycle: Appropriation for double
-; 807  :     ad_time[21] = (appropriation_for_double() - empty_time) / N_standart / 10;
-
-	call	?appropriation_for_double@@YA_KXZ	; appropriation_for_double
-	mov	ecx, eax
-	call	__ultod3
-	subsd	xmm0, QWORD PTR ?empty_time@@3NA
-	divsd	xmm0, QWORD PTR __real@412e848000000000
-	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	eax, 8
-	imul	ecx, eax, 21
-	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
-
-; 808  :     time_standart[21] = tick_per_second / ad_time[21];
-
-	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
-	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
-	call	__ultod3
-	mov	eax, 8
-	imul	ecx, eax, 21
-	divsd	xmm0, QWORD PTR ?ad_time@@3PANA[ecx]
-	mov	edx, 8
-	imul	eax, edx, 21
-	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
-
-; 809  :     cout << "Appropriation for double: " << time_standart[21] << " operations in 1 second" << endl;
-
-	mov	esi, esp
-	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-	push	OFFSET ??_C@_0BI@MBACHEGP@?5operations?5in?51?5second@
-	mov	eax, 8
-	imul	ecx, eax, 21
-	mov	edi, esp
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?time_standart@@3PANA[ecx]
-	movsd	QWORD PTR [esp], xmm0
-	push	OFFSET ??_C@_0BL@NPNHDGJJ@Appropriation?5for?5double?3?5@
-	mov	edx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-	push	edx
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z
-	cmp	edi, esp
-	call	__RTC_CheckEsp
-	push	eax
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 810  : 
-; 811  :     // cycle: Appropriation for long
-; 812  :     ad_time[22] = (appropriation_for_long() - empty_time) / N_appropriation / 10;
-
-	call	?appropriation_for_long@@YA_KXZ		; appropriation_for_long
-	mov	ecx, eax
-	call	__ultod3
-	subsd	xmm0, QWORD PTR ?empty_time@@3NA
-	divsd	xmm0, QWORD PTR __real@412e848000000000
-	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	eax, 8
-	imul	ecx, eax, 22
-	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
-
-; 813  :     time_standart[22] = tick_per_second / ad_time[22];
-
-	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
-	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
-	call	__ultod3
-	mov	eax, 8
-	imul	ecx, eax, 22
-	divsd	xmm0, QWORD PTR ?ad_time@@3PANA[ecx]
-	mov	edx, 8
-	imul	eax, edx, 22
-	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
-
-; 814  :     cout << "Appropriation for long: " << time_standart[22] << " operations in 1 second" << endl;
-
-	mov	esi, esp
-	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-	push	OFFSET ??_C@_0BI@MBACHEGP@?5operations?5in?51?5second@
-	mov	eax, 8
-	imul	ecx, eax, 22
-	mov	edi, esp
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?time_standart@@3PANA[ecx]
-	movsd	QWORD PTR [esp], xmm0
-	push	OFFSET ??_C@_0BJ@FEDELPGI@Appropriation?5for?5long?3?5@
-	mov	edx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-	push	edx
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z
-	cmp	edi, esp
-	call	__RTC_CheckEsp
-	push	eax
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 815  : 
-; 816  :     // cycle: Appropriation for float
-; 817  :     ad_time[23] = (appropriation_for_float() - empty_time) / N_standart / 10;
-
-	call	?appropriation_for_float@@YA_KXZ	; appropriation_for_float
-	mov	ecx, eax
-	call	__ultod3
-	subsd	xmm0, QWORD PTR ?empty_time@@3NA
-	divsd	xmm0, QWORD PTR __real@412e848000000000
-	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	eax, 8
-	imul	ecx, eax, 23
-	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
-
-; 818  :     time_standart[23] = tick_per_second / ad_time[23];
-
-	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
-	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
-	call	__ultod3
-	mov	eax, 8
-	imul	ecx, eax, 23
-	divsd	xmm0, QWORD PTR ?ad_time@@3PANA[ecx]
-	mov	edx, 8
-	imul	eax, edx, 23
-	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
-
-; 819  :     cout << "Appropriation for float: " << time_standart[23] << " operations in 1 second" << endl;
-
-	mov	esi, esp
-	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-	push	OFFSET ??_C@_0BI@MBACHEGP@?5operations?5in?51?5second@
-	mov	eax, 8
-	imul	ecx, eax, 23
-	mov	edi, esp
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?time_standart@@3PANA[ecx]
-	movsd	QWORD PTR [esp], xmm0
-	push	OFFSET ??_C@_0BK@FIPHNAIP@Appropriation?5for?5float?3?5@
-	mov	edx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-	push	edx
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z
-	cmp	edi, esp
-	call	__RTC_CheckEsp
-	push	eax
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 820  : 
-; 821  :     // cycle: Appropriation for char
-; 822  :     ad_time[24] = (appropriation_for_char() - empty_time) / N_standart / 10;
-
-	call	?appropriation_for_char@@YA_KXZ		; appropriation_for_char
-	mov	ecx, eax
-	call	__ultod3
-	subsd	xmm0, QWORD PTR ?empty_time@@3NA
-	divsd	xmm0, QWORD PTR __real@412e848000000000
-	divsd	xmm0, QWORD PTR __real@4024000000000000
-	mov	eax, 8
-	imul	ecx, eax, 24
-	movsd	QWORD PTR ?ad_time@@3PANA[ecx], xmm0
-
-; 823  :     time_standart[24] = tick_per_second / ad_time[24];
-
-	mov	edx, DWORD PTR ?tick_per_second@@3_KA+4
-	mov	ecx, DWORD PTR ?tick_per_second@@3_KA
-	call	__ultod3
-	mov	eax, 8
-	imul	ecx, eax, 24
-	divsd	xmm0, QWORD PTR ?ad_time@@3PANA[ecx]
-	mov	edx, 8
-	imul	eax, edx, 24
-	movsd	QWORD PTR ?time_standart@@3PANA[eax], xmm0
-
-; 824  :     cout << "Appropriation for char: " << time_standart[24] << " operations in 1 second" << endl;
-
-	mov	esi, esp
-	push	OFFSET ??$endl@DU?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@@Z ; std::endl<char,std::char_traits<char> >
-	push	OFFSET ??_C@_0BI@MBACHEGP@?5operations?5in?51?5second@
-	mov	eax, 8
-	imul	ecx, eax, 24
-	mov	edi, esp
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?time_standart@@3PANA[ecx]
-	movsd	QWORD PTR [esp], xmm0
-	push	OFFSET ??_C@_0BJ@FKOOMPEF@Appropriation?5for?5char?3?5@
-	mov	edx, DWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-	push	edx
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z
-	cmp	edi, esp
-	call	__RTC_CheckEsp
-	push	eax
-	call	??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z ; std::operator<<<std::char_traits<char> >
-	add	esp, 8
-	mov	ecx, eax
-	call	DWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 825  : }
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 192				; 000000c0H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?appropriation_@@YAXXZ ENDP				; appropriation_
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
@@ -2766,13 +2429,13 @@ _TEXT	ENDS
 ; File C:\Users\koka5\OneDrive\Documents\GitHub\AOS-Lab-1\labAOS\labAOS.cpp
 ;	COMDAT ?search_maximum@@YAXXZ
 _TEXT	SEGMENT
-_l$1 = -312						; size = 4
-_k$2 = -300						; size = 4
-_prom$3 = -288						; size = 8
-_i$4 = -272						; size = 4
-_j$5 = -260						; size = 4
-_percent$ = -248					; size = 8
-_max_time$ = -232					; size = 200
+_l$1 = -272						; size = 4
+_k$2 = -260						; size = 4
+_prom$3 = -248						; size = 8
+_i$4 = -232						; size = 4
+_j$5 = -220						; size = 4
+_percent$ = -208					; size = 8
+_max_time$ = -192					; size = 160
 _max_num$ = -24						; size = 8
 _index_max$ = -8					; size = 4
 ?search_maximum@@YAXXZ PROC				; search_maximum, COMDAT
@@ -2781,12 +2444,12 @@ _index_max$ = -8					; size = 4
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 508				; 000001fcH
+	sub	esp, 468				; 000001d4H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-508]
-	mov	ecx, 127				; 0000007fH
+	lea	edi, DWORD PTR [ebp-468]
+	mov	ecx, 117				; 00000075H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	ecx, OFFSET __A639F09B_labAOS@cpp
@@ -2814,7 +2477,7 @@ $LN2@search_max:
 	add	eax, 1
 	mov	DWORD PTR _j$5[ebp], eax
 $LN4@search_max:
-	cmp	DWORD PTR _j$5[ebp], 25			; 00000019H
+	cmp	DWORD PTR _j$5[ebp], 20			; 00000014H
 	jge	$LN3@search_max
 
 ; 637  :     {
@@ -2827,7 +2490,7 @@ $LN5@search_max:
 	add	eax, 1
 	mov	DWORD PTR _i$4[ebp], eax
 $LN7@search_max:
-	cmp	DWORD PTR _i$4[ebp], 25			; 00000019H
+	cmp	DWORD PTR _i$4[ebp], 20			; 00000014H
 	jge	SHORT $LN6@search_max
 
 ; 639  :         {
@@ -3126,7 +2789,7 @@ $LN3@search_max:
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 508				; 000001fcH
+	add	esp, 468				; 000001d4H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
@@ -3137,8 +2800,8 @@ $LN27@search_max:
 	DD	1
 	DD	$LN26@search_max
 $LN26@search_max:
-	DD	-232					; ffffff18H
-	DD	200					; 000000c8H
+	DD	-192					; ffffff40H
+	DD	160					; 000000a0H
 	DD	$LN25@search_max
 $LN25@search_max:
 	DB	109					; 0000006dH

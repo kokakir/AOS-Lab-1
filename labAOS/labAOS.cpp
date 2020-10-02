@@ -6,7 +6,7 @@
 using namespace std;
 
 // initialization of constance
-const int N = 25;
+const int N = 20;
 const int N_plus = 1000000;
 const int N_minus = 1000000;
 const int N_multiplication = 1000000;
@@ -14,8 +14,8 @@ const int N_appropriation = 1000000;
 const int N_standart = 1000000;
 
 // arrays for time, operation types and variable types
-char name_type[N + 1] = { "idlfcidlfcidlfcidlfcidlfc" };
-char name_operator[N + 1] = { "+++++-----*****/////=====" };
+char name_type[N + 1] = { "idlfcidlfcidlfcidlfc" };
+char name_operator[N + 1] = { "+++++-----*****/////" };
 double time_standart[N];
 double empty_time;
 double ad_time[N];
@@ -55,10 +55,10 @@ init_clock(void)
 }
 
 // initialization of main variables
-int a1 = 23, a2 = 26, a3 = 27, a4 = 82, a5 = 29, a6 = 89, a7 = 12, a8 = 90, a9 = 32, a10 = 56;
-double b1 = 23.6, b2 = 26.7, b3 = 27.3, b4 = 82.34, b5 = 23.56, b6 = 89.45, b7 = 12.37, b8 = 90.79, b9 = 32.23, b10 = 56.46;
-long c1 = 25, c2 = 78, c3 = 23, c4 = 12, c5 = 78, c6 = 45, c7 = 58, c8 = 34, c9 = 79, c10 = 56;
-float d1 = 22.6f, d2 = 25.7f, d3 = 28.3f, d4 = 85.34f, d5 = 27.56f, d6 = 85.45f, d7 = 16.37f, d8 = 94.79f, d9 = 38.23f, d10 = 55.46f;
+int a1 = 101, a2 = 107, a3 = 113, a4 = 137, a5 = 149, a6 = 157, a7 = 167, a8 = 181, a9 = 193, a10 = 199;
+double b1 = 101.6, b2 = 107.7, b3 = 113.3, b4 = 137.34, b5 = 149.56, b6 = 157.45, b7 = 167.37, b8 = 181.79, b9 = 193.23, b10 = 199.46;
+long c1 = 101, c2 = 107, c3 = 113, c4 = 137, c5 = 149, c6 = 157, c7 = 167, c8 = 181, c9 = 193, c10 = 199;
+float d1 = 101.6f, d2 = 107.7f, d3 = 113.3f, d4 = 137.34f, d5 = 149.56f, d6 = 157.45f, d7 = 167.37f, d8 = 181.79f, d9 = 193.23f, d10 = 199.46f;
 char e1 = 22, e2 = 76, e3 = 27, e4 = 13, e5 = 70, e6 = 47, e7 = 54, e8 = 39, e9 = 73, e10 = 54;
 
 // plus
@@ -796,6 +796,7 @@ void division_(void)
     cout << "Division for char: " << time_standart[19] << " operations in 1 second" << endl;
 }
 
+/*
 void appropriation_(void)
 {
     // cycle: Appropriation for int
@@ -822,7 +823,7 @@ void appropriation_(void)
     ad_time[24] = (appropriation_for_char() - empty_time) / N_standart / 10;
     time_standart[24] = tick_per_second / ad_time[24];
     cout << "Appropriation for char: " << time_standart[24] << " operations in 1 second" << endl;
-}
+} */
 
 int main(void)
 {
@@ -848,7 +849,7 @@ int main(void)
     division_();
 
     // cycle: Appropriation
-    appropriation_();
+    //appropriation_();
 
     // building a diagram
     search_maximum();
